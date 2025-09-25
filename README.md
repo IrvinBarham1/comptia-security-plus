@@ -29,25 +29,35 @@ This project is structured around the official Security+ (SY0-701) objectives:
 
 ## 📂 Repository Structure
 
-security-plus-labs/
-├─ /general-security-concepts
-│ ├─ password_policy/ # Lockout & hashing demonstration
-│ └─ pki_tls_handshake/ # TLS handshake simulation
-├─ /threats-vulns-mitigations
-│ ├─ phishing_detector/ # Social engineering classifier
-│ ├─ watering_hole_sim/ # Attack + mitigation demo
-│ └─ vuln_scan_triage/ # Vulnerability prioritization
-├─ /security-architecture
-│ ├─ network_segmentation_lab/ # Subnet isolation demo
-│ └─ cert_chain_validator/ # Revocation checks (CRL/OCSP)
-├─ /security-operations
-│ ├─ siem_log_rules/ # Log parsing & detection rules
-│ ├─ patch_pipeline/ # Patch > rescan > verify workflow
-│ └─ backup_restore_bia/ # Backup & recovery testing
-└─ /security-program-mgmt
-├─ risk_register/ # Risk lifecycle & ALE/SLE calculations
-└─ vendor_risk_review/ # SLA/MOU/NDA analyzer
+- **/general-security-concepts**  
+  Coding labs for password policies, authentication, encryption, and fundamental security concepts.  
+
+- **/threats-vulns-mitigations**  
+  Exercises covering phishing, malware, social engineering triggers, watering-hole attacks, and vulnerability management.  
+
+- **/security-architecture**  
+  Labs focused on secure network design, segmentation, PKI certificate validation, and cloud security.  
+
+- **/security-operations**  
+  Hands-on projects for SIEM log parsing, patching pipelines, incident response workflows, and backup/recovery testing.  
+
+- **/security-program-mgmt**  
+  Governance, risk, and compliance coding labs including risk registers, SLE/ALE calculations, and vendor risk review.
 
 ---
 
+## 🧑‍💻 How to Use
 
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/security-plus-labs.git
+cd security-plus-labs
+```
+
+Navigate into any lab and run it:
+```bash
+cd general-security-concepts/password_policy
+python lab.py    # or node lab.js
+pytest
+```         

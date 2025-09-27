@@ -1,0 +1,115 @@
+[
+  {
+    "id": "CIA1",
+    "domain": "cia",
+    "question": "A security analyst is configuring file permissions so only HR staff can access employee records. Which CIA principle is being enforced?",
+    "examples": ["Encryption", "Access controls", "MFA"],
+    "choices": ["Integrity", "Availability", "Confidentiality", "Non-repudiation"],
+    "correct": 2,
+    "explanation": "Confidentiality ensures that sensitive data is accessible only to authorized users."
+  },
+  {
+    "id": "CIA2",
+    "domain": "cia",
+    "question": "During a file transfer, a hash mismatch is detected. Which CIA principle has been violated?",
+    "examples": ["Hashing", "Checksums", "Digital signatures"],
+    "choices": ["Availability", "Confidentiality", "Integrity", "Authentication"],
+    "correct": 2,
+    "explanation": "Integrity ensures that data remains accurate and unaltered unless changed by authorized processes."
+  },
+  {
+    "id": "CIA3",
+    "domain": "cia",
+    "question": "A hospital deploys redundant power supplies and failover servers to ensure patient systems remain accessible during an outage. Which CIA principle does this demonstrate?",
+    "examples": ["RAID arrays", "UPS/generators", "Load balancing"],
+    "choices": ["Confidentiality", "Integrity", "Non-repudiation", "Availability"],
+    "correct": 3,
+    "explanation": "Availability ensures systems and data remain accessible to authorized users when needed."
+  },
+  {
+    "id": "NR1",
+    "domain": "non-repudiation",
+    "question": "An employee disputes sending an email, but the digital signature confirms they did. Which principle is being applied?",
+    "examples": ["Digital signatures", "Message authentication codes (MACs)", "Audit logs"],
+    "choices": ["Confidentiality", "Integrity", "Non-repudiation", "Availability"],
+    "correct": 2,
+    "explanation": "Non-repudiation ensures a sender cannot deny sending a message by providing undeniable proof of origin."
+  },
+  {
+    "id": "AAA1",
+    "domain": "aaa",
+    "question": "A user logs in with a username and password before accessing the corporate VPN. Which AAA component is being demonstrated?",
+    "examples": ["Passwords", "Smart cards", "Fingerprints"],
+    "choices": ["Authentication", "Authorization", "Accounting", "Availability"],
+    "correct": 0,
+    "explanation": "Authentication verifies the identity of the user attempting to access a system."
+  },
+  {
+    "id": "AAA2",
+    "domain": "aaa",
+    "question": "After logging in, a user is allowed to access email but not the finance database. Which AAA concept defines these restrictions?",
+    "examples": ["Role-based access control", "Access control lists", "Policy-driven permissions"],
+    "choices": ["Authentication", "Authorization", "Accounting", "Integrity"],
+    "correct": 1,
+    "explanation": "Authorization determines what resources a user is allowed to access and what actions they can perform."
+  },
+  {
+    "id": "AAA3",
+    "domain": "aaa",
+    "question": "A security team reviews logs showing which users accessed sensitive files last week. Which AAA concept does this represent?",
+    "examples": ["Log files", "Audit trails", "Billing records"],
+    "choices": ["Availability", "Authentication", "Authorization", "Accounting"],
+    "correct": 3,
+    "explanation": "Accounting tracks and records user activity for auditing, compliance, and forensic purposes."
+  },
+  {
+    "id": "GAP1",
+    "domain": "gap-analysis",
+    "question": "Which process involves comparing an organization’s current state to its desired state to identify areas for improvement?",
+    "examples": ["Security posture review", "Cloud readiness check"],
+    "choices": ["Risk Assessment", "Gap Analysis", "Threat Modeling", "Vulnerability Scanning"],
+    "correct": 1,
+    "explanation": "Gap Analysis identifies the difference between current and desired performance, allowing organizations to improve processes or security posture."
+  },
+  {
+    "id": "GAP2",
+    "domain": "gap-analysis",
+    "question": "Which of the following is the correct sequence of steps when conducting a gap analysis?",
+    "examples": ["Define scope", "Gather data", "Analyze data", "Develop remediation plan"],
+    "choices": [
+      "Define scope → Gather data → Analyze data → Develop plan",
+      "Gather data → Define scope → Develop plan → Analyze data",
+      "Analyze data → Define scope → Gather data → Develop plan",
+      "Develop plan → Define scope → Analyze data → Gather data"
+    ],
+    "correct": 0,
+    "explanation": "Gap analysis steps include defining scope, gathering data, analyzing gaps, and creating a plan to address them."
+  },
+  {
+    "id": "GAP3",
+    "domain": "gap-analysis",
+    "question": "Which type of gap analysis evaluates an organization’s current technical infrastructure to identify shortfalls in security capabilities?",
+    "examples": ["Firewalls", "IDS/IPS", "Encryption support"],
+    "choices": ["Business Gap Analysis", "Risk Analysis", "Technical Gap Analysis", "Compliance Audit"],
+    "correct": 2,
+    "explanation": "Technical Gap Analysis reviews technical infrastructure against required capabilities to find deficiencies."
+  },
+  {
+    "id": "GAP4",
+    "domain": "gap-analysis",
+    "question": "An organization reviews its business processes to determine whether they can fully support a new cloud-based solution. What type of gap analysis is this?",
+    "examples": ["Process readiness", "Workflow analysis"],
+    "choices": ["Technical Gap Analysis", "Business Gap Analysis", "Risk Assessment", "Policy Audit"],
+    "correct": 1,
+    "explanation": "Business Gap Analysis evaluates current business processes and identifies gaps that hinder adoption of required capabilities."
+  },
+  {
+    "id": "GAP5",
+    "domain": "gap-analysis",
+    "question": "Which document, created as part of a gap analysis, outlines specific measures, resources, and timelines for addressing identified vulnerabilities?",
+    "examples": ["Remediation tasks", "Timelines", "Resource allocation"],
+    "choices": ["Incident Response Plan", "Plan of Action and Milestones (POA&M)", "Risk Register", "Change Management Plan"],
+    "correct": 1,
+    "explanation": "A Plan of Action and Milestones (POA&M) details how to address each vulnerability, allocate resources, and track remediation progress."
+  }
+]

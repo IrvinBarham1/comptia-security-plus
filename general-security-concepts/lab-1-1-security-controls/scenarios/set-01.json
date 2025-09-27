@@ -1,0 +1,162 @@
+[
+  {
+    "id": "C1",
+    "domain": "category",
+    "definition": "Controls enforced by technology—implemented in systems or software, such as firewalls, access control lists, intrusion detection/prevention, and encryption.",
+    "answer": "Technical",
+    "aliases": ["Logical"],
+    "examples": ["NGFW deny rules", "EDR policies", "GPO security baselines"]
+  },
+  {
+    "id": "C2",
+    "domain": "category",
+    "definition": "Controls created and overseen by management, expressed as policies, standards, guidelines, and governance activities that direct how security is handled across the organization.",
+    "answer": "Managerial",
+    "aliases": ["Administrative"],
+    "examples": ["Acceptable Use Policy", "Change control policy", "Security standard"]
+  },
+  {
+    "id": "C3",
+    "domain": "category",
+    "definition": "Controls executed by people through documented processes and procedures in daily operations—runbooks, checklists, and manual reviews.",
+    "answer": "Operational",
+    "aliases": ["Procedural", "Process"],
+    "examples": ["Joiner/Mover/Leaver procedure", "Daily log review runbook", "Incident response playbook"]
+  },
+  {
+    "id": "C4",
+    "domain": "category",
+    "definition": "Tangible, real-world safeguards that restrict physical access or protect facilities and equipment.",
+    "answer": "Physical",
+    "aliases": ["Facilities", "Environmental"],
+    "examples": ["Locks and turnstiles", "Badge readers", "CCTV", "Bollards", "Mantraps"]
+  },
+    {
+    "id": "C5",
+    "domain": "category",
+    "definition": "Security measures implemented as logical configurations or software controls within operating systems, applications, or network devices.",
+    "answer": "Technical",
+    "aliases": ["Logical", "System"],
+    "examples": ["TLS configuration", "File integrity monitoring", "Host-based firewall"]
+  },
+  {
+    "id": "C6",
+    "domain": "category",
+    "definition": "Governance-oriented controls that direct how risk is managed and decisions are made through formal oversight and documentation.",
+    "answer": "Managerial",
+    "aliases": ["Administrative", "Governance"],
+    "examples": ["Risk register ownership", "Audit program charter", "Exception approval policy"]
+  },
+  {
+    "id": "C7",
+    "domain": "category",
+    "definition": "People-driven controls that rely on documented procedures and human execution during operations and maintenance.",
+    "answer": "Operational",
+    "aliases": ["Procedural", "Runbook", "Process"],
+    "examples": ["Change window SOP", "Backup rotation procedure", "Deprovisioning checklist"]
+  },
+  {
+    "id": "C8",
+    "domain": "category",
+    "definition": "Facility-focused controls that include barriers, environmental protections, and on-site safeguards for hardware.",
+    "answer": "Physical",
+    "aliases": ["Facilities", "Environmental", "Safety"],
+    "examples": ["Server cage", "HVAC monitoring", "Fire suppression", "Security guards"]
+  },
+  {
+    "id": "T1",
+    "domain": "type",
+    "definition": "Controls designed to stop a security incident from occurring by blocking or restricting actions in advance.",
+    "answer": "Preventive",
+    "aliases": ["Preventative"],
+    "examples": ["Account lockout", "Network ACLs", "Least privilege", "Patching"]
+  },
+  {
+    "id": "T2",
+    "domain": "type",
+    "definition": "Controls that discourage or reduce the likelihood of unwanted behavior by increasing perceived risk or consequences.",
+    "answer": "Deterrent",
+    "aliases": ["Deter"],
+    "examples": ["Warning banners", "Security signage", "Visible cameras", "Well-lit areas"]
+  },
+  {
+    "id": "T3",
+    "domain": "type",
+    "definition": "Controls that identify, discover, or alert on events during or after they occur.",
+    "answer": "Detective",
+    "aliases": ["Detect"],
+    "examples": ["SIEM correlation alerts", "IDS signatures", "Audit logs", "CCTV monitoring"]
+  },
+  {
+    "id": "T4",
+    "domain": "type",
+    "definition": "Controls that restore systems and processes to normal operation after an incident.",
+    "answer": "Corrective",
+    "aliases": ["Remedial"],
+    "examples": ["EDR rollback", "Restoring from backups", "Re-imaging", "Patching post-incident"]
+  },
+  {
+    "id": "T5",
+    "domain": "type",
+    "definition": "Alternative controls that provide similar risk reduction when a primary or preferred control is not feasible due to cost, technology, or timing.",
+    "answer": "Compensating",
+    "aliases": ["Alternative"],
+    "examples": ["Temporary guard when badge system fails", "Host-based firewall when perimeter NGFW is down"]
+  },
+  {
+    "id": "T6",
+    "domain": "type",
+    "definition": "Controls that prescribe required behavior or actions by providing guidance and expectations.",
+    "answer": "Directive",
+    "aliases": ["Policy", "Standard", "SOP"],
+    "examples": ["Acceptable Use Policy", "Password standard", "Procedure/SOP"]
+  },
+  {
+    "id": "T7",
+    "domain": "type",
+    "definition": "Controls that proactively reduce attack surface and enforce secure defaults before misuse can occur.",
+    "answer": "Preventive",
+    "aliases": ["Preventative", "Blocking"],
+    "examples": ["Input validation", "Secure configuration baselines", "Deny-by-default rules"]
+  },
+  {
+    "id": "T8",
+    "domain": "type",
+    "definition": "Controls intended to influence behavior by warning, increasing visibility, or signaling oversight to would-be offenders.",
+    "answer": "Deterrent",
+    "aliases": ["Deter", "Warning"],
+    "examples": ["'Authorized use only' banner", "Visitor badge colors", "Visible guard patrols"]
+  },
+  {
+    "id": "T9",
+    "domain": "type",
+    "definition": "Controls that reveal suspicious activity or policy violations through monitoring, logging, and analysis.",
+    "answer": "Detective",
+    "aliases": ["Detect", "Monitoring"],
+    "examples": ["UEBA alerts", "NetFlow anomaly detection", "File integrity alerts"]
+  },
+  {
+    "id": "T10",
+    "domain": "type",
+    "definition": "Controls that remediate, repair, or recover affected assets to a known good state after an event.",
+    "answer": "Corrective",
+    "aliases": ["Remedial", "Recovery"],
+    "examples": ["Hotfix deployment", "System reimage", "Key rotation after compromise"]
+  },
+  {
+    "id": "T11",
+    "domain": "type",
+    "definition": "Controls put in place as an equivalent safeguard when the ideal control is unavailable or impractical.",
+    "answer": "Compensating",
+    "aliases": ["Alternative", "Fallback"],
+    "examples": ["Strict VLAN ACLs while microsegmentation is delayed", "Manual approvals while SSO is down"]
+  },
+  {
+    "id": "T12",
+    "domain": "type",
+    "definition": "Controls that direct required configurations or behaviors via formal guidance and baseline expectations.",
+    "answer": "Directive",
+    "aliases": ["Policy", "Standard", "Guideline", "SOP"],
+    "examples": ["Hardening standard", "Password policy", "Change management procedure"]
+  }
+]

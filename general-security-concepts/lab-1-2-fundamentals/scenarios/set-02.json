@@ -1,0 +1,155 @@
+[
+  {
+    "id": "ZT1",
+    "domain": "zero-trust",
+    "question": "Which security model assumes no user or system is inherently trusted, requiring verification at every access attempt?",
+    "examples": ["Never trust, always verify", "Policy-driven access"],
+    "choices": ["Defense in Depth", "Zero Trust", "AAA", "Implicit Trust Model"],
+    "correct": 1,
+    "explanation": "Zero Trust eliminates implicit trust and requires verification for every access request."
+  },
+  {
+    "id": "ZT2",
+    "domain": "zero-trust",
+    "question": "In the Zero Trust control plane, which capability provides user authentication that adapts to context such as location and device posture?",
+    "examples": ["MFA", "Device health checks"],
+    "choices": ["Threat scope reduction", "Policy-driven access control", "Adaptive identity", "Policy Enforcement Point"],
+    "correct": 2,
+    "explanation": "Adaptive identity adjusts authentication requirements based on contextual risk factors like device, location, or behavior."
+  },
+  {
+    "id": "ZT3",
+    "domain": "zero-trust",
+    "question": "Which control plane function in Zero Trust reduces the overall risk exposure by limiting what systems and data an attacker can reach?",
+    "examples": ["Microsegmentation", "Network isolation"],
+    "choices": ["Policy Administrator", "Threat scope reduction", "Policy Engine", "Implicit trust zones"],
+    "correct": 1,
+    "explanation": "Threat scope reduction minimizes the attack surface by controlling how much an attacker can access if a breach occurs."
+  },
+  {
+    "id": "ZT4",
+    "domain": "zero-trust",
+    "question": "Within the Zero Trust data plane, what component enforces the rules set by the policy engine?",
+    "examples": ["Firewalls", "Proxies", "Gateways"],
+    "choices": ["Policy Enforcement Point", "Policy Administrator", "Adaptive identity", "Threat scope reduction"],
+    "correct": 0,
+    "explanation": "The Policy Enforcement Point (PEP) applies access decisions to traffic and user actions in the Zero Trust model."
+  },
+  {
+    "id": "ZT5",
+    "domain": "zero-trust",
+    "question": "In the Zero Trust data plane, what concept describes areas of the network or system that should not automatically be trusted?",
+    "examples": ["Network zones", "Cloud workloads"],
+    "choices": ["Policy Engine", "Implicit trust zones", "Adaptive identity", "Authorization models"],
+    "correct": 1,
+    "explanation": "Implicit trust zones highlight regions where Zero Trust requires eliminating assumptions of automatic trust."
+  },
+  {
+    "id": "ZT6",
+    "domain": "zero-trust",
+    "question": "In the Zero Trust control plane, which function ensures access decisions are based on predefined organizational rules and policies?",
+    "examples": ["Attribute-based access control", "Role-based policies"],
+    "choices": ["Adaptive identity", "Policy-driven access control", "Policy Enforcement Point", "Implicit trust zones"],
+    "correct": 1,
+    "explanation": "Policy-driven access control defines and enforces access rules according to organizational policies."
+  },
+  {
+    "id": "ZT7",
+    "domain": "zero-trust",
+    "question": "Within the Zero Trust control plane, which component is responsible for communicating decisions from the policy engine to the enforcement points?",
+    "examples": ["Policy distribution", "Control coordination"],
+    "choices": ["Policy Administrator", "Policy Enforcement Point", "Adaptive identity", "Threat scope reduction"],
+    "correct": 0,
+    "explanation": "The Policy Administrator relays decisions from the Policy Engine to the Policy Enforcement Points."
+  },
+  {
+    "id": "ZT8",
+    "domain": "zero-trust",
+    "question": "Which control plane element evaluates inputs such as identity, device health, and context to determine whether to grant access?",
+    "examples": ["Risk scores", "Context-aware decisions"],
+    "choices": ["Policy Engine", "Policy Administrator", "Adaptive identity", "Implicit trust zones"],
+    "correct": 0,
+    "explanation": "The Policy Engine makes the ultimate decision about access by evaluating contextual inputs against policies."
+  },
+  {
+    "id": "ZT9",
+    "domain": "zero-trust",
+    "question": "In the Zero Trust data plane, which concept refers to the entities (like users or systems) requesting access to resources?",
+    "examples": ["Users", "Applications", "Devices"],
+    "choices": ["Implicit trust zones", "Policy Enforcement Point", "Subject/System", "Policy Engine"],
+    "correct": 2,
+    "explanation": "The Subject/System refers to the entity—such as a user, application, or device—requesting access within the Zero Trust model."
+  },
+  {
+    "id": "PS1",
+    "domain": "physical-security",
+    "question": "A company installs large metal posts in front of its building entrance to stop vehicles from driving into the facility. Which physical security control is this?",
+    "examples": ["Vehicle barriers", "Facility protection"],
+    "choices": ["Access badge", "Lighting", "Bollards", "Security guard"],
+    "correct": 2,
+    "explanation": "Bollards are barriers designed to prevent vehicle-based attacks or accidental intrusions."
+  },
+  {
+    "id": "PS2",
+    "domain": "physical-security",
+    "question": "A data center requires employees to badge into a small chamber, close the door behind them, and then badge again to enter the secure area. What type of control is this?",
+    "examples": ["Mantrap", "Badge-controlled access"],
+    "choices": ["Access control vestibule", "Fencing", "Lighting", "Video surveillance"],
+    "correct": 0,
+    "explanation": "An access control vestibule (mantrap) ensures only one person enters at a time, preventing piggybacking and tailgating."
+  },
+  {
+    "id": "PS3",
+    "domain": "physical-security",
+    "question": "Which physical security control would best help detect and record unauthorized access attempts at building entrances?",
+    "examples": ["CCTV", "Monitoring rooms"],
+    "choices": ["Fencing", "Video surveillance", "Bollards", "Access badge"],
+    "correct": 1,
+    "explanation": "Video surveillance (CCTV) provides monitoring and recording of access points for deterrence and evidence collection."
+  },
+  {
+    "id": "PS4",
+    "domain": "physical-security",
+    "question": "A warehouse installs sensors that detect body heat and movement in restricted areas after hours. Which type of sensor is being used?",
+    "examples": ["Infrared", "Motion detection"],
+    "choices": ["Microwave sensor", "Infrared sensor", "Ultrasonic sensor", "Pressure sensor"],
+    "correct": 1,
+    "explanation": "Infrared sensors detect body heat and are commonly used in physical security for motion detection."
+  },
+  {
+    "id": "DD1",
+    "domain": "deception-disruption",
+    "question": "A security team deploys a decoy system designed to attract attackers and study their behavior without exposing real assets. What is this technique called?",
+    "examples": ["Decoy system", "Intrusion research"],
+    "choices": ["Honeyfile", "Honeypot", "Honeynet", "Honeytoken"],
+    "correct": 1,
+    "explanation": "A honeypot is a single decoy system used to lure attackers and collect intelligence on attack methods."
+  },
+  {
+    "id": "DD2",
+    "domain": "deception-disruption",
+    "question": "Which deception technology consists of multiple interconnected honeypots designed to simulate an entire network environment?",
+    "examples": ["Simulated enterprise network", "Intrusion research"],
+    "choices": ["Honeyfile", "Honeypot", "Honeynet", "Honeytoken"],
+    "correct": 2,
+    "explanation": "A honeynet is a collection of honeypots that simulates a network to observe attacker behavior in a more realistic environment."
+  },
+  {
+    "id": "DD3",
+    "domain": "deception-disruption",
+    "question": "An organization places fake sensitive documents on a shared drive to detect unauthorized access. Which deception method is this?",
+    "examples": ["Decoy documents", "Fake data"],
+    "choices": ["Honeyfile", "Honeypot", "Honeynet", "Honeytoken"],
+    "correct": 0,
+    "explanation": "A honeyfile is a decoy document used to detect when attackers attempt to access or exfiltrate sensitive data."
+  },
+  {
+    "id": "DD4",
+    "domain": "deception-disruption",
+    "question": "A database administrator inserts fake credentials into a directory. If these credentials are used, it indicates malicious activity. What is this called?",
+    "examples": ["Fake credentials", "Trap data"],
+    "choices": ["Honeyfile", "Honeypot", "Honeynet", "Honeytoken"],
+    "correct": 3,
+    "explanation": "A honeytoken is a small piece of false data, such as fake credentials or database entries, designed to detect misuse when accessed."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "BP1",
+    "domain": "change-mgmt",
+    "question": "Which change management element ensures proposed changes are formally reviewed and authorized before implementation?",
+    "examples": ["CAB meetings", "RFC forms", "Change tickets"],
+    "choices": ["Approval process", "Ownership", "Backout plan", "Maintenance window"],
+    "correct": 0,
+    "explanation": "The approval process ensures all changes are formally reviewed and authorized before being carried out."
+  },
+  {
+    "id": "BP2",
+    "domain": "change-mgmt",
+    "question": "In a change management process, who is typically responsible for initiating and advocating for a proposed change?",
+    "examples": ["Change requestor", "Project manager", "System owner"],
+    "choices": ["Approval process", "Ownership", "Stakeholders", "Impact analysis"],
+    "correct": 1,
+    "explanation": "Ownership refers to the individual or team responsible for initiating and advocating for the change."
+  },
+  {
+    "id": "BP3",
+    "domain": "change-mgmt",
+    "question": "Which group provides input, feedback, and has a vested interest in the success or failure of a proposed change?",
+    "examples": ["Business units", "End users", "Technical staff"],
+    "choices": ["Approval process", "Stakeholders", "Impact analysis", "Standard operating procedure"],
+    "correct": 1,
+    "explanation": "Stakeholders are those with a vested interest in the change and must be consulted throughout the process."
+  },
+  {
+    "id": "BP4",
+    "domain": "change-mgmt",
+    "question": "Before implementing a major software update, the organization evaluates possible disruptions to operations. This describes which change management activity?",
+    "examples": ["Risk analysis", "Downtime assessment", "Dependency mapping"],
+    "choices": ["Ownership", "Impact analysis", "Backout plan", "Test results"],
+    "correct": 1,
+    "explanation": "Impact analysis evaluates the potential fallout, disruptions, and long-term effects of a proposed change."
+  },
+  {
+    "id": "BP5",
+    "domain": "change-mgmt",
+    "question": "After implementing a change, the IT team runs system validation and compares expected outcomes with actual performance. What process is this?",
+    "examples": ["System checks", "Post-change validation", "QA testing"],
+    "choices": ["Approval process", "Impact analysis", "Test results", "Standard operating procedure"],
+    "correct": 2,
+    "explanation": "Test results confirm whether the change met expectations and validate system functionality post-implementation."
+  },
+  {
+    "id": "BP6",
+    "domain": "change-mgmt",
+    "question": "Which change management safeguard allows an organization to revert to the previous state if a change causes unexpected issues?",
+    "examples": ["Rollback script", "Backup restoration", "VM snapshot"],
+    "choices": ["Backout plan", "Impact analysis", "Maintenance window", "Stakeholders"],
+    "correct": 0,
+    "explanation": "The backout plan ensures there is a safe way to reverse a change if it negatively impacts systems or operations."
+  },
+  {
+    "id": "BP7",
+    "domain": "change-mgmt",
+    "question": "A software update is scheduled for 2 AM to minimize user disruption. Which business process consideration does this reflect?",
+    "examples": ["Downtime scheduling", "Change calendar", "Service window"],
+    "choices": ["Ownership", "Maintenance window", "Approval process", "Standard operating procedure"],
+    "correct": 1,
+    "explanation": "A maintenance window is a designated timeframe when changes are implemented to minimize disruption to normal operations."
+  },
+  {
+    "id": "BP8",
+    "domain": "change-mgmt",
+    "question": "An organization uses a detailed step-by-step playbook to ensure consistency when deploying configuration changes. This is an example of what?",
+    "examples": ["Playbooks", "Checklists", "Runbooks"],
+    "choices": ["Impact analysis", "Backout plan", "Standard operating procedure", "Approval process"],
+    "correct": 2,
+    "explanation": "Standard operating procedures (SOPs) are detailed instructions that ensure consistency and reduce errors in implementing changes."
+  }
+]

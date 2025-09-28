@@ -1,0 +1,128 @@
+[
+  {
+    "id": "TI1",
+    "domain": "change-mgmt",
+    "question": "A firewall administrator creates a rule that only allows connections from specific IP ranges while blocking all others. Which concept does this illustrate?",
+    "examples": ["Firewall rules", "Email filtering", "Web content filtering"],
+    "choices": ["Restricted activities", "Allow lists/deny lists", "Dependencies", "Downtime"],
+    "correct": 1,
+    "explanation": "Allow and deny lists define which entities are permitted or blocked from accessing a resource."
+  },
+  {
+    "id": "TI2",
+    "domain": "change-mgmt",
+    "question": "Before deploying a database patch, the security team confirms that certain high-risk operations are prohibited to maintain stability. This is an example of what?",
+    "examples": ["Blocked commands", "Role restrictions", "Controlled operations"],
+    "choices": ["Restricted activities", "Dependencies", "Downtime", "Service restart"],
+    "correct": 0,
+    "explanation": "Restricted activities are tasks labeled as prohibited due to their potential impact on system health or security."
+  },
+  {
+    "id": "TI3",
+    "domain": "change-mgmt",
+    "question": "An organization schedules a network upgrade during off-hours to minimize disruption to users. This addresses which technical implication?",
+    "examples": ["Network upgrades", "System patches", "Cloud migrations"],
+    "choices": ["Service restart", "Downtime", "Dependencies", "Legacy applications"],
+    "correct": 1,
+    "explanation": "Every change carries the risk of downtime; planning during off-hours minimizes the impact."
+  },
+  {
+    "id": "TI4",
+    "domain": "change-mgmt",
+    "question": "After applying a security patch to a server, the web service must be restarted for the change to take effect. What does this illustrate?",
+    "examples": ["Apache restart", "IIS reset", "Systemctl service restart"],
+    "choices": ["Downtime", "Service restart", "Application restart", "Legacy applications"],
+    "correct": 1,
+    "explanation": "Service restart is often required after changes like applying patches to reinitialize processes."
+  },
+  {
+    "id": "TI5",
+    "domain": "change-mgmt",
+    "question": "A new patch requires shutting down and reopening a client program before users can continue working. Which technical implication does this describe?",
+    "examples": ["Application updates", "Reboot prompts", "User notifications"],
+    "choices": ["Application restart", "Service restart", "Dependencies", "Restricted activities"],
+    "correct": 0,
+    "explanation": "Some updates require restarting the application itself for changes to apply."
+  },
+  {
+    "id": "TI6",
+    "domain": "change-mgmt",
+    "question": "During system upgrades, older software stops functioning correctly because it is not compatible with new configurations. This issue is associated with what?",
+    "examples": ["Unsupported OS", "Deprecated APIs", "Outdated drivers"],
+    "choices": ["Restricted activities", "Dependencies", "Legacy applications", "Allow lists/deny lists"],
+    "correct": 2,
+    "explanation": "Legacy applications are older systems that may not adapt well to new changes, creating risk of malfunction."
+  },
+  {
+    "id": "TI7",
+    "domain": "change-mgmt",
+    "question": "Before applying a change to the authentication server, the IT team maps out how other services such as VPN, email, and file access will be impacted. Which consideration is this?",
+    "examples": ["Service interconnections", "API mapping", "Infrastructure diagrams"],
+    "choices": ["Dependencies", "Downtime", "Impact analysis", "Application restart"],
+    "correct": 0,
+    "explanation": "Dependencies describe how interconnected systems affect one another, so changes in one can impact many others."
+  },
+  {
+    "id": "DOC1",
+    "domain": "change-mgmt",
+    "question": "An IT administrator updates the network diagram after moving a critical server to a new subnet. Which documentation practice does this represent?",
+    "examples": ["Network diagrams", "Architecture charts", "Topology maps"],
+    "choices": ["Updating diagrams", "Updating policies", "Version control", "Backout plan"],
+    "correct": 0,
+    "explanation": "Updating diagrams ensures that visual documentation accurately reflects the current network architecture."
+  },
+  {
+    "id": "DOC2",
+    "domain": "change-mgmt",
+    "question": "After implementing a new password policy, the security team revises the company's security handbook. Which documentation process is this?",
+    "examples": ["Policy manuals", "Procedure guides", "Employee handbook"],
+    "choices": ["Updating procedures", "Updating diagrams", "Maintenance window", "Change approval"],
+    "correct": 0,
+    "explanation": "Updating policies and procedures ensures documentation reflects current operational and security practices."
+  },
+  {
+    "id": "VC1",
+    "domain": "change-mgmt",
+    "question": "A development team uses Git to track changes in configuration scripts and roll back if errors occur. Which change management concept is being applied?",
+    "examples": ["Git", "SVN", "Mercurial"],
+    "choices": ["Version control", "Updating policies", "Dependencies", "Restricted activities"],
+    "correct": 0,
+    "explanation": "Version control systems track, manage, and allow rollback of changes to ensure stability and collaboration."
+  },
+  {
+    "id": "DOC3",
+    "domain": "change-mgmt",
+    "question": "Which aspect of change management provides a clear history of what was changed, when it was changed, and why?",
+    "examples": ["Change tickets", "Logs", "Documentation"],
+    "choices": ["Version control", "Documenting changes", "Continuous improvement", "Backout plan"],
+    "correct": 1,
+    "explanation": "Documenting changes ensures accountability by maintaining a history of the what, when, and why of change actions."
+  },
+  {
+    "id": "DOC4",
+    "domain": "change-mgmt",
+    "question": "An administrator updates a network diagram and revises a procedure after a firewall upgrade. This is an example of what?",
+    "examples": ["Architecture diagrams", "Policy documents", "Runbooks"],
+    "choices": ["Proper documentation", "Impact analysis", "Continuous improvement", "Change approval"],
+    "correct": 0,
+    "explanation": "Proper documentation requires updating diagrams, policies, and tickets to reflect current configurations."
+  },
+  {
+    "id": "DOC5",
+    "domain": "change-mgmt",
+    "question": "After implementing a new change, a team identifies inefficiencies and updates procedures to avoid repeating mistakes. What concept is this?",
+    "examples": ["Lessons learned", "Post-change review", "Metrics analysis"],
+    "choices": ["Continuous improvement", "Version control", "Impact analysis", "Maintenance window"],
+    "correct": 0,
+    "explanation": "Continuous improvement emphasizes evaluating changes, addressing issues, and iteratively refining processes."
+  },
+  {
+    "id": "DOC6",
+    "domain": "change-mgmt",
+    "question": "Which documentation practice provides a timeline of change actions for communication and accountability?",
+    "examples": ["Change requests", "Trouble tickets", "Audit logs"],
+    "choices": ["Records", "Test results", "Documenting changes", "Backout plan"],
+    "correct": 0,
+    "explanation": "Maintaining records like change requests and tickets ensures accountability and provides a clear timeline of actions."
+  }
+]

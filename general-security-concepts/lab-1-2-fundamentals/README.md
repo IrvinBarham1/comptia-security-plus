@@ -67,7 +67,7 @@ This objective reinforces the **core building blocks** of cybersecurity:
     - Use SHA256 hash on file and store digest
     - Change `sample.txt` and validate one byte change alters the hash digest
 
-5. **Honeypot **
+5. **Honeypot**
     - Run a simple TCP honeypot (`honeypot_lab.py`) that listens on a local port.  
     - When a client connects, it:  
         - Logs the **source IP/port** and any **data sent**  
@@ -79,10 +79,12 @@ This objective reinforces the **core building blocks** of cybersecurity:
 
 ## ✅ Acceptance Criteria
 
-- At least **20 MCQs** in `set-01.json`, covering every bullet of Objective 1.2  
+- MCQs in `set-01.json` and `set-02.json` covering every bullet of Objective 1.2  
 - `lab.py` runs successfully and provides scoring with feedback  
 - Each question includes **examples** and an **explanation** for reinforcement  
-
+- `hash_check_lab.py` demonstrates file integrity by showing digest changes after modification  
+- `honeypot_lab.py` runs on a local port, responds with a fake HTTP message, and appends encrypted log entries  
+- `log_decrypt.py` correctly decrypts and displays captured honeypot log entries  
 ---
 
 ## 🚀 Stretch Goals

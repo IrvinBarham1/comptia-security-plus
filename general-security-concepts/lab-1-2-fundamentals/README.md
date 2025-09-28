@@ -67,7 +67,14 @@ This objective reinforces the **core building blocks** of cybersecurity:
     - Use SHA256 hash on file and store digest
     - Change `sample.txt` and validate one byte change alters the hash digest
 
-5. **Honeypot**
+5. **Honeypot **
+    - Run a simple TCP honeypot (`honeypot_lab.py`) that listens on a local port.  
+    - When a client connects, it:  
+        - Logs the **source IP/port** and any **data sent**  
+        - Sends back a **fake HTTP response** (e.g., "Welcome, make yourself at home!")  
+        - Appends encrypted entries into `honeypot.log.enc` for analysis  
+   - Test it with a browser (`http://127.0.0.1:2222`).  
+   - Later, decrypt and review the log entries to observe how requests are captured and recorded.  
 ---
 
 ## ✅ Acceptance Criteria
@@ -90,5 +97,14 @@ This objective reinforces the **core building blocks** of cybersecurity:
 **Python:**
 ```bash
 cd lab-1-2-fundamentals\python
+# Run the multiple-choice quiz
 py lab.py
+
+# Run the hash integrity check
 py hash_check_lab.py
+
+# Run the honeypot
+py honeypot_lab.py
+
+# Decrypt and review honeypot logs
+py log_decrypt.py

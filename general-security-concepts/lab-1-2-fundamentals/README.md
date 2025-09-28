@@ -62,6 +62,12 @@ This objective reinforces the **core building blocks** of cybersecurity:
    - Accept user input  
    - Score and display progress  
 
+4. **Hash Check Integrity**
+    - Create `sample.txt` 
+    - Use SHA256 hash on file and store digest
+    - Change `sample.txt` and validate one byte change alters the hash digest
+
+5. **Honeypot**
 ---
 
 ## ✅ Acceptance Criteria
@@ -84,4 +90,5 @@ This objective reinforces the **core building blocks** of cybersecurity:
 **Python:**
 ```bash
 cd lab-1-2-fundamentals\python
-py lab.py ..\scenarios\set-01.json --shuffle
+py lab.py
+py hash_check_lab.py

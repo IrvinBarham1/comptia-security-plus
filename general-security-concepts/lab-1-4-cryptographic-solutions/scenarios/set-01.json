@@ -1,0 +1,127 @@
+[
+  {
+    "id": "PKI1",
+    "domain": "pki",
+    "question": "Which cryptographic component is designed to be shared openly and is used to encrypt data or verify digital signatures?",
+    "examples": ["Digital certificates", "SSL/TLS handshake", "Email encryption"],
+    "choices": ["Public key", "Private key", "Symmetric key", "Key escrow"],
+    "correct": 0,
+    "explanation": "The public key is distributed widely and is used for encryption or to verify digital signatures."
+  },
+  {
+    "id": "PKI2",
+    "domain": "pki",
+    "question": "Which cryptographic component must remain confidential and is used to decrypt data or create digital signatures?",
+    "examples": ["Signing a document", "Decrypting SSL traffic", "Secure email"],
+    "choices": ["Key escrow", "Private key", "Public key", "Session key"],
+    "correct": 1,
+    "explanation": "The private key is kept secret and is used for decryption and creating digital signatures."
+  },
+  {
+    "id": "PKI3",
+    "domain": "pki",
+    "question": "An organization stores a copy of an employee's private key with a trusted third party so it can be recovered if lost. What is this process called?",
+    "examples": ["Corporate key recovery", "Legal investigations", "Compliance audits"],
+    "choices": ["Key escrow", "Public key distribution", "Certificate pinning", "Session key exchange"],
+    "correct": 0,
+    "explanation": "Key escrow involves holding a backup copy of encryption keys with a trusted third party for recovery or compliance purposes."
+  },
+  {
+    "id": "PKI4",
+    "domain": "pki",
+    "question": "Which statement best describes Public Key Infrastructure (PKI)?",
+    "examples": ["HTTPS", "Email encryption", "VPN authentication"],
+    "choices": [
+      "A process of encrypting and decrypting data using key pairs",
+      "A system of hardware, software, policies, and procedures to manage encryption keys and trust",
+      "A symmetric encryption algorithm like AES",
+      "A digital certificate used for authentication"
+    ],
+    "correct": 1,
+    "explanation": "PKI is the full system of hardware, software, people, and policies used to manage and distribute keys, not just the cryptographic process."
+  },
+  {
+    "id": "PKI5",
+    "domain": "pki",
+    "question": "During an HTTPS connection, what role does the server's private key play?",
+    "examples": ["TLS handshake", "SSL certificates"],
+    "choices": [
+      "Encrypting all communication with the client",
+      "Decrypting the shared secret key sent by the client",
+      "Generating the random symmetric key for the session",
+      "Verifying the client's identity"
+    ],
+    "correct": 1,
+    "explanation": "In HTTPS, the browser generates a random shared secret key, encrypts it with the server's public key, and the server decrypts it using its private key."
+  },
+  {
+    "id": "PKI6",
+    "domain": "pki",
+    "question": "In PKI, why is a symmetric key used after the initial key exchange?",
+    "examples": ["TLS session", "VPN tunnels"],
+    "choices": [
+      "Symmetric encryption is faster and more efficient for bulk data transfer",
+      "Asymmetric encryption cannot be used over the internet",
+      "Symmetric keys are easier to distribute securely",
+      "Asymmetric encryption does not support authentication"
+    ],
+    "correct": 0,
+    "explanation": "Asymmetric encryption is computationally expensive, so once a symmetric session key is exchanged, it is used for faster data encryption."
+  },
+  {
+    "id": "PKI7",
+    "domain": "pki",
+    "question": "What does the padlock symbol in a browser's address bar indicate?",
+    "examples": ["TLS", "HTTPS", "SSL"],
+    "choices": [
+      "The site is free from malware",
+      "The communication is encrypted and the server is authenticated",
+      "The certificate is self-signed",
+      "The site is verified by DNSSEC"
+    ],
+    "correct": 1,
+    "explanation": "The padlock shows that the browser established a secure connection using HTTPS, providing encryption and server authentication."
+  },
+  {
+    "id": "PKI8",
+    "domain": "pki",
+    "question": "Which of the following best differentiates PKI from public key cryptography?",
+    "examples": ["SSL/TLS certificates", "Encryption keys"],
+    "choices": [
+      "PKI is only used for symmetric encryption, while public key cryptography is for asymmetric",
+      "PKI is the broader system managing keys and trust, while public key cryptography refers only to the encryption/decryption process",
+      "PKI replaces asymmetric encryption entirely",
+      "PKI only applies to web browsers, while public key cryptography applies everywhere"
+    ],
+    "correct": 1,
+    "explanation": "PKI is the overall framework for managing key pairs, trust, and policies, while public key cryptography is just the math of using public/private keys."
+  },
+  {
+    "id": "PKI9",
+    "domain": "pki",
+    "question": "Why might an organization use key escrow as part of its PKI strategy?",
+    "examples": ["Legal compliance", "Disaster recovery"],
+    "choices": [
+      "To prevent attackers from stealing public keys",
+      "To ensure encrypted data can be recovered if keys are lost",
+      "To eliminate the need for digital certificates",
+      "To provide faster key exchange during HTTPS sessions"
+    ],
+    "correct": 1,
+    "explanation": "Key escrow stores private keys in a secure location so data is not permanently lost if keys are misplaced or inaccessible."
+  },
+  {
+    "id": "PKI10",
+    "domain": "pki",
+    "question": "What is the primary security concern with key escrow?",
+    "examples": ["Escrow vaults", "Third-party storage"],
+    "choices": [
+      "Escrowed keys can be misused if malicious actors gain access",
+      "It prevents organizations from ever retrieving their keys",
+      "It eliminates the need for symmetric encryption",
+      "It requires using self-signed certificates"
+    ],
+    "correct": 0,
+    "explanation": "If escrowed keys are accessed by unauthorized parties, encrypted data can be decrypted, making strong access controls essential."
+  }
+]

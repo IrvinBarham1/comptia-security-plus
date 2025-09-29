@@ -1,0 +1,119 @@
+[
+  {
+    "id": "TOOLS1",
+    "domain": "encryption-tools",
+    "question": "Which hardware-based security component is built into many modern motherboards and is commonly used for drive encryption and secure boot?",
+    "examples": ["BitLocker integration", "Secure boot"],
+    "choices": ["Trusted Platform Module (TPM)", "Hardware Security Module (HSM)", "Secure enclave", "Key management system"],
+    "correct": 0,
+    "explanation": "TPMs are dedicated chips that securely store cryptographic keys and support full-disk encryption and secure boot."
+  },
+  {
+    "id": "TOOLS2",
+    "domain": "encryption-tools",
+    "question": "Which specialized hardware device is designed to generate, store, and protect large volumes of encryption keys for enterprises and certificate authorities?",
+    "examples": ["Banking systems", "PKI infrastructures"],
+    "choices": ["Key management system", "Hardware Security Module (HSM)", "TPM", "Secure enclave"],
+    "correct": 1,
+    "explanation": "Hardware Security Modules (HSMs) are dedicated devices that handle cryptographic operations and protect private keys at scale."
+  },
+  {
+    "id": "TOOLS3",
+    "domain": "encryption-tools",
+    "question": "Which solution provides centralized lifecycle management of cryptographic keys, including creation, rotation, and revocation?",
+    "examples": ["AWS KMS", "Azure Key Vault"],
+    "choices": ["Secure enclave", "Hardware Security Module", "Key management system", "TPM"],
+    "correct": 2,
+    "explanation": "A Key Management System (KMS) provides centralized services for generating, rotating, and managing encryption keys."
+  },
+  {
+    "id": "TOOLS4",
+    "domain": "encryption-tools",
+    "question": "Which isolated environment within a processor protects sensitive computations like cryptographic operations from the main OS?",
+    "examples": ["Intel SGX", "Apple Secure Enclave"],
+    "choices": ["Trusted Platform Module", "Secure enclave", "Hardware Security Module", "Key management system"],
+    "correct": 1,
+    "explanation": "Secure enclaves are protected areas in modern CPUs that isolate sensitive operations from the main operating system."
+  },
+  {
+    "id": "OBF1",
+    "domain": "obfuscation",
+    "question": "Hiding text within an image file so it is not visible to the human eye is an example of which obfuscation technique?",
+    "examples": ["Image stego", "Audio stego"],
+    "choices": ["Tokenization", "Data masking", "Steganography", "Encryption"],
+    "correct": 2,
+    "explanation": "Steganography hides information inside other data, such as embedding text in image or audio files."
+  },
+  {
+    "id": "OBF2",
+    "domain": "obfuscation",
+    "question": "Replacing a credit card number with a random surrogate value while still allowing business systems to process transactions is an example of what?",
+    "examples": ["Payment processing", "PCI DSS compliance"],
+    "choices": ["Steganography", "Tokenization", "Data masking", "Hashing"],
+    "correct": 1,
+    "explanation": "Tokenization replaces sensitive data with unique surrogate values that map back only in a secure system."
+  },
+  {
+    "id": "OBF3",
+    "domain": "obfuscation",
+    "question": "An organization creates a dataset where real customer names are replaced with fictional names to protect privacy during software testing. Which method is this?",
+    "examples": ["Test environments", "PII protection"],
+    "choices": ["Data masking", "Tokenization", "Steganography", "Encryption"],
+    "correct": 0,
+    "explanation": "Data masking hides or alters real data with fictional but realistic data, useful for testing without exposing sensitive information."
+  },
+  {
+    "id": "HASH1",
+    "domain": "crypto-concepts",
+    "question": "Which cryptographic process takes an input and produces a fixed-length output that uniquely represents the data?",
+    "examples": ["SHA-256", "MD5", "SHA-3"],
+    "choices": ["Hashing", "Encryption", "Salting", "Key stretching"],
+    "correct": 0,
+    "explanation": "Hashing creates a fixed-length digest that uniquely represents data and is commonly used for integrity checks."
+  },
+  {
+    "id": "SALT1",
+    "domain": "crypto-concepts",
+    "question": "Which technique adds random data to passwords before hashing to make precomputed attacks like rainbow tables ineffective?",
+    "examples": ["bcrypt", "scrypt"],
+    "choices": ["Salting", "Hashing", "Key exchange", "Tokenization"],
+    "correct": 0,
+    "explanation": "Salting introduces randomness to each password hash, ensuring identical passwords generate different hashes."
+  },
+  {
+    "id": "DSIG1",
+    "domain": "crypto-concepts",
+    "question": "A sender uses their private key to sign a message, and the recipient verifies it with the sender's public key. What security service does this provide?",
+    "examples": ["Email signing", "Software integrity"],
+    "choices": ["Encryption", "Key exchange", "Digital signatures", "Tokenization"],
+    "correct": 2,
+    "explanation": "Digital signatures provide integrity, authentication, and non-repudiation using asymmetric keys."
+  },
+  {
+    "id": "STRETCH1",
+    "domain": "crypto-concepts",
+    "question": "Which technique makes weak passwords more resistant to brute-force attacks by increasing the computational effort required to derive keys?",
+    "examples": ["PBKDF2", "bcrypt", "scrypt", "Argon2"],
+    "choices": ["Key stretching", "Salting", "Hashing", "Blockchain"],
+    "correct": 0,
+    "explanation": "Key stretching uses computationally expensive functions (like bcrypt or PBKDF2) to slow down brute-force attacks."
+  },
+  {
+    "id": "BLOCK1",
+    "domain": "crypto-concepts",
+    "question": "Which technology uses a chain of cryptographically linked blocks to provide tamper-resistant transaction records?",
+    "examples": ["Bitcoin", "Ethereum"],
+    "choices": ["Blockchain", "Hashing", "Digital signatures", "Open public ledger"],
+    "correct": 0,
+    "explanation": "Blockchain organizes data into cryptographically linked blocks that are difficult to alter once committed."
+  },
+  {
+    "id": "LEDGER1",
+    "domain": "crypto-concepts",
+    "question": "Which concept describes a transparent database where all participants can view and verify transactions, often used in cryptocurrencies?",
+    "examples": ["Bitcoin ledger", "Ethereum ledger"],
+    "choices": ["Open public ledger", "Blockchain", "Key escrow", "Hashing"],
+    "correct": 0,
+    "explanation": "An open public ledger allows anyone to view and validate transactions, ensuring transparency and trust."
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "ENC1",
+    "domain": "encryption",
+    "question": "Which type of encryption protects all the data on a laptop's hard drive, ensuring nothing can be accessed without authentication?",
+    "examples": ["BitLocker", "FileVault"],
+    "choices": ["File-level encryption", "Full-disk encryption", "Database encryption", "Partition encryption"],
+    "correct": 1,
+    "explanation": "Full-disk encryption secures the entire storage device, requiring authentication before any data can be accessed."
+  },
+  {
+    "id": "ENC2",
+    "domain": "encryption",
+    "question": "Which encryption method secures only a defined section of a disk rather than the entire disk?",
+    "examples": ["Linux LUKS partitions"],
+    "choices": ["File-level encryption", "Partition encryption", "Full-disk encryption", "Volume encryption"],
+    "correct": 1,
+    "explanation": "Partition encryption protects only a specific disk partition, not the entire drive."
+  },
+  {
+    "id": "ENC3",
+    "domain": "encryption",
+    "question": "An organization uses encryption that protects individual files regardless of where they are stored or copied. What type of encryption is this?",
+    "examples": ["EFS on Windows"],
+    "choices": ["File-level encryption", "Volume encryption", "Database encryption", "Record encryption"],
+    "correct": 0,
+    "explanation": "File-level encryption applies directly to files, ensuring protection even if they are moved."
+  },
+  {
+    "id": "ENC4",
+    "domain": "encryption",
+    "question": "Which encryption method protects an entire container of storage that may span multiple disks?",
+    "examples": ["Encrypted containers in VeraCrypt"],
+    "choices": ["Record encryption", "Volume encryption", "Partition encryption", "File encryption"],
+    "correct": 1,
+    "explanation": "Volume encryption protects logical storage containers (volumes), which may include multiple partitions."
+  },
+  {
+    "id": "ENC5",
+    "domain": "encryption",
+    "question": "Which encryption is designed to secure structured information inside applications such as SQL?",
+    "examples": ["Transparent Data Encryption (TDE)"],
+    "choices": ["Database encryption", "File encryption", "Full-disk encryption", "Partition encryption"],
+    "correct": 0,
+    "explanation": "Database encryption protects entire databases, often implemented in enterprise systems."
+  },
+  {
+    "id": "ENC6",
+    "domain": "encryption",
+    "question": "Which type of encryption secures specific fields like credit card numbers inside a database?",
+    "examples": ["PCI DSS compliance"],
+    "choices": ["Record encryption", "Database encryption", "Volume encryption", "Partition encryption"],
+    "correct": 0,
+    "explanation": "Record (or field-level) encryption protects individual records/columns, such as credit card data."
+  },
+  {
+    "id": "ENC7",
+    "domain": "encryption",
+    "question": "Which type of encryption is most commonly used to protect data in motion over a network?",
+    "examples": ["TLS", "VPNs"],
+    "choices": ["Transport/communication encryption", "Database encryption", "Full-disk encryption", "Partition encryption"],
+    "correct": 0,
+    "explanation": "Transport encryption (e.g., TLS, IPsec VPNs) protects communications between systems."
+  },
+  {
+    "id": "ENC8",
+    "domain": "encryption",
+    "question": "Which type of encryption uses two mathematically related keys: one public and one private?",
+    "examples": ["RSA", "ECC"],
+    "choices": ["Symmetric encryption", "Asymmetric encryption", "Hashing", "File-level encryption"],
+    "correct": 1,
+    "explanation": "Asymmetric encryption uses key pairs: one for encryption, the other for decryption."
+  },
+  {
+    "id": "ENC9",
+    "domain": "encryption",
+    "question": "Which encryption method uses a single shared key for both encryption and decryption?",
+    "examples": ["AES", "DES"],
+    "choices": ["Symmetric encryption", "Asymmetric encryption", "Public key encryption", "Hashing"],
+    "correct": 0,
+    "explanation": "Symmetric encryption uses one key for both encryption and decryption."
+  },
+  {
+    "id": "ENC10",
+    "domain": "encryption",
+    "question": "In PKI, what is the process by which two parties securely establish a shared session key?",
+    "examples": ["Diffie-Hellman", "Elliptic Curve Diffie-Hellman"],
+    "choices": ["Key exchange", "Key escrow", "Key length", "Key wrapping"],
+    "correct": 0,
+    "explanation": "Key exchange protocols like Diffie-Hellman securely establish a shared secret used for symmetric encryption."
+  },
+  {
+    "id": "ENC11",
+    "domain": "encryption",
+    "question": "AES, RSA, and ECC are examples of what within encryption?",
+    "examples": ["TLS ciphersuites", "VPN encryption"],
+    "choices": ["Key length", "Algorithms", "Certificates", "Hashing functions"],
+    "correct": 1,
+    "explanation": "Algorithms are the mathematical formulas (e.g., AES, RSA, ECC) that perform encryption and decryption."
+  },
+  {
+    "id": "ENC12",
+    "domain": "encryption",
+    "question": "Which factor directly affects the strength of encryption by determining how difficult it is to brute-force?",
+    "examples": ["AES-256", "RSA-2048"],
+    "choices": ["Key escrow", "Key exchange", "Key length", "Hash size"],
+    "correct": 2,
+    "explanation": "Longer key lengths make encryption harder to brute-force, increasing security strength."
+  },
+  {
+    "id": "ALG1",
+    "domain": "encryption",
+    "question": "Which early symmetric encryption algorithm used a 56-bit key and is now considered insecure due to brute-force attacks?",
+    "examples": ["Legacy VPNs", "Older banking systems"],
+    "choices": ["AES", "DES", "Blowfish", "RSA"],
+    "correct": 1,
+    "explanation": "DES (Data Encryption Standard) uses a 56-bit key, which is now too short to resist brute-force attacks."
+  },
+  {
+    "id": "ALG2",
+    "domain": "encryption",
+    "question": "Which symmetric algorithm applies DES three times to increase security, but is slower as a result?",
+    "examples": ["Legacy financial transactions"],
+    "choices": ["Triple DES", "Twofish", "AES", "Diffie-Hellman"],
+    "correct": 0,
+    "explanation": "Triple DES applies DES encryption three times for added security, but it is less efficient than newer algorithms like AES."
+  },
+  {
+    "id": "ALG3",
+    "domain": "encryption",
+    "question": "Which symmetric encryption algorithm was popular in Europe and used a 128-bit key but has largely been replaced by AES?",
+    "examples": ["Older secure communications"],
+    "choices": ["IDEA", "DES", "AES", "RSA"],
+    "correct": 0,
+    "explanation": "IDEA (International Data Encryption Algorithm) was widely used in Europe before AES became the modern standard."
+  },
+  {
+    "id": "ALG4",
+    "domain": "encryption",
+    "question": "Which symmetric encryption standard is widely used today, supports 128, 192, and 256-bit keys, and is the U.S. government standard?",
+    "examples": ["Wi-Fi security", "VPN tunnels"],
+    "choices": ["AES", "Twofish", "RSA", "DES"],
+    "correct": 0,
+    "explanation": "AES (Advanced Encryption Standard) is the current U.S. federal standard and widely used due to its strength and efficiency."
+  },
+  {
+    "id": "ALG5",
+    "domain": "encryption",
+    "question": "Which symmetric algorithm is a fast block cipher that uses variable-length keys up to 448 bits?",
+    "examples": ["Legacy password storage", "VPN encryption"],
+    "choices": ["Blowfish", "RSA", "AES", "IDEA"],
+    "correct": 0,
+    "explanation": "Blowfish is a fast, flexible block cipher with keys up to 448 bits."
+  },
+  {
+    "id": "ALG6",
+    "domain": "encryption",
+    "question": "Which symmetric algorithm is a successor to Blowfish, supports up to 256-bit keys, and was a finalist in the AES competition?",
+    "examples": ["Open-source encryption tools"],
+    "choices": ["Twofish", "IDEA", "RSA", "Triple DES"],
+    "correct": 0,
+    "explanation": "Twofish is the successor to Blowfish and was an AES competition finalist."
+  },
+  {
+    "id": "ALG7",
+    "domain": "encryption",
+    "question": "Which family of symmetric algorithms was developed by Ron Rivest and includes variants such as RC4, RC5, and RC6?",
+    "examples": ["WEP", "TLS (RC4, deprecated)"],
+    "choices": ["Rivest Cipher", "RSA", "AES", "Diffie-Hellman"],
+    "correct": 0,
+    "explanation": "The Rivest Ciphers (RC algorithms) were created by Ron Rivest, with RC4 once widely used in protocols like WEP before being deprecated."
+  },
+  {
+    "id": "ALG8",
+    "domain": "encryption",
+    "question": "Which asymmetric algorithm is primarily used for secure key exchange, enabling two parties to establish a shared secret over an insecure channel?",
+    "examples": ["VPN tunnels", "TLS handshake"],
+    "choices": ["Diffie-Hellman", "RSA", "ECC", "AES"],
+    "correct": 0,
+    "explanation": "Diffie-Hellman is used for secure key exchange, laying the foundation for encrypted communications."
+  },
+  {
+    "id": "ALG9",
+    "domain": "encryption",
+    "question": "Which asymmetric algorithm is widely used for encryption, digital signatures, and key exchange, relying on the difficulty of factoring large prime numbers?",
+    "examples": ["Digital certificates", "SSL/TLS"],
+    "choices": ["RSA", "ECC", "Blowfish", "Twofish"],
+    "correct": 0,
+    "explanation": "RSA is one of the most widely used asymmetric algorithms and is based on the difficulty of factoring large integers."
+  },
+  {
+    "id": "ALG10",
+    "domain": "encryption",
+    "question": "Which asymmetric algorithm provides strong security with smaller key sizes by leveraging elliptic curve mathematics?",
+    "examples": ["Mobile devices", "TLS with ECC certificates"],
+    "choices": ["ECC", "RSA", "Diffie-Hellman", "Triple DES"],
+    "correct": 0,
+    "explanation": "Elliptic Curve Cryptography (ECC) offers strong encryption with smaller key sizes, making it efficient for constrained devices."
+  }
+]

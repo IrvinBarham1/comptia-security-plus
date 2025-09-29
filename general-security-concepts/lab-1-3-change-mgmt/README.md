@@ -72,3 +72,10 @@ cd lab-1-3-change-mgmt\python
 
 # Run the multiple-choice quiz
 py lab.py
+```
+
+---
+
+## 📝 Reflection
+
+This lab reinforced how business processes, technical implications, and documentation are intertwined in change management. Practicing these scenarios helped connect terminology (CAB, backout plans, dependencies) to real-world IT operations.

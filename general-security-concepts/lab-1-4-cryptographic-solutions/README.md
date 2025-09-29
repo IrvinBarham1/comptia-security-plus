@@ -99,7 +99,7 @@ This lab made the trade-offs in cryptography visible:
 - Asymmetric = slower, but enables secure key distribution
 ```bash
 >>> Symmetric Encryption AES-256: (True, 0.0009932518005371094)
->>> Asymmetric Encryption RSA (hybrid): (True, 0.001088857650756836)
+>>> Asymmetric Encryption RSA: (True, 0.001088857650756836)
 ```
 - Key exchange = foundation for TLS and VPNs
 ```bash

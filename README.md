@@ -52,12 +52,10 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/IrvinBarham1/comptia-security-plus.git
-cd security-plus-labs
 ```
 
 Navigate into any lab and run it:
 ```bash
-cd general-security-concepts/password_policy
-python lab.py    # or node lab.js
-pytest
+cd general-security-concepts/lab-1-4-cryptographic-solutions
+py lab.py  
 ```         

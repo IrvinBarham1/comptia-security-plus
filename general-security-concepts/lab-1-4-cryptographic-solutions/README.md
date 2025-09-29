@@ -8,7 +8,7 @@ This lab demonstrates cryptographic fundamentals through:
 - Hands-on Python coding exercises:
   - Symmetric vs. asymmetric encryption
   - Diffie–Hellman key exchange
-  - Mini blockchain immutability
+  - Mini blockchain integrity test
 
 ---
 

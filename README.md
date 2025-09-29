@@ -51,7 +51,7 @@ This project is structured around the official Security+ (SY0-701) objectives:
 Clone the repository:
 
 ```bash
-git clone https://github.com/IrvinBarham1/security-plus-labs.git
+git clone https://github.com/IrvinBarham1/comptia-security-plus.git
 cd security-plus-labs
 ```
 

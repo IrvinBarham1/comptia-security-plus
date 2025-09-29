@@ -95,18 +95,18 @@ py blockchain_lab.py
 ## 📝 Reflection
 
 This lab made the trade-offs in cryptography visible:
--Symmetric = fast, bulk data
--Asymmetric = slower, but enables secure key distribution
+- Symmetric = fast, bulk data
+- Asymmetric = slower, but enables secure key distribution
 ```bash
 >>> Symmetric Encryption AES-256: (True, 0.0009932518005371094)
 >>> Asymmetric Encryption RSA (hybrid): (True, 0.001088857650756836)
 ```
--Key exchange = foundation for TLS and VPNs
+- Key exchange = foundation for TLS and VPNs
 ```bash
 Shared Secret key for a: 37
 Shared Secret key for b: 37
 ```
--Blockchain = illustrates how tamper detection relies on linked hashes
+- Blockchain = illustrates how tamper detection relies on linked hashes
 ```bash
 Block 0: 61cb745b419735d59d025a1e80df6b1c0e6ca5c6f809c9dc522a75fce5ddc47b (prev: 0...)
 Block 1: 2c58e70de3fc71c880a078b132a553f4dd55fa229fe80bd330140abe59489bc1 (prev: 61cb745b...)

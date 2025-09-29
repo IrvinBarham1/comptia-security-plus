@@ -56,6 +56,6 @@ git clone https://github.com/IrvinBarham1/comptia-security-plus.git
 
 Navigate into any lab and run it:
 ```bash
-cd general-security-concepts/lab-1-4-cryptographic-solutions
+cd general-security-concepts\lab-1-4-cryptographic-solutions\python
 py lab.py  
 ```         

@@ -83,24 +83,11 @@ py lab.py
 # Symmetric vs Asymmetric Encryption
 py symmetric_vs_aysmmetric_lab.py
 
->>> Symmetric Encryption AES-256: (True, 0.0009932518005371094)
->>> Asymmetric Encryption RSA (hybrid): (True, 0.001088857650756836)
-
 # Diffie–Hellman Key Exchange
 py key_exchange_lab.py
-Shared Secret key for a: 37
-Shared Secret key for b: 37
 
 # Blockchain Integrity
 py blockchain_lab.py
-
-Block 0: 61cb745b419735d59d025a1e80df6b1c0e6ca5c6f809c9dc522a75fce5ddc47b (prev: 0...)
-Block 1: 2c58e70de3fc71c880a078b132a553f4dd55fa229fe80bd330140abe59489bc1 (prev: 61cb745b...)
-Block 2: c07b4083ee0b7806c423012bef567621a24ace315954381cb5fac3ffd918e53e (prev: 2c58e70d...)
-Block 3: 1b8c1bc40f3bcbbd7e4e51da33e9c9a4a57970cb95b9024ec4c583c6820a3d8b (prev: c07b4083...)
-
-Chain valid? :  True
-After tampering, chain valid? :  False
 ```
 
 ---
@@ -110,6 +97,22 @@ After tampering, chain valid? :  False
 This lab made the trade-offs in cryptography visible:
 -Symmetric = fast, bulk data
 -Asymmetric = slower, but enables secure key distribution
+```bash
+>>> Symmetric Encryption AES-256: (True, 0.0009932518005371094)
+>>> Asymmetric Encryption RSA (hybrid): (True, 0.001088857650756836)
+```
 -Key exchange = foundation for TLS and VPNs
+```bash
+Shared Secret key for a: 37
+Shared Secret key for b: 37
+```
 -Blockchain = illustrates how tamper detection relies on linked hashes
--Certificates = provide trusted identity and revocation mechanism
+```bash
+Block 0: 61cb745b419735d59d025a1e80df6b1c0e6ca5c6f809c9dc522a75fce5ddc47b (prev: 0...)
+Block 1: 2c58e70de3fc71c880a078b132a553f4dd55fa229fe80bd330140abe59489bc1 (prev: 61cb745b...)
+Block 2: c07b4083ee0b7806c423012bef567621a24ace315954381cb5fac3ffd918e53e (prev: 2c58e70d...)
+Block 3: 1b8c1bc40f3bcbbd7e4e51da33e9c9a4a57970cb95b9024ec4c583c6820a3d8b (prev: c07b4083...)
+
+Chain valid? :  True
+After tampering, chain valid? :  False
+```

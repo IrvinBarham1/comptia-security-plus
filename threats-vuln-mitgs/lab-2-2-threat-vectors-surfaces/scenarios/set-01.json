@@ -1,0 +1,128 @@
+[
+  {
+    "id": "VEC1",
+    "domain": "attack-vectors",
+    "question": "A user receives an email appearing to come from the company's IT department requesting password verification. The link directs to a fake login page that captures credentials. What attack vector is being used?",
+    "examples": ["Phishing", "Credential harvesting"],
+    "choices": ["Image-based", "Email (message-based)", "File-based", "Voice call"],
+    "correct": 1,
+    "explanation": "Phishing emails are a common message-based attack vector used to steal credentials or deliver malicious links."
+  },
+  {
+    "id": "VEC2",
+    "domain": "attack-vectors",
+    "question": "An employee receives a text message claiming to be from the company CEO, requesting an urgent funds transfer. Which type of delivery method does this represent?",
+    "examples": ["SMiShing", "Social engineering via SMS"],
+    "choices": ["Instant messaging", "Email", "Short Message Service (SMS)", "Removable device"],
+    "correct": 2,
+    "explanation": "SMS-based social engineering (SMiShing) uses text messages as the attack vector."
+  },
+  {
+    "id": "VEC3",
+    "domain": "attack-vectors",
+    "question": "A malicious actor sends a link through a corporate chat platform that installs malware when clicked. What vector was used to deliver the attack?",
+    "examples": ["Chat apps", "Workplace collaboration tools"],
+    "choices": ["Instant messaging (IM)", "Email", "Removable device", "Bluetooth"],
+    "correct": 0,
+    "explanation": "Instant messaging (IM) platforms are message-based attack vectors used to spread malicious links and files."
+  },
+  {
+    "id": "VEC4",
+    "domain": "attack-vectors",
+    "question": "A threat actor embeds hidden code in an online image shared on social media. When downloaded, the image executes a payload that compromises the host. What attack vector is being used?",
+    "examples": ["Steganography", "Malicious image files"],
+    "choices": ["File-based", "Image-based", "Message-based", "Unsupported systems"],
+    "correct": 1,
+    "explanation": "Attackers can use image-based vectors like steganography to conceal malicious code within image files."
+  },
+  {
+    "id": "VEC5",
+    "domain": "attack-vectors",
+    "question": "A user downloads an attached spreadsheet from an email, opens it, and unknowingly enables a malicious macro that installs ransomware. What vector delivered the payload?",
+    "examples": ["Malicious attachments", "Macros"],
+    "choices": ["File-based", "Voice call", "Image-based", "Bluetooth"],
+    "correct": 0,
+    "explanation": "The attack is file-based since the malicious macro is embedded in a downloaded document."
+  },
+  {
+    "id": "VEC6",
+    "domain": "attack-vectors",
+    "question": "A social engineer calls a company help desk pretending to be an executive and tricks the technician into resetting an account password. Which attack vector was used?",
+    "examples": ["Vishing", "Social engineering over the phone"],
+    "choices": ["Email", "Instant messaging", "Voice call", "Removable device"],
+    "correct": 2,
+    "explanation": "Using voice communication to manipulate users is a voice call-based attack vector (vishing)."
+  },
+  {
+    "id": "VEC7",
+    "domain": "attack-vectors",
+    "question": "A user plugs an unknown USB drive into their workstation, infecting the system with malware. What attack vector does this demonstrate?",
+    "examples": ["USB malware", "Auto-run exploits"],
+    "choices": ["Removable device", "File-based", "Bluetooth", "Wireless"],
+    "correct": 0,
+    "explanation": "Malware delivered via portable media such as USB drives represents a removable device vector."
+  },
+  {
+    "id": "VEC8",
+    "domain": "attack-vectors",
+    "question": "A company’s virtual machine management console is vulnerable because its software requires a local agent that is outdated and easily exploitable. Which vulnerability is described?",
+    "examples": ["Local agent software", "Client-side vulnerabilities"],
+    "choices": ["Agentless system", "Client-based vulnerability", "Unsecure network", "Open service port"],
+    "correct": 1,
+    "explanation": "Client-based vulnerabilities arise when local agents or software components have exploitable flaws."
+  },
+  {
+    "id": "VEC9",
+    "domain": "attack-vectors",
+    "question": "A cloud service exposes an API that is managed remotely without any locally installed software. What type of management model does this represent?",
+    "examples": ["API-based control", "Remote scanning"],
+    "choices": ["Client-based", "Agentless", "Unsupported", "Removable device"],
+    "correct": 1,
+    "explanation": "Agentless systems are managed through network connections or APIs without requiring local software agents."
+  },
+  {
+    "id": "VEC10",
+    "domain": "attack-vectors",
+    "question": "A healthcare organization continues to use a legacy patient-management system that no longer receives vendor updates or security patches. Which condition does this describe?",
+    "examples": ["Legacy software", "Unpatched system"],
+    "choices": ["Unsupported system", "File-based vulnerability", "Open service port", "Wireless weakness"],
+    "correct": 0,
+    "explanation": "Unsupported systems lack vendor updates, making them vulnerable to known exploits."
+  },
+  {
+    "id": "VEC11",
+    "domain": "attack-vectors",
+    "question": "Attackers exploit weak WPA2 configurations and lack of network segmentation to intercept traffic between devices. What attack vector is being targeted?",
+    "examples": ["Wireless eavesdropping", "Rogue access points"],
+    "choices": ["Wired network", "Bluetooth", "Wireless network", "Open service port"],
+    "correct": 2,
+    "explanation": "Misconfigured or unsecured wireless networks are common vectors for eavesdropping and man-in-the-middle attacks."
+  },
+  {
+    "id": "VEC12",
+    "domain": "attack-vectors",
+    "question": "A hacker uses an exposed Ethernet port in a conference room to connect directly into a company's LAN. Which vector does this illustrate?",
+    "examples": ["Physical access", "Network tapping"],
+    "choices": ["Wired network", "Wireless network", "Open service port", "Bluetooth"],
+    "correct": 0,
+    "explanation": "Wired connections can serve as vectors if unused or unsecured network jacks are left accessible."
+  },
+  {
+    "id": "VEC13",
+    "domain": "attack-vectors",
+    "question": "An attacker pairs with a victim's smartphone using an unprotected wireless standard to access contacts and data. Which communication vector was exploited?",
+    "examples": ["Bluetooth hacking", "Bluejacking", "Bluesnarfing"],
+    "choices": ["Bluetooth", "Wireless", "Wired", "Removable device"],
+    "correct": 0,
+    "explanation": "Bluetooth connections can be exploited through attacks such as bluejacking or bluesnarfing."
+  },
+  {
+    "id": "VEC14",
+    "domain": "attack-vectors",
+    "question": "A penetration tester discovers that a system's web server has an unnecessary port open to the internet, exposing a management interface. Which issue does this represent?",
+    "examples": ["Nmap scan", "Open management port"],
+    "choices": ["Unsupported system", "Open service port", "Agentless software", "Wireless vector"],
+    "correct": 1,
+    "explanation": "Unnecessary open ports expose services that can be scanned and exploited remotely."
+  }
+]

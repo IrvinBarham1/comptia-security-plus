@@ -1,0 +1,146 @@
+[
+  {
+    "id": "SEC1",
+    "domain": "vulnerabilities",
+    "question": "After deploying a new IP camera, engineers discover they can log in using the username 'admin' and a manufacturer-supplied password printed on the box. What weakness most likely allowed this access?",
+    "examples": ["Default login", "Vendor documentation"],
+    "choices": ["Misconfigured firewall", "Weak encryption", "Default credentials", "Insider threat"],
+    "correct": 2,
+    "explanation": "Devices shipped with factory usernames/passwords create a default-credentials risk if not changed after install."
+  },
+  {
+    "id": "SEC2",
+    "domain": "vulnerabilities",
+    "question": "A developer uses the same out-of-the-box admin password for multiple test servers and those accounts are later compromised. Which mitigation should have been applied initially?",
+    "examples": ["Provisioning policy", "Asset inventory"],
+    "choices": ["Enable guest accounts", "Rotate or change default credentials", "Open additional ports", "Disable logging"],
+    "correct": 1,
+    "explanation": "Changing default credentials and rotating administrative passwords prevents easy compromise across systems."
+  },
+  {
+    "id": "SC1",
+    "domain": "supply-chain",
+    "question": "An enterprise outsources backup operations to a third party that stores customer data and manages keys. Which external party best describes this provider?",
+    "examples": ["Cloud backup", "Managed services"],
+    "choices": ["Supplier", "Managed Service Provider (MSP)", "Internal developer", "End user"],
+    "correct": 1,
+    "explanation": "An MSP provides managed IT services (like backups) on behalf of the customer and is part of the supply chain."
+  },
+  {
+    "id": "SC2",
+    "domain": "supply-chain",
+    "question": "A hardware vendor ships network appliances that include a proprietary management module. The buyer relies on the vendor for security patches. Which supply-chain role is the vendor fulfilling?",
+    "examples": ["OEM hardware", "Firmware updates"],
+    "choices": ["Supplier / Vendor", "Managed Service Provider (MSP)", "Integrating third party", "Regulator"],
+    "correct": 0,
+    "explanation": "Vendors or suppliers provide products (hardware/software) and often supply patches and firmware updates as part of the supply chain."
+  },
+  {
+    "id": "SC3",
+    "domain": "supply-chain",
+    "question": "An organization discovers malicious code was introduced into a popular open-source library it depends on. Which supply-chain risk category does this best illustrate?",
+    "examples": ["Dependency compromise", "Third-party injection"],
+    "choices": ["Physical theft", "Insider threat", "Supply chain compromise", "Denial of service"],
+    "correct": 2,
+    "explanation": "Compromised third-party components or vendor-supplied software is a supply-chain compromise that can introduce malware upstream."
+  },
+  {
+    "id": "HE1",
+    "domain": "social-engineering",
+    "question": "Employees receive an email that appears to be from their bank with a link asking them to confirm account details; the link leads to a credential-capturing site. Which attack type is this?",
+    "examples": ["Credential harvesting", "Spoofed sites"],
+    "choices": ["Vishing", "Phishing", "Smishing", "Watering hole"],
+    "correct": 1,
+    "explanation": "Emails used to trick recipients into disclosing credentials or clicking malicious links are phishing attacks."
+  },
+  {
+    "id": "HE2",
+    "domain": "social-engineering",
+    "question": "A staff member receives a text message purporting to be from IT asking them to verify a one-time code sent to their phone. Which social-engineering channel does this represent?",
+    "examples": ["Mobile-based social engineering", "SMS scams"],
+    "choices": ["Email", "Voice call", "Short Message Service (SMS)", "Instant messaging"],
+    "correct": 2,
+    "explanation": "A text-message-based social-engineering attack is SMiShing and uses SMS as the delivery channel."
+  },
+  {
+    "id": "HE3",
+    "domain": "social-engineering",
+    "question": "A caller claims to be from the help desk and instructs an employee to disclose their VPN password to resolve a connectivity issue. Which vector is in play?",
+    "examples": ["Phone-based pretexting", "Caller impersonation"],
+    "choices": ["Vishing (voice)", "Phishing (email)", "Smishing (SMS)", "Watering hole"],
+    "correct": 0,
+    "explanation": "Voice-based social engineering where attackers call victims to extract information is called vishing."
+  },
+  {
+    "id": "HE4",
+    "domain": "social-engineering",
+    "question": "An attacker seeds several legitimate websites frequently visited by a target group with malicious JavaScript that redirects visitors to an exploit kit. What social-engineering style is being used?",
+    "examples": ["Targeted compromise of popular sites", "Drive-by compromises"],
+    "choices": ["Typosquatting", "Watering hole", "Business email compromise", "Brand impersonation"],
+    "correct": 1,
+    "explanation": "A watering-hole attack infects sites likely visited by a target community to compromise visitors."
+  },
+  {
+    "id": "HE5",
+    "domain": "social-engineering",
+    "question": "Customers report receiving emails that appear to come from a well-known retailer but link to counterfeit pages at look-alike domains such as 'retai1.com'. What technique is the attacker using?",
+    "examples": ["Domain confusion", "Squatting on typos"],
+    "choices": ["Pretexting", "Typosquatting", "Tokenization", "Supply-chain attack"],
+    "correct": 1,
+    "explanation": "Typosquatting registers domains resembling legitimate ones to trick users who mistype URLs."
+  },
+  {
+    "id": "HE6",
+    "domain": "social-engineering",
+    "question": "An email appears to come from the company CEO asking finance to urgently transfer funds to a new vendor account; the message uses the CEO's style and timing. Which targeted fraud method is this?",
+    "examples": ["Spear phishing for wire fraud", "CEO impersonation"],
+    "choices": ["Watering hole", "Business Email Compromise (BEC)", "Smishing", "Brand impersonation"],
+    "correct": 1,
+    "explanation": "BEC involves impersonating a high-level executive to authorize fraudulent wire transfers or payments."
+  },
+  {
+    "id": "HE7",
+    "domain": "social-engineering",
+    "question": "A fraudster creates a fake social media campaign that spreads false claims about a public figure to influence opinion. Which human-vector category does this fall under?",
+    "examples": ["Coordinated misinformation campaigns", "Influence operations"],
+    "choices": ["Impersonation", "Misinformation / Disinformation", "Pretexting", "Smishing"],
+    "correct": 1,
+    "explanation": "Misinformation/disinformation campaigns spread false or misleading content to influence behavior or opinions."
+  },
+  {
+    "id": "HE8",
+    "domain": "social-engineering",
+    "question": "An attacker researches a target's job responsibilities and calls pretending to be an auditor to request system logs. Which technique involves constructing a believable scenario to gain trust?",
+    "examples": ["Pretext phone call", "Detailed reconnaissance"],
+    "choices": ["Brand impersonation", "Pretexting", "Typosquatting", "Vishing"],
+    "correct": 1,
+    "explanation": "Pretexting uses a fabricated scenario (the pretext) to trick victims into revealing information or performing actions."
+  },
+  {
+    "id": "HE9",
+    "domain": "social-engineering",
+    "question": "A malicious actor registers domain names and email addresses that closely mimic a vendor's to send invoices and support requests that trick customers into paying them. Which two techniques are most directly involved?",
+    "examples": ["Invoice fraud", "Spoofed vendor domains"],
+    "choices": ["Typosquatting + Brand impersonation", "Watering hole + Smishing", "Pretexting + Vishing", "Misinformation + Supply-chain"],
+    "correct": 0,
+    "explanation": "Registering look-alike domains and impersonating trusted brands combine typosquatting and brand impersonation to defraud targets."
+  },
+  {
+    "id": "HE10",
+    "domain": "social-engineering",
+    "question": "Which human vector typically exploits human trust by pretending to be an authority figure or partner and often involves tailored research and scripts?",
+    "examples": ["Caller script using fabricated identity", "Executive impersonation"],
+    "choices": ["Smishing", "Pretexting", "Typosquatting", "Watering hole"],
+    "correct": 1,
+    "explanation": "Pretexting involves creating a believable authority-based scenario to manipulate victims into compliance."
+  },
+  {
+    "id": "HE11",
+    "domain": "social-engineering",
+    "question": "A threat actor sends malicious QR codes and links via SMS that direct recipients to fake login pages. Which combined human-vector and delivery method best describes this campaign?",
+    "examples": ["Mobile phishing with malicious links", "Credential harvesting on phones"],
+    "choices": ["Smishing (SMS-based)", "Vishing (voice-based)", "Phishing (email-based)", "Watering hole (web-based)"],
+    "correct": 0,
+    "explanation": "SMS-based social engineering that includes malicious links or QR codes is called smishing."
+  }
+]

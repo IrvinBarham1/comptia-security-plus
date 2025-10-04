@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TA1",
+    "domain": "threat-actors",
+    "question": "A cybersecurity analyst finds that a sophisticated intrusion leveraged zero-day vulnerabilities, custom malware, and long-term persistence to exfiltrate sensitive government data. Which type of threat actor is most likely responsible?",
+    "examples": ["Advanced Persistent Threat (APT)", "Government-sponsored cyber unit"],
+    "choices": ["Hacktivist", "Nation-state", "Organized crime", "Insider threat"],
+    "correct": 1,
+    "explanation": "Nation-state actors are well-funded, highly skilled, and conduct long-term, targeted campaigns — often referred to as Advanced Persistent Threats (APTs)."
+  },
+  {
+    "id": "TA2",
+    "domain": "threat-actors",
+    "question": "An attacker launches a simple web defacement attack using public tools without understanding how they work. What type of threat actor does this represent?",
+    "examples": ["Script kiddie", "Unskilled attacker"],
+    "choices": ["Insider threat", "Hacktivist", "Unskilled attacker", "Organized crime"],
+    "correct": 2,
+    "explanation": "Unskilled attackers, also known as 'script kiddies,' rely on publicly available tools or scripts to conduct attacks without deep technical knowledge."
+  },
+  {
+    "id": "TA3",
+    "domain": "threat-actors",
+    "question": "A group of politically motivated individuals targets a foreign corporation's website to protest environmental policies. Which threat actor category best fits this scenario?",
+    "examples": ["Anonymous", "Political activism"],
+    "choices": ["Organized crime", "Hacktivist", "Nation-state", "Insider threat"],
+    "correct": 1,
+    "explanation": "Hacktivists conduct attacks for ideological, social, or political motives rather than for financial gain."
+  },
+  {
+    "id": "TA4",
+    "domain": "threat-actors",
+    "question": "A company discovers that an employee intentionally leaked proprietary data to a competitor after being denied a promotion. What type of threat actor is this?",
+    "examples": ["Employee sabotage", "Data exfiltration"],
+    "choices": ["Insider threat", "Hacktivist", "Unskilled attacker", "Nation-state"],
+    "correct": 0,
+    "explanation": "Insider threats come from individuals within the organization who misuse authorized access for malicious purposes."
+  },
+  {
+    "id": "TA5",
+    "domain": "threat-actors",
+    "question": "A criminal organization launches ransomware attacks on hospitals and demands cryptocurrency payments. Which type of threat actor is responsible?",
+    "examples": ["Ransomware gangs", "Financially motivated"],
+    "choices": ["Organized crime", "Nation-state", "Hacktivist", "Insider threat"],
+    "correct": 0,
+    "explanation": "Organized crime groups use cyberattacks for financial gain, often employing ransomware, phishing, or fraud schemes."
+  },
+  {
+    "id": "TA6",
+    "domain": "threat-actors",
+    "question": "Employees begin using unsanctioned cloud storage and communication apps to collaborate faster, creating security blind spots for the IT team. What does this situation represent?",
+    "examples": ["Shadow IT", "Unauthorized applications"],
+    "choices": ["Hacktivist activity", "Shadow IT", "Insider threat", "Organized crime"],
+    "correct": 1,
+    "explanation": "Shadow IT refers to employees using unauthorized hardware, software, or cloud services outside official IT control, increasing risk exposure."
+  },
+  {
+    "id": "ATTR1",
+    "domain": "threat-actor-attributes",
+    "question": "An attacker gains unauthorized access to an organization's internal HR system using valid employee credentials. The investigation reveals the individual works in the company's accounting department. Which threat actor attribute best applies?",
+    "examples": ["Employee access", "Credential misuse"],
+    "choices": ["External", "Internal", "Nation-state", "Hacktivist"],
+    "correct": 1,
+    "explanation": "Because the attacker is a current employee with insider access, this represents an **internal** threat actor."
+  },
+  {
+    "id": "ATTR2",
+    "domain": "threat-actor-attributes",
+    "question": "A security team discovers a phishing campaign targeting multiple global organizations using domain spoofing and professionally written messages. Logs show infrastructure hosted overseas with significant resources. What attribute is most likely?",
+    "examples": ["APT-style phishing", "High funding"],
+    "choices": ["Unskilled attacker", "Low resources", "Highly resourced", "Internal threat"],
+    "correct": 2,
+    "explanation": "The use of sophisticated infrastructure and coordination suggests a **well-funded** threat actor, likely a nation-state or organized group."
+  },
+  {
+    "id": "ATTR3",
+    "domain": "threat-actor-attributes",
+    "question": "A penetration test reveals a small group of individuals using free, open-source tools to exploit common misconfigurations. Which level of capability does this represent?",
+    "examples": ["Open-source scanners", "Script automation"],
+    "choices": ["Advanced capability", "Minimal sophistication", "Nation-state capability", "Professional-level capability"],
+    "correct": 1,
+    "explanation": "Using free public tools and existing exploits indicates **low sophistication** and limited technical ability."
+  },
+  {
+    "id": "ATTR4",
+    "domain": "threat-actor-attributes",
+    "question": "An attacker uses zero-day exploits, encrypted command-and-control channels, and custom malware to remain undetected for months. Which attribute best describes this actor?",
+    "examples": ["APT behavior", "Zero-day exploitation"],
+    "choices": ["Low resources / low capability", "Moderate resources / opportunistic", "Highly sophisticated / well-funded", "Internal accidental threat"],
+    "correct": 2,
+    "explanation": "Custom malware, persistence, and zero-days indicate a **highly sophisticated and well-funded** actor, often a nation-state APT."
+  },
+  {
+    "id": "ATTR5",
+    "domain": "threat-actor-attributes",
+    "question": "A disgruntled employee installs unauthorized remote access tools on company laptops before resigning. What is the actor's classification and funding level?",
+    "examples": ["Internal employee", "Malicious insider"],
+    "choices": ["External / Highly funded", "Internal / Limited resources", "External / Unskilled", "Internal / Highly funded"],
+    "correct": 1,
+    "explanation": "An employee acting independently is an **internal** actor with **limited resources** compared to organized external groups."
+  },
+  {
+    "id": "ATTR6",
+    "domain": "threat-actor-attributes",
+    "question": "A regional cybercrime group rents cloud infrastructure to run large-scale credential stuffing attacks and sells stolen data on dark web forums. Which combination of attributes applies?",
+    "examples": ["Organized crime group", "Rented infrastructure"],
+    "choices": ["External / Well-funded / Moderate sophistication", "Internal / Limited resources", "External / Minimal capability", "Internal / Highly funded"],
+    "correct": 0,
+    "explanation": "The group operates **externally**, has **moderate funding**, and demonstrates **organized, scalable capability** typical of cybercrime operations."
+  }
+]

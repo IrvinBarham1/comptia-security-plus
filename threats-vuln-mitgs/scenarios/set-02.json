@@ -1,0 +1,92 @@
+[
+  {
+    "id": "MOT1",
+    "domain": "threat-actor-motivations",
+    "question": "An external actor transfers gigabytes of confidential customer information from a company's database to a remote server. What is the most likely objective of this attack?",
+    "examples": ["Database theft", "Unauthorized exports"],
+    "choices": ["Service disruption", "Data exfiltration", "Espionage", "Revenge"],
+    "correct": 1,
+    "explanation": "The attacker's goal is to steal and export data — a classic case of data exfiltration."
+  },
+  {
+    "id": "MOT2",
+    "domain": "threat-actor-motivations",
+    "question": "A foreign group infiltrates a defense contractor's systems to obtain classified aircraft schematics. What is their underlying motivation?",
+    "examples": ["Government cyber-operations", "Intellectual property theft"],
+    "choices": ["Espionage", "Financial gain", "Revenge", "Ethical research"],
+    "correct": 0,
+    "explanation": "Stealing sensitive designs for national or competitive advantage is espionage."
+  },
+  {
+    "id": "MOT3",
+    "domain": "threat-actor-motivations",
+    "question": "A rival company's website becomes unavailable during its biggest sales event after a massive flood of network traffic from a competitor's hired botnet. What was the attacker attempting to achieve?",
+    "examples": ["DDoS", "Business competition"],
+    "choices": ["Blackmail", "Service disruption", "Espionage", "Data theft"],
+    "correct": 1,
+    "explanation": "Overwhelming a target's systems to make them unavailable demonstrates a service-disruption motive."
+  },
+  {
+    "id": "MOT4",
+    "domain": "threat-actor-motivations",
+    "question": "An unknown group threatens to publish stolen patient records unless a hospital pays in cryptocurrency. What motivates this attack?",
+    "examples": ["Ransomware", "Extortion threat"],
+    "choices": ["Espionage", "Blackmail", "Disruption", "War"],
+    "correct": 1,
+    "explanation": "Demanding payment to prevent exposure of stolen data reflects blackmail or extortion."
+  },
+  {
+    "id": "MOT5",
+    "domain": "threat-actor-motivations",
+    "question": "Cybercriminals steal credit-card numbers from an online retailer and sell them on underground forums. Which motivation best explains their actions?",
+    "examples": ["Carding", "Dark-web sales"],
+    "choices": ["Financial gain", "Espionage", "Disruption", "Philosophical beliefs"],
+    "correct": 0,
+    "explanation": "Monetizing stolen information indicates a financial-gain motive."
+  },
+  {
+    "id": "MOT6",
+    "domain": "threat-actor-motivations",
+    "question": "A collective compromises a government site and replaces its homepage with protest messages about climate policy. What is driving this behavior?",
+    "examples": ["Hacktivism", "Political activism"],
+    "choices": ["Revenge", "Financial gain", "Philosophical or political beliefs", "Espionage"],
+    "correct": 2,
+    "explanation": "Hacktivists act from ideological or political beliefs rather than for profit."
+  },
+  {
+    "id": "MOT7",
+    "domain": "threat-actor-motivations",
+    "question": "A security researcher privately notifies a vendor about a critical vulnerability instead of exploiting it. What describes the researcher's motivation?",
+    "examples": ["Responsible disclosure", "White-hat behavior"],
+    "choices": ["Ethical", "Revenge", "Financial", "Espionage"],
+    "correct": 0,
+    "explanation": "Helping improve security rather than exploiting flaws demonstrates an ethical motive."
+  },
+  {
+    "id": "MOT8",
+    "domain": "threat-actor-motivations",
+    "question": "A former employee deliberately deletes production data after being dismissed from the company. What best describes this individual's motivation?",
+    "examples": ["Disgruntled insider", "Sabotage"],
+    "choices": ["Revenge", "Financial gain", "Disruption/chaos", "Espionage"],
+    "correct": 0,
+    "explanation": "The malicious act stems from retaliation — a revenge motive."
+  },
+  {
+    "id": "MOT9",
+    "domain": "threat-actor-motivations",
+    "question": "An independent hacker launches random attacks against various organizations simply to prove technical skill and create confusion. What motivation does this indicate?",
+    "examples": ["Non-targeted attacks", "Anarchy"],
+    "choices": ["Revenge", "Disruption/chaos", "Financial gain", "Political ideology"],
+    "correct": 1,
+    "explanation": "Acting without a specific goal or profit motive reflects a desire for disruption or chaos."
+  },
+  {
+    "id": "MOT10",
+    "domain": "threat-actor-motivations",
+    "question": "During escalating geopolitical tension, one nation's cyber unit disables another country's power grid to weaken its defense posture. What is the driving motivation?",
+    "examples": ["Critical-infrastructure attack", "State conflict"],
+    "choices": ["Espionage", "War", "Blackmail", "Disruption"],
+    "correct": 1,
+    "explanation": "Using cyberattacks as part of national conflict aligns with a wartime or military objective."
+  }
+]

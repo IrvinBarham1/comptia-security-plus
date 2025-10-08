@@ -1,0 +1,92 @@
+[
+  {
+    "id": "APP1",
+    "domain": "application",
+    "question": "An attacker injects code into a running process's memory space to hijack execution and escalate privileges. What class of vulnerability does this best describe?",
+    "examples": ["DLL injection", "Process hollowing", "Reflective loading"],
+    "choices": ["Buffer overflow", "Memory injection", "Race condition", "Malicious update"],
+    "correct": 1,
+    "explanation": "Memory injection refers to techniques that insert code into a process's memory (e.g., DLL injection) to alter program behavior or gain unauthorized access."
+  },
+  {
+    "id": "APP2",
+    "domain": "application",
+    "question": "A program writes more data into a buffer than the buffer can hold, overwriting adjacent memory and allowing arbitrary code execution. Which vulnerability is this?",
+    "examples": ["Stack smashers", "Return-oriented programming (ROP)"],
+    "choices": ["Race condition", "Buffer overflow", "Memory injection", "Malicious update"],
+    "correct": 1,
+    "explanation": "Buffer overflows occur when input exceeds allocated space and can corrupt memory, often enabling remote code execution."
+  },
+  {
+    "id": "APP3",
+    "domain": "application",
+    "question": "Two threads check a resource's permissions and then use it; an attacker manipulates timing so the resource changes between the check and use. Which class of flaw is this?",
+    "examples": ["File replace attacks", "TOC/TOU exploits"],
+    "choices": ["Time-of-check/Time-of-use (TOC/TOU) race condition", "Buffer overflow", "Memory injection", "Malicious update"],
+    "correct": 0,
+    "explanation": "TOC/TOU race conditions occur when an attacker changes a resource between the permission check and subsequent use, causing unexpected behavior or privilege escalation."
+  },
+  {
+    "id": "APP4",
+    "domain": "application",
+    "question": "A widely used desktop app installs an auto-update that was tampered with on the vendor's build server, delivering a backdoor to all users. What vulnerability category fits this incident?",
+    "examples": ["Supply-chain compromise", "Code signing bypass"],
+    "choices": ["Memory injection", "Malicious update", "Race condition", "Buffer overflow"],
+    "correct": 1,
+    "explanation": "A malicious update (often a supply-chain compromise) delivers compromised software through trusted update channels, affecting many users."
+  },
+  {
+    "id": "APP5",
+    "domain": "application",
+    "question": "During multi-threaded processing, two processes update the same file simultaneously, causing corrupted data and inconsistent results. What vulnerability type does this indicate?",
+    "examples": ["Concurrency bugs", "File locking issues"],
+    "choices": ["Buffer overflow", "Race condition", "Memory injection", "Malicious update"],
+    "correct": 1,
+    "explanation": "Race conditions occur when concurrent processes access or modify shared resources without proper synchronization, leading to inconsistent or exploitable behavior."
+  },
+  {
+    "id": "OS1",
+    "domain": "operating-system",
+    "question": "A legacy server is missing vendor patches and an attacker uses an exploit to run arbitrary commands with SYSTEM privileges. Which broad vulnerability type does this illustrate?",
+    "examples": ["Privilege escalation via kernel exploit", "Unpatched OS vulnerabilities"],
+    "choices": ["Agentless vulnerability", "Unsupported hardware", "Operating system (OS)-based vulnerability", "SQL injection"],
+    "correct": 2,
+    "explanation": "OS-based vulnerabilities include unpatched weaknesses in the operating system that can be exploited for privilege escalation or remote code execution."
+  },
+  {
+    "id": "WEB1",
+    "domain": "web",
+    "question": "A web application builds SQL queries by concatenating user input directly into the SQL statement. An attacker submits crafted input and extracts database records. Which vulnerability is being exploited?",
+    "examples": ["Credential theft via queries", "Union/select injection"],
+    "choices": ["Cross-site scripting (XSS)", "SQL injection (SQLi)", "Buffer overflow", "TOC/TOU"],
+    "correct": 1,
+    "explanation": "SQL injection occurs when unsanitized input is included in SQL statements, allowing attackers to read or modify the database."
+  },
+  {
+    "id": "WEB2",
+    "domain": "web",
+    "question": "A forum allows users to post comments that include unescaped HTML. An attacker posts script tags that execute in other users' browsers when viewing the comment. What is this vulnerability?",
+    "examples": ["Stored script payloads", "DOM-based manipulation"],
+    "choices": ["SQL injection (SQLi)", "Cross-site scripting (XSS)", "Memory injection", "Malicious update"],
+    "correct": 1,
+    "explanation": "XSS allows attackers to inject client-side scripts into web pages viewed by other users, enabling session theft or web-based attacks."
+  },
+  {
+    "id": "HWD1",
+    "domain": "hardware",
+    "question": "A router's control plane runs firmware with a remote code execution bug; the vendor no longer issues patches for that model. Which two hardware-related concerns are present?",
+    "examples": ["Firmware exploits", "End-of-life devices"],
+    "choices": ["Firmware vulnerability + End-of-life (EOL)", "Agentless + Unsupported network", "Buffer overflow + TOC/TOU", "SQLi + XSS"],
+    "correct": 0,
+    "explanation": "Firmware vulnerabilities in devices that are at end-of-life (no longer patched) create ongoing hardware-level risk."
+  },
+  {
+    "id": "HWD2",
+    "domain": "hardware",
+    "question": "An industrial environment continues to operate legacy controllers that cannot run modern security agents and are incompatible with current encryption methods. What risk does this present?",
+    "examples": ["Legacy SCADA components", "Compatibility gaps"],
+    "choices": ["Legacy hardware risk", "SQL injection risk", "TOC/TOU race", "XSS exposure"],
+    "correct": 0,
+    "explanation": "Legacy hardware often cannot be updated or protected with current controls, increasing exposure to attacks and operational failures."
+  }
+]

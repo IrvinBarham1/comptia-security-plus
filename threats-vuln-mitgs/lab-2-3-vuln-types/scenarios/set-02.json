@@ -1,0 +1,101 @@
+[
+  {
+    "id": "VIRT1",
+    "domain": "virtualization",
+    "question": "A malicious process running inside a guest OS exploits a flaw to execute code on the hypervisor and gain control of other VMs. What vulnerability does this scenario describe?",
+    "examples": ["Hypervisor escape attacks", "Cross-VM compromise"],
+    "choices": ["VM escape", "Resource reuse", "Container breakout", "Snapshot rollback"],
+    "correct": 0,
+    "explanation": "VM escape (hypervisor escape) occurs when code inside a virtual machine breaks out of the VM to interact with or control the hypervisor and other VMs."
+  },
+  {
+    "id": "VIRT2",
+    "domain": "virtualization",
+    "question": "A newly provisioned VM is allocated memory pages that were previously used by another VM without clearing sensitive residual data. Which risk is present?",
+    "examples": ["Data remanence between guests", "Information leakage"],
+    "choices": ["VM escape", "Resource reuse", "Live migration risk", "Snapshot vulnerability"],
+    "correct": 1,
+    "explanation": "Resource reuse issues occur when memory, disk blocks, or other resources are re-assigned without proper cleansing, potentially leaking data between tenants."
+  },
+  {
+    "id": "CLOUD1",
+    "domain": "cloud",
+    "question": "A company moves workloads to a public cloud but fails to implement IAM least-privilege, exposing administrative APIs to broad roles. Which cloud-specific risk does this best represent?",
+    "examples": ["Over-permissive roles", "API misuse"],
+    "choices": ["On-premises misconfig", "Cloud-specific misconfiguration", "Physical tampering", "Firmware vulnerability"],
+    "correct": 1,
+    "explanation": "Cloud-specific issues include misconfigured identity and access controls, overly permissive APIs, and tenant isolation failures unique to cloud environments."
+  },
+  {
+    "id": "SCV1",
+    "domain": "supply-chain",
+    "question": "An organization finds a backdoor in the firmware preinstalled on network gear purchased from a third-party manufacturer. Which supply-chain role likely introduced risk?",
+    "examples": ["Compromised device firmware", "Vendor-supplied components"],
+    "choices": ["Service provider", "Hardware provider", "End-user", "Internal developer"],
+    "correct": 1,
+    "explanation": "Hardware providers (vendors) can introduce supply-chain risk through compromised or tampered firmware and components shipped with devices."
+  },
+  {
+    "id": "SCV2",
+    "domain": "supply-chain",
+    "question": "A managed security provider integrates a vulnerable third-party library into a client-facing service and fails to patch it promptly. Which supply-chain relationship best describes the origin of the exposure?",
+    "examples": ["Third-party dependencies", "MSP-managed services"],
+    "choices": ["Software provider", "Service provider (MSP)", "Hardware vendor", "End user"],
+    "correct": 1,
+    "explanation": "Managed service providers (service providers) can introduce supply-chain risk when their managed offerings include vulnerable third-party components or delayed patching."
+  },
+  {
+    "id": "SCV3",
+    "domain": "supply-chain",
+    "question": "An open-source library used by many applications is discovered to contain malicious commits inserted by a compromised maintainer. What supply-chain category does this illustrate?",
+    "examples": ["Dependency compromise", "Repository poisoning"],
+    "choices": ["Service provider risk", "Software provider / component risk", "Hardware supply issue", "Network misconfig"],
+    "correct": 1,
+    "explanation": "Software provider or third-party component compromise is a supply-chain risk where malicious code is introduced into widely used libraries or packages."
+  },
+  {
+    "id": "CRY1",
+    "domain": "cryptographic",
+    "question": "A company implements encryption but uses an outdated 56-bit key algorithm that can be brute-forced in a short time. Which cryptographic issue does this represent?",
+    "examples": ["Weak algorithms", "Insufficient key length"],
+    "choices": ["Key escrow", "Weak cryptographic strength", "Key exchange failure", "Certificate revocation"],
+    "correct": 1,
+    "explanation": "Using weak algorithms or short key lengths undermines cryptographic strength and makes encrypted data susceptible to brute-force attacks."
+  },
+  {
+    "id": "MIS1",
+    "domain": "misconfiguration",
+    "question": "A newly deployed web application exposes database administration interfaces to the internet because a security group was left open. Which category best describes this problem?",
+    "examples": ["Exposed management interfaces", "Firewall misrules"],
+    "choices": ["Unsupported system", "Misconfiguration", "Zero-day", "Resource reuse"],
+    "correct": 1,
+    "explanation": "Misconfigurations such as incorrect firewall/security group rules or exposed admin interfaces create easy attack paths."
+  },
+  {
+    "id": "MOB1",
+    "domain": "mobile",
+    "question": "A user installs a productivity app from an unverified third-party store that requests excessive permissions and later exfiltrates contacts. Which mobile practice enabled this compromise?",
+    "examples": ["Unauthorized app stores", "App sideloading behavior"],
+    "choices": ["Jailbreaking", "Side loading", "Bluetooth pairing", "Factory reset"],
+    "correct": 1,
+    "explanation": "Side loading (installing apps from untrusted stores) can introduce malicious apps that request excessive permissions and exfiltrate data."
+  },
+  {
+    "id": "MOB2",
+    "domain": "mobile",
+    "question": "A smartphone has been altered to run unauthorized code and allow unsigned apps to execute; the device can no longer receive official OS updates. What condition does this describe?",
+    "examples": ["Unlocked bootloader", "Rooted or jailbroken device"],
+    "choices": ["Side loading", "Jailbreaking / rooting", "Zero-day", "Resource reuse"],
+    "correct": 1,
+    "explanation": "Jailbreaking or rooting a device removes vendor restrictions, enabling installation of unsigned apps and often disabling official update paths — increasing risk."
+  },
+  {
+    "id": "ZD1",
+    "domain": "zero-day",
+    "question": "A vulnerability is discovered that has no available patch and is actively exploited in the wild before the vendor issues a fix. What term best describes this vulnerability?",
+    "examples": ["Unpatched exploit in use", "Unknown public mitigation"],
+    "choices": ["End-of-life issue", "Zero-day vulnerability", "Misconfiguration", "Supply-chain tamper"],
+    "correct": 1,
+    "explanation": "A zero-day vulnerability is one that is exploited before a vendor patch or public mitigation is available."
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "MAL1",
+    "domain": "malware",
+    "question": "An employee's computer suddenly encrypts all local files and displays a message demanding cryptocurrency payment to restore access. What type of malware is responsible?",
+    "examples": ["File encryption demand", "Payment instructions"],
+    "choices": ["Worm", "Spyware", "Ransomware", "Trojan"],
+    "correct": 2,
+    "explanation": "Ransomware encrypts data and demands payment for decryption, impacting system availability."
+  },
+  {
+    "id": "MAL2",
+    "domain": "malware",
+    "question": "A seemingly harmless freeware game secretly installs a hidden backdoor that allows remote access to the host. Which malware best describes this behavior?",
+    "examples": ["Malicious installer", "Hidden remote control"],
+    "choices": ["Trojan", "Worm", "Virus", "Keylogger"],
+    "correct": 0,
+    "explanation": "Trojans disguise themselves as legitimate software but perform malicious activities once installed."
+  },
+  {
+    "id": "MAL3",
+    "domain": "malware",
+    "question": "A self-replicating piece of code spreads across a network automatically without requiring user interaction. Which malware type does this describe?",
+    "examples": ["Network propagation", "Self-replicating code"],
+    "choices": ["Virus", "Worm", "Trojan", "Logic bomb"],
+    "correct": 1,
+    "explanation": "A worm spreads automatically through networks without user action, exploiting vulnerabilities."
+  },
+  {
+    "id": "MAL4",
+    "domain": "malware",
+    "question": "A program runs silently in the background collecting user browsing data and transmitting it to a marketing company. What malware type is involved?",
+    "examples": ["User tracking", "Data exfiltration"],
+    "choices": ["Spyware", "Keylogger", "Bloatware", "Rootkit"],
+    "correct": 0,
+    "explanation": "Spyware monitors user activity and sends data to a third party without consent."
+  },
+  {
+    "id": "MAL5",
+    "domain": "malware",
+    "question": "A new laptop comes preinstalled with several trial programs and vendor utilities that slow performance and clutter system resources. Which unwanted software is this?",
+    "examples": ["Preinstalled vendor apps", "System slowdown"],
+    "choices": ["Spyware", "Bloatware", "Ransomware", "Rootkit"],
+    "correct": 1,
+    "explanation": "Bloatware refers to preinstalled, unnecessary software that consumes resources but is not overtly malicious."
+  },
+  {
+    "id": "MAL6",
+    "domain": "malware",
+    "question": "A user opens an infected USB drive, which executes code that attaches itself to system files and spreads when those files are shared. Which malware fits this description?",
+    "examples": ["File infection", "Code replication"],
+    "choices": ["Virus", "Worm", "Keylogger", "Trojan"],
+    "correct": 0,
+    "explanation": "A virus attaches itself to legitimate files and spreads through user actions such as copying or sharing infected files."
+  },
+  {
+    "id": "MAL7",
+    "domain": "malware",
+    "question": "After noticing unauthorized transactions, investigators find software on the victim's PC capturing every keystroke entered. What type of malware caused this?",
+    "examples": ["Credential theft", "Keystroke logging"],
+    "choices": ["Keylogger", "Spyware", "Worm", "Trojan"],
+    "correct": 0,
+    "explanation": "Keyloggers record user keystrokes to steal credentials and sensitive data."
+  },
+  {
+    "id": "MAL8",
+    "domain": "malware",
+    "question": "A disgruntled developer embeds code in a payroll program set to delete records if their name is removed from the company database. What is this an example of?",
+    "examples": ["Triggered malicious action", "Delayed execution"],
+    "choices": ["Rootkit", "Logic bomb", "Ransomware", "Worm"],
+    "correct": 1,
+    "explanation": "A logic bomb executes a malicious payload when specific conditions are met."
+  },
+  {
+    "id": "MAL9",
+    "domain": "malware",
+    "question": "An attacker hides malware deep within the OS kernel to avoid detection by antivirus and security tools. Which malware technique is being used?",
+    "examples": ["Kernel-level persistence", "Stealth privilege escalation"],
+    "choices": ["Rootkit", "Trojan", "Worm", "Virus"],
+    "correct": 0,
+    "explanation": "Rootkits provide persistent, stealthy access by embedding themselves in the OS kernel or boot process."
+  },
+  {
+    "id": "PHY1",
+    "domain": "physical",
+    "question": "An attacker repeatedly guesses different PIN combinations on a door's access keypad until it unlocks. What type of attack does this illustrate?",
+    "examples": ["Repeated credential guessing", "Access pad brute forcing"],
+    "choices": ["Environmental", "RFID cloning", "Brute-force", "Logic bomb"],
+    "correct": 2,
+    "explanation": "Brute-force attacks try all possible combinations to discover credentials or codes."
+  },
+  {
+    "id": "PHY2",
+    "domain": "physical",
+    "question": "A thief uses a specialized reader to copy the signal from an employee's access card and create a duplicate that grants entry. Which attack method is this?",
+    "examples": ["Badge cloning", "Contactless card spoofing"],
+    "choices": ["RFID cloning", "Brute-force", "Environmental", "Keylogger"],
+    "correct": 0,
+    "explanation": "RFID cloning captures and duplicates contactless card data to bypass access controls."
+  },
+  {
+    "id": "PHY3",
+    "domain": "physical",
+    "question": "Servers overheat and shut down after air conditioning fails during a weekend power outage. What physical attack vector does this represent?",
+    "examples": ["Overheating", "Temperature spike"],
+    "choices": ["RFID cloning", "Brute-force", "Environmental", "Ransomware"],
+    "correct": 2,
+    "explanation": "Environmental threats like excessive heat, humidity, or power loss can disrupt or damage systems."
+  },
+  {
+    "id": "NET1",
+    "domain": "network",
+    "question": "A large number of compromised hosts flood a company's web servers with excessive traffic, rendering them unavailable. Which network attack is this?",
+    "examples": ["Botnet traffic", "Service unavailability"],
+    "choices": ["Phishing", "Distributed Denial-of-Service (DDoS)", "Credential replay", "On-path"],
+    "correct": 1,
+    "explanation": "A DDoS attack uses multiple systems to overwhelm a target's bandwidth or resources."
+  },
+  {
+    "id": "NET2",
+    "domain": "network",
+    "question": "An attacker sends DNS queries to open resolvers using a spoofed source IP belonging to the victim. The responses are much larger, overloading the victim's network. What DDoS subtype is this?",
+    "examples": ["DNS amplification", "Spoofed source IP"],
+    "choices": ["Reflected DDoS", "Amplified DDoS", "Credential replay", "DNS poisoning"],
+    "correct": 1,
+    "explanation": "An amplified DDoS multiplies attack traffic using protocols with large response-to-request ratios, such as DNS or NTP."
+  },
+  {
+    "id": "NET3",
+    "domain": "network",
+    "question": "Attackers send numerous requests to publicly available servers, spoofing the victim's IP so that replies overwhelm the victim's connection. Which DDoS technique is this?",
+    "examples": ["Spoofed request reflection", "Server response flood"],
+    "choices": ["Amplified DDoS", "Reflected DDoS", "DNS hijacking", "On-path"],
+    "correct": 1,
+    "explanation": "Reflected DDoS attacks spoof the victim's address so that many servers send their responses back to the victim, amplifying traffic volume."
+  },
+  {
+    "id": "NET4",
+    "domain": "network",
+    "question": "A threat actor compromises a local DNS server and redirects users to malicious look-alike websites. Which network attack is being used?",
+    "examples": ["DNS spoofing", "Malicious redirection"],
+    "choices": ["DNS poisoning", "Credential replay", "Wireless jamming", "Amplified DDoS"],
+    "correct": 0,
+    "explanation": "DNS poisoning corrupts DNS records to redirect users to attacker-controlled domains."
+  },
+  {
+    "id": "NET5",
+    "domain": "network",
+    "question": "An attacker positions themselves between a workstation and a router to capture and modify data packets. What type of network attack is this?",
+    "examples": ["Intercepting traffic", "Manipulating data flow"],
+    "choices": ["On-path (Man-in-the-middle)", "Amplified DDoS", "Credential replay", "DNS poisoning"],
+    "correct": 0,
+    "explanation": "On-path (MITM) attacks intercept and potentially alter communications between two parties without their knowledge."
+  },
+  {
+    "id": "NET6",
+    "domain": "network",
+    "question": "A wireless attacker creates a rogue access point with the same SSID as the corporate Wi-Fi to trick users into connecting. Which wireless attack is this?",
+    "examples": ["Evil twin AP", "Credential harvesting"],
+    "choices": ["Wireless evil twin", "Amplified DDoS", "Credential replay", "RFID cloning"],
+    "correct": 0,
+    "explanation": "Evil twin attacks set up rogue Wi-Fi networks mimicking legitimate SSIDs to capture user data and credentials."
+  },
+  {
+    "id": "NET7",
+    "domain": "network",
+    "question": "An attacker captures network authentication exchanges and reuses the hashed credentials to gain unauthorized access later. Which attack technique does this represent?",
+    "examples": ["Captured NTLM hashes", "Replay authentication"],
+    "choices": ["Credential replay", "Brute-force", "DNS poisoning", "On-path"],
+    "correct": 0,
+    "explanation": "Credential replay attacks reuse previously captured authentication tokens or hashes to impersonate valid users."
+  },
+  {
+    "id": "NET8",
+    "domain": "network",
+    "question": "A script downloaded from a compromised website installs itself and modifies system files to allow persistent network access. What type of threat is this?",
+    "examples": ["Remote access Trojan", "Injected malicious code"],
+    "choices": ["Malicious code injection", "Wireless jamming", "Amplified DDoS", "Logic bomb"],
+    "correct": 0,
+    "explanation": "Malicious code refers to any unauthorized code introduced to compromise or manipulate a system's operation."
+  }
+]

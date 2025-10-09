@@ -9,7 +9,23 @@ def fetch_questions():
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
     random.Random().shuffle(data)
+    
+    for question in data: 
+        choices = question['choices']
+        print(choices)
+        ans_index = question['correct']
+        ans = choices[ans_index]
+        random.Random().shuffle(question['choices'])
+        print(choices)
+        question['choices'] = choices
+        
+        for index, choice in enumerate(choices):
+            if (choice == ans):
+                question['correct'] = index
+                print (question['correct'])
+
     return data
+
 
 def hr(char="-"):
     width = shutil.get_terminal_size(fallback=(80, 24)).columns

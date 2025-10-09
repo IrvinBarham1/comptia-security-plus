@@ -1,0 +1,92 @@
+[
+  {
+    "id": "SC1",
+    "domain": "segmentation",
+    "question": "A security engineer creates VLANs that separate user devices from database servers. Which control principle is being applied?",
+    "examples": ["VLANs", "Subnets", "Firewall zones"],
+    "choices": ["Segmentation", "Encryption", "Least privilege", "Monitoring"],
+    "correct": 0,
+    "explanation": "Segmentation divides networks into smaller zones to limit lateral movement and reduce attack surfaces."
+  },
+  {
+    "id": "AC1",
+    "domain": "access-control",
+    "question": "A firewall rule allows only the HR subnet to reach the payroll application over HTTPS. Which mechanism enforces this policy?",
+    "examples": ["Firewall ACLs", "Access filters"],
+    "choices": ["Access control list (ACL)", "Application allow list", "Patching", "Isolation"],
+    "correct": 0,
+    "explanation": "ACLs define which hosts or networks can communicate with specific resources, enforcing access control."
+  },
+  {
+    "id": "AL1",
+    "domain": "application-allow-list",
+    "question": "Endpoint security software permits execution only of signed corporate applications. What is this control called?",
+    "examples": ["AppLocker", "Whitelisting"],
+    "choices": ["Application allow list", "Permissions", "Monitoring", "Encryption"],
+    "correct": 0,
+    "explanation": "An application allow list restricts systems to approved, trusted software, preventing unauthorized code execution."
+  },
+  {
+    "id": "IS1",
+    "domain": "isolation",
+    "question": "A legacy database is moved to an offline virtual machine that only administrators can access. Which control principle is demonstrated?",
+    "examples": ["Sandboxing", "Air gapping"],
+    "choices": ["Isolation", "Segmentation", "Least privilege", "Monitoring"],
+    "correct": 0,
+    "explanation": "Isolation keeps sensitive systems separated from the rest of the environment to prevent compromise or data leakage."
+  },
+  {
+    "id": "PT1",
+    "domain": "patching",
+    "question": "Administrators apply monthly OS updates across all servers to mitigate known vulnerabilities. Which security control is being implemented?",
+    "examples": ["Patch management", "Update schedules"],
+    "choices": ["Patching", "Encryption", "Configuration enforcement", "Monitoring"],
+    "correct": 0,
+    "explanation": "Patching keeps systems up to date, addressing software vulnerabilities before they can be exploited."
+  },
+  {
+    "id": "EN1",
+    "domain": "encryption",
+    "question": "All corporate laptops use full-disk encryption to protect data at rest. What security control does this represent?",
+    "examples": ["BitLocker", "FileVault"],
+    "choices": ["Encryption", "Segmentation", "Least privilege", "Patching"],
+    "correct": 0,
+    "explanation": "Encryption protects the confidentiality of data by making it unreadable without the proper decryption key."
+  },
+  {
+    "id": "MO1",
+    "domain": "monitoring",
+    "question": "A SIEM correlates firewall and endpoint logs to detect suspicious behavior. Which control function does this fulfill?",
+    "examples": ["Alerting", "Log aggregation"],
+    "choices": ["Monitoring", "Patching", "Encryption", "Segmentation"],
+    "correct": 0,
+    "explanation": "Monitoring provides visibility into events and alerts analysts to potential incidents."
+  },
+  {
+    "id": "LP1",
+    "domain": "least-privilege",
+    "question": "Help desk employees can reset passwords but cannot create new admin accounts. Which principle is applied?",
+    "examples": ["RBAC", "Access restrictions"],
+    "choices": ["Least privilege", "Segmentation", "Decommissioning", "Monitoring"],
+    "correct": 0,
+    "explanation": "Least privilege limits user's rights to only what's necessary for their roles."
+  },
+  {
+    "id": "CE1",
+    "domain": "configuration-enforcement",
+    "question": "A cloud platform automatically reverts unauthorized changes to match the approved baseline. Which control type is this?",
+    "examples": ["Baseline enforcement", "Auto-remediation"],
+    "choices": ["Configuration enforcement", "Patching", "Encryption", "Monitoring"],
+    "correct": 0,
+    "explanation": "Configuration enforcement maintains system integrity by ensuring compliance with security baselines."
+  },
+  {
+    "id": "DC1",
+    "domain": "decommissioning",
+    "question": "Before retiring old laptops, the IT team securely wipes all drives and removes them from inventory. Which control is demonstrated?",
+    "examples": ["Data destruction", "Asset retirement"],
+    "choices": ["Decommissioning", "Patching", "Monitoring", "Isolation"],
+    "correct": 0,
+    "explanation": "Decommissioning securely removes systems and data from service to prevent unauthorized recovery or use."
+  }
+]

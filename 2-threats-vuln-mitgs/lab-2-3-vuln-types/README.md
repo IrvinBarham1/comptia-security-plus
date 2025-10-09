@@ -73,7 +73,6 @@ Hands-on exercises reinforce how vulnerabilities appear and are mitigated:
     ![alt text](image-1.png)
     - Step 3: Perform Fuzzing to see how many bytes needed for crash
         ```bash
-        ... 
         >>> Fuzzing Attempt Recieved:  b'Welcome to Vulnerable Server! Enter HELP for help.\n'
         >>> 2000
         >>> Fuzzing Attempt Recieved:  b'Welcome to Vulnerable Server! Enter HELP for help.\n'
@@ -85,13 +84,10 @@ Hands-on exercises reinforce how vulnerabilities appear and are mitigated:
 2. **Race Condition (TOC/TOU) Example**  
    Demonstrate concurrent access flaws using multithreaded file writes.
 
-3. **SQLi & XSS Scenarios**  
-   Show how unvalidated input impacts web apps (using safe, local examples).
-
-4. **Cryptographic Vulnerability Test**  
+3. **Cryptographic Vulnerability Test**  
    Compare strong vs. weak algorithms (e.g., AES-256 vs. DES) and visualize brute-force times.
 
-5. **Misconfiguration Audit**  
+4. **Misconfiguration Audit**  
    Run a simple Python script that scans for open ports or default credentials on localhost.
 
 ---

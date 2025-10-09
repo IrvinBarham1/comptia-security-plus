@@ -1,0 +1,65 @@
+[
+  {
+    "id": "HT1",
+    "domain": "hardening",
+    "question": "A system administrator enables full-disk encryption on all company laptops to protect sensitive data in case of theft. Which hardening technique is being used?",
+    "examples": ["BitLocker", "FileVault"],
+    "choices": ["Encryption", "Host-based firewall", "HIPS", "Default password change"],
+    "correct": 0,
+    "explanation": "Encryption protects data confidentiality by making files unreadable without the correct decryption key."
+  },
+  {
+    "id": "HT2",
+    "domain": "hardening",
+    "question": "A cybersecurity team deploys antivirus and EDR software across all endpoints to identify and remove malicious files. What hardening method is this?",
+    "examples": ["Antivirus", "Endpoint detection and response"],
+    "choices": ["Installation of endpoint protection", "Host-based firewall", "Disabling ports", "Encryption"],
+    "correct": 0,
+    "explanation": "Endpoint protection detects, prevents, and remediates malware on host devices."
+  },
+  {
+    "id": "HT3",
+    "domain": "hardening",
+    "question": "A server administrator configures Windows Defender Firewall to allow only required inbound ports. Which control is implemented?",
+    "examples": ["Windows Firewall", "IPTables"],
+    "choices": ["Host-based firewall", "HIPS", "Endpoint protection", "Encryption"],
+    "correct": 0,
+    "explanation": "A host-based firewall filters inbound and outbound connections directly on the device to block unauthorized network traffic."
+  },
+  {
+    "id": "HT4",
+    "domain": "hardening",
+    "question": "A security engineer enables software that analyzes running processes and prevents suspicious behavior such as unauthorized code injection. Which technology provides this protection?",
+    "examples": ["Behavioral monitoring", "Kernel-level protection"],
+    "choices": ["Host-based intrusion prevention system (HIPS)", "Host-based firewall", "Endpoint protection", "Default password change"],
+    "correct": 0,
+    "explanation": "HIPS actively monitors and blocks suspicious activity on hosts to prevent exploitation attempts."
+  },
+  {
+    "id": "HT5",
+    "domain": "hardening",
+    "question": "A Linux administrator disables unused network services such as Telnet and FTP on production servers. What hardening step is being performed?",
+    "examples": ["Service management", "Protocol hardening"],
+    "choices": ["Disabling ports/protocols", "Default password change", "Host-based firewall", "HIPS"],
+    "correct": 0,
+    "explanation": "Disabling unnecessary ports and protocols reduces the attack surface by eliminating potential entry points."
+  },
+  {
+    "id": "HT6",
+    "domain": "hardening",
+    "question": "A network device ships with admin/admin as the login credentials, which the administrator immediately changes during setup. What is this best practice called?",
+    "examples": ["Default password update", "Credential policy"],
+    "choices": ["Default password change", "Disabling ports/protocols", "Encryption", "Endpoint protection"],
+    "correct": 0,
+    "explanation": "Changing default passwords prevents unauthorized access using publicly known credentials."
+  },
+  {
+    "id": "HT7",
+    "domain": "hardening",
+    "question": "An organization removes pre-installed trial applications and unneeded tools from all workstations before deployment. What hardening method is being demonstrated?",
+    "examples": ["Image baselining", "System cleanup"],
+    "choices": ["Removal of unnecessary software", "Disabling ports/protocols", "Encryption", "HIPS"],
+    "correct": 0,
+    "explanation": "Removing unnecessary software reduces vulnerabilities and minimizes attack surface exposure."
+  }
+]

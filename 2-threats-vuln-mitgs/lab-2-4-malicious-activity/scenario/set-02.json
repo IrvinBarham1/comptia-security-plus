@@ -1,0 +1,182 @@
+[
+  {
+    "id": "APP1",
+    "domain": "application-attacks",
+    "question": "A web form allows user input that is directly inserted into a SQL statement without validation, allowing attackers to extract or modify database content. Which application attack is being exploited?",
+    "examples": ["SELECT * FROM users WHERE name = '' OR '1'='1'"],
+    "choices": ["Injection", "Buffer overflow", "Replay", "Directory traversal"],
+    "correct": 0,
+    "explanation": "Injection attacks occur when unvalidated user input is sent directly to an interpreter, allowing execution of unintended commands such as SQL queries."
+  },
+  {
+    "id": "APP2",
+    "domain": "application-attacks",
+    "question": "A vulnerable application fails to check input size before copying data into a fixed-length buffer, allowing arbitrary code to overwrite system memory. What type of vulnerability does this illustrate?",
+    "examples": ["Stack corruption", "Return pointer overwrite"],
+    "choices": ["Replay attack", "Buffer overflow", "Privilege escalation", "Forgery"],
+    "correct": 1,
+    "explanation": "Buffer overflows occur when input exceeds the allocated memory buffer, potentially allowing execution of arbitrary code."
+  },
+  {
+    "id": "APP3",
+    "domain": "application-attacks",
+    "question": "An attacker captures an authentication token during transmission and reuses it later to gain access to the same session. Which attack is being performed?",
+    "examples": ["Session hijacking", "Captured cookie reuse"],
+    "choices": ["Injection", "Privilege escalation", "Replay attack", "Buffer overflow"],
+    "correct": 2,
+    "explanation": "Replay attacks involve intercepting and retransmitting valid credentials or session tokens to impersonate a legitimate user."
+  },
+  {
+    "id": "APP4",
+    "domain": "application-attacks",
+    "question": "An attacker exploits a misconfigured application service to run commands with SYSTEM-level privileges instead of the user's limited permissions. Which type of attack occurred?",
+    "examples": ["Local privilege escalation", "Unpatched service flaw"],
+    "choices": ["Privilege escalation", "Directory traversal", "Replay", "Injection"],
+    "correct": 0,
+    "explanation": "Privilege escalation occurs when attackers exploit flaws to gain higher-level permissions than intended, such as admin or root access."
+  },
+  {
+    "id": "APP5",
+    "domain": "application-attacks",
+    "question": "An attacker crafts a digital token that tricks an application into accepting it as valid, allowing unauthorized actions. What attack is this?",
+    "examples": ["JWT tampering", "Cookie signing bypass"],
+    "choices": ["Privilege escalation", "Forgery", "Injection", "Replay"],
+    "correct": 1,
+    "explanation": "Forgery attacks exploit weak validation or signing mechanisms to create or modify tokens that grant unauthorized access."
+  },
+  {
+    "id": "APP6",
+    "domain": "application-attacks",
+    "question": "A web server incorrectly handles relative paths, allowing users to request '../../etc/passwd' and view restricted files. Which vulnerability is present?",
+    "examples": ["Path traversal", "Unauthorized file read"],
+    "choices": ["Directory traversal", "Privilege escalation", "Buffer overflow", "Injection"],
+    "correct": 0,
+    "explanation": "Directory traversal attacks manipulate file paths to access files or directories outside the intended web root."
+  },
+  {
+    "id": "CRY1",
+    "domain": "cryptographic-attacks",
+    "question": "An attacker forces a web server to negotiate TLS 1.0 instead of TLS 1.3, exposing weaker cipher suites. Which cryptographic attack is being attempted?",
+    "examples": ["SSL downgrade", "Forced weak cipher"],
+    "choices": ["Downgrade attack", "Collision attack", "Replay attack", "Birthday attack"],
+    "correct": 0,
+    "explanation": "Downgrade attacks trick systems into using older, less secure versions of protocols or algorithms."
+  },
+  {
+    "id": "CRY2",
+    "domain": "cryptographic-attacks",
+    "question": "Two different files generate the same hash output due to weaknesses in the hashing algorithm. What vulnerability is this?",
+    "examples": ["Hash collision", "Duplicate digest"],
+    "choices": ["Collision attack", "Birthday attack", "Downgrade", "Replay"],
+    "correct": 0,
+    "explanation": "Collision attacks exploit weaknesses in hashing algorithms to find two inputs that produce the same hash."
+  },
+  {
+    "id": "CRY3",
+    "domain": "cryptographic-attacks",
+    "question": "An attacker uses probabilistic math to find two messages that share the same hash faster than brute-force search would allow. What cryptographic principle is being exploited?",
+    "examples": ["Hash output probability", "Mathematical birthday paradox"],
+    "choices": ["Downgrade", "Birthday attack", "Collision attack", "Replay"],
+    "correct": 1,
+    "explanation": "The birthday attack uses probability theory to find hash collisions faster by exploiting the birthday paradox."
+  },
+  {
+    "id": "PWD1",
+    "domain": "password-attacks",
+    "question": "An attacker attempts to log in to hundreds of accounts using the same common password like 'Spring2025!' across multiple usernames. What password attack is this?",
+    "examples": ["Mass login attempts with same password"],
+    "choices": ["Brute-force", "Spraying", "Credential stuffing", "Replay"],
+    "correct": 1,
+    "explanation": "Password spraying tries one or few common passwords across many accounts to avoid lockouts and detection."
+  },
+  {
+    "id": "PWD2",
+    "domain": "password-attacks",
+    "question": "An attacker systematically tries every possible combination of characters until the correct password is found. Which type of password attack is this?",
+    "examples": ["Offline password cracking", "Exhaustive keyspace search"],
+    "choices": ["Spraying", "Dictionary attack", "Brute-force", "Replay"],
+    "correct": 2,
+    "explanation": "Brute-force attacks try all possible password combinations until a match is found."
+  },
+  {
+    "id": "IND1",
+    "domain": "indicators",
+    "question": "A user account becomes temporarily disabled after five failed login attempts. What is this an indicator of?",
+    "examples": ["Repeated failed authentication attempts"],
+    "choices": ["Concurrent session usage", "Account lockout", "Out-of-cycle logging", "Impossible travel"],
+    "correct": 1,
+    "explanation": "Account lockouts often indicate password-guessing or brute-force attempts."
+  },
+  {
+    "id": "IND2",
+    "domain": "indicators",
+    "question": "Security monitoring shows a single user account active from two countries at the same time. Which indicator of compromise does this represent?",
+    "examples": ["Simultaneous logins from different regions"],
+    "choices": ["Blocked content", "Impossible travel", "Resource consumption", "Concurrent session usage"],
+    "correct": 3,
+    "explanation": "Concurrent session usage shows multiple simultaneous sessions for one account, suggesting compromise or credential sharing."
+  },
+  {
+    "id": "IND3",
+    "domain": "indicators",
+    "question": "A security analyst observes a login attempt from New York followed by another from Singapore five minutes later. Which type of indicator is this?",
+    "examples": ["Geo-velocity anomaly", "Improbable travel detection"],
+    "choices": ["Impossible travel", "Concurrent session usage", "Blocked content", "Missing logs"],
+    "correct": 0,
+    "explanation": "Impossible travel occurs when login locations are geographically too far apart to be legitimate, indicating stolen credentials."
+  },
+  {
+    "id": "IND4",
+    "domain": "indicators",
+    "question": "A user reports that access to internal collaboration tools is suddenly denied while all others remain functional. This is an example of which type of indicator?",
+    "examples": ["Access control restriction", "Content filter"],
+    "choices": ["Blocked content", "Resource inaccessibility", "Resource consumption", "Account lockout"],
+    "correct": 0,
+    "explanation": "Blocked content occurs when specific services or URLs are intentionally or maliciously restricted, signaling possible policy or attack-related blocking."
+  },
+  {
+    "id": "IND5",
+    "domain": "indicators",
+    "question": "Monitoring tools show that a compromised process is consuming nearly 100% of CPU resources, affecting normal operations. What indicator is this?",
+    "examples": ["Abnormal resource use", "CPU overload"],
+    "choices": ["Resource inaccessibility", "Resource consumption", "Missing logs", "Blocked content"],
+    "correct": 1,
+    "explanation": "Abnormally high CPU or memory usage indicates resource consumption, often from malware or DDoS activity."
+  },
+  {
+    "id": "IND6",
+    "domain": "indicators",
+    "question": "A network file share becomes unavailable because ransomware encrypted all shared drives. Which indicator is evident here?",
+    "examples": ["Unavailable drives", "Denied access to files"],
+    "choices": ["Resource inaccessibility", "Resource consumption", "Blocked content", "Out-of-cycle logging"],
+    "correct": 0,
+    "explanation": "Resource inaccessibility refers to legitimate resources being unavailable due to encryption, deletion, or denial-of-service attacks."
+  },
+  {
+    "id": "IND7",
+    "domain": "indicators",
+    "question": "A system generates logs at irregular times and includes events that fall outside the normal operating window. Which type of anomaly does this represent?",
+    "examples": ["Unexpected timestamp activity", "Unscheduled events"],
+    "choices": ["Out-of-cycle logging", "Missing logs", "Published indicators", "Concurrent session usage"],
+    "correct": 0,
+    "explanation": "Out-of-cycle logging occurs when logs appear at unusual times, indicating possible tampering, automation, or after-hours activity."
+  },
+  {
+    "id": "IND8",
+    "domain": "indicators",
+    "question": "A forensic review finds gaps in a web server's logs during the exact timeframe of a suspected intrusion. What indicator does this most likely represent?",
+    "examples": ["Missing timestamps", "Deleted log entries"],
+    "choices": ["Missing logs", "Out-of-cycle logging", "Blocked content", "Concurrent session usage"],
+    "correct": 0,
+    "explanation": "Missing logs can indicate log tampering or attacker efforts to hide their activities."
+  },
+  {
+    "id": "IND9",
+    "domain": "indicators",
+    "question": "Security teams reference shared intelligence feeds that list known malicious domains and IP addresses. What are these data sources called?",
+    "examples": ["Threat intelligence feeds", "IOC repositories"],
+    "choices": ["Published/documented indicators", "Out-of-cycle logs", "Missing logs", "Resource inaccessibility"],
+    "correct": 0,
+    "explanation": "Published or documented indicators are threat intelligence entries that describe known malicious artifacts or behaviors."
+  }
+]

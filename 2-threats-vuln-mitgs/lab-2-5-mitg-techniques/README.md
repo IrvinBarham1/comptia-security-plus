@@ -58,3 +58,10 @@ These MCQs test your ability to identify and apply mitigation techniques in real
 
 1. **Review the MCQ sets** under `scenarios/`.  
    Each question targets a specific mitigation
+   
+## ▶️ How to Run
+
+**Python:**
+```bash
+cd lab-2-5-mitg-techniques/python
+py lab.py

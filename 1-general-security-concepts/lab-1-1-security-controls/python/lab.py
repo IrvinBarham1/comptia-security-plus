@@ -12,17 +12,14 @@ def fetch_questions():
     
     for question in data: 
         choices = question['choices']
-        print(choices)
         ans_index = question['correct']
         ans = choices[ans_index]
         random.Random().shuffle(question['choices'])
-        print(choices)
         question['choices'] = choices
         
         for index, choice in enumerate(choices):
             if (choice == ans):
                 question['correct'] = index
-                print (question['correct'])
 
     return data
 

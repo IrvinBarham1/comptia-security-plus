@@ -34,10 +34,10 @@ def user_answer(question):
     user_input = input("Your answer: ").strip()
     choices = question['choices']
     if (user_input == choices[question['correct']]):
-        print(f"✅ Correct. Examples: {question['examples']}")
+        print(f"✅ Correct, {question['explanation']} Examples: {question['examples']}")
         return 1 
     else :
-        print(f"❌ Incorrect. Correct: {choices[question['correct']]} Examples: {question['examples']}")
+        print(f"❌ Incorrect. Correct: {choices[question['correct']]}, {question['explanation']} Examples: {question['examples']}")
         return 0
 
 

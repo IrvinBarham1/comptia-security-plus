@@ -1,0 +1,110 @@
+[
+  {
+    "id": "AIC19",
+    "domain": "architecture-considerations",
+    "question": "Which design principle focuses on ensuring systems remain operational and accessible when needed?",
+    "examples": ["Redundant power supplies", "Failover clusters"],
+    "choices": ["Availability", "Resilience", "Scalability", "Ease of recovery"],
+    "correct": 0,
+    "explanation": "Availability ensures information and services are accessible to authorized users whenever required."
+  },
+  {
+    "id": "AIC20",
+    "domain": "architecture-considerations",
+    "question": "Which characteristic measures a system’s ability to continue functioning after a disruption through redundancy and self-healing mechanisms?",
+    "examples": ["Load balancing", "Automated failover"],
+    "choices": ["Resilience", "Availability", "Ease of deployment", "Responsiveness"],
+    "correct": 0,
+    "explanation": "Resilience refers to a system’s ability to absorb disturbances and continue operating with minimal impact."
+  },
+  {
+    "id": "AIC21",
+    "domain": "architecture-considerations",
+    "question": "Which factor evaluates the financial impact of implementing and maintaining an infrastructure solution?",
+    "examples": ["Hardware pricing", "Operational expenses"],
+    "choices": ["Cost", "Scalability", "Power", "Risk transference"],
+    "correct": 0,
+    "explanation": "Cost considers both capital and operational expenses associated with implementing a security or infrastructure solution."
+  },
+  {
+    "id": "AIC22",
+    "domain": "architecture-considerations",
+    "question": "Which infrastructure attribute refers to how quickly a system can respond to requests or process data under load?",
+    "examples": ["Network latency", "Application response time"],
+    "choices": ["Responsiveness", "Availability", "Ease of deployment", "Resilience"],
+    "correct": 0,
+    "explanation": "Responsiveness measures how efficiently a system handles tasks or user input, affecting overall performance."
+  },
+  {
+    "id": "AIC23",
+    "domain": "architecture-considerations",
+    "question": "Which principle describes the ability of an environment to increase or decrease resources based on workload demand?",
+    "examples": ["Auto-scaling", "Elastic compute resources"],
+    "choices": ["Scalability", "Availability", "Cost", "Compute"],
+    "correct": 0,
+    "explanation": "Scalability enables a system to adapt to changing workloads by adding or removing resources."
+  },
+  {
+    "id": "AIC24",
+    "domain": "architecture-considerations",
+    "question": "Which factor refers to how easily a new service or infrastructure component can be implemented within an environment?",
+    "examples": ["Automation templates", "Containerized deployment"],
+    "choices": ["Ease of deployment", "Ease of recovery", "Scalability", "Responsiveness"],
+    "correct": 0,
+    "explanation": "Ease of deployment measures how quickly and consistently systems can be rolled out using automation or templates."
+  },
+  {
+    "id": "AIC25",
+    "domain": "architecture-considerations",
+    "question": "Which concept involves shifting the potential consequences of risk to a third party, such as through insurance or outsourcing?",
+    "examples": ["Cyber liability coverage", "Cloud service provider contracts"],
+    "choices": ["Risk transference", "Risk avoidance", "Cost efficiency", "Resilience"],
+    "correct": 0,
+    "explanation": "Risk transference moves the impact of a potential risk to another entity, typically through insurance or service agreements."
+  },
+  {
+    "id": "AIC26",
+    "domain": "architecture-considerations",
+    "question": "Which principle focuses on how quickly and effectively systems can be restored to a functional state after an outage or incident?",
+    "examples": ["Backup restoration", "Disaster recovery plan"],
+    "choices": ["Ease of recovery", "Availability", "Resilience", "Scalability"],
+    "correct": 0,
+    "explanation": "Ease of recovery measures how efficiently an organization can restore operations following a disruption."
+  },
+  {
+    "id": "AIC27",
+    "domain": "architecture-considerations",
+    "question": "Which consideration evaluates whether vendor updates and security patches are released and available in a timely manner?",
+    "examples": ["Patch release schedules", "Vendor support policies"],
+    "choices": ["Patch availability", "Ease of deployment", "Cost", "Responsiveness"],
+    "correct": 0,
+    "explanation": "Patch availability refers to the timely release of updates that address vulnerabilities or performance issues."
+  },
+  {
+    "id": "AIC28",
+    "domain": "architecture-considerations",
+    "question": "Which risk arises when critical systems or software cannot receive updates due to vendor discontinuation or legacy dependencies?",
+    "examples": ["Unsupported operating systems", "End-of-life hardware"],
+    "choices": ["Inability to patch", "Resilience", "Patch availability", "Risk transference"],
+    "correct": 0,
+    "explanation": "Inability to patch occurs when systems cannot be updated, increasing exposure to known vulnerabilities."
+  },
+  {
+    "id": "AIC29",
+    "domain": "architecture-considerations",
+    "question": "Which infrastructure consideration refers to the availability and reliability of electrical energy required to sustain system operation?",
+    "examples": ["UPS", "Backup generators"],
+    "choices": ["Power", "Compute", "Availability", "Resilience"],
+    "correct": 0,
+    "explanation": "Power considerations include ensuring reliable electricity and redundancy to prevent outages and downtime."
+  },
+  {
+    "id": "AIC30",
+    "domain": "architecture-considerations",
+    "question": "Which resource type determines the processing capacity and performance of an infrastructure environment?",
+    "examples": ["CPU allocation", "Virtual machine resources"],
+    "choices": ["Compute", "Power", "Scalability", "Cost"],
+    "correct": 0,
+    "explanation": "Compute refers to the processing capability—such as CPU and memory—available to handle workloads and applications."
+  }
+]

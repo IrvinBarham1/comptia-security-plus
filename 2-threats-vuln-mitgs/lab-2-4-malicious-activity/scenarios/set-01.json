@@ -81,6 +81,15 @@
     "explanation": "Rootkits provide persistent, stealthy access by embedding themselves in the OS kernel or boot process."
   },
   {
+  "id": "MAL10",
+  "domain": "malware",
+  "question": "A security analyst discovers that an attacker executed malicious PowerShell commands directly in memory without writing any files to disk. Which type of malware does this describe?",
+  "examples": ["PowerShell exploitation", "Memory-resident malware"],
+  "choices": ["Fileless malware", "Trojan", "Rootkit", "Worm"],
+  "correct": 0,
+  "explanation": "Fileless malware operates entirely in system memory using legitimate tools like PowerShell or WMI, leaving minimal traces on disk and evading traditional antivirus detection."
+  },
+  {
     "id": "PHY1",
     "domain": "physical",
     "question": "An attacker repeatedly guesses different PIN combinations on a door's access keypad until it unlocks. What type of attack does this illustrate?",

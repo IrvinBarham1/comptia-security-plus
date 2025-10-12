@@ -1,0 +1,164 @@
+[
+  {
+    "id": "AIC1",
+    "domain": "architecture",
+    "question": "In a cloud computing environment, which document defines the shared security responsibilities between the customer and the provider?",
+    "examples": ["Division of security duties in cloud"],
+    "choices": ["Responsibility matrix", "Service-level agreement", "Acceptable use policy", "Data classification policy"],
+    "correct": 0,
+    "explanation": "A responsibility matrix outlines which security controls are handled by the cloud provider and which are the customer's responsibility."
+  },
+  {
+    "id": "AIC2",
+    "domain": "architecture",
+    "question": "Which cloud deployment model integrates both on-premises and public cloud resources for scalability and flexibility?",
+    "examples": ["Mixed private and public cloud use"],
+    "choices": ["Hybrid cloud", "Community cloud", "Private cloud", "Public cloud"],
+    "correct": 0,
+    "explanation": "Hybrid cloud combines on-premises infrastructure with public cloud services to balance control and scalability."
+  },
+  {
+    "id": "AIC3",
+    "domain": "architecture",
+    "question": "When an organization outsources IT infrastructure maintenance to another company under contract, which type of relationship is this?",
+    "examples": ["Outsourced infrastructure support"],
+    "choices": ["Third-party vendor", "Managed service provider", "Partner agreement", "Cloud tenant"],
+    "correct": 0,
+    "explanation": "Third-party vendors provide external services under defined contracts or SLAs, often requiring strong access and data controls."
+  },
+  {
+    "id": "AIC4",
+    "domain": "architecture",
+    "question": "Which DevOps concept allows entire environments to be created, configured, and destroyed through code instead of manual setup?",
+    "examples": ["Automated environment provisioning"],
+    "choices": ["Infrastructure as Code (IaC)", "Continuous monitoring", "Containerization", "Virtualization"],
+    "correct": 0,
+    "explanation": "Infrastructure as Code (IaC) defines and manages infrastructure through automated scripts, ensuring consistency and repeatability."
+  },
+  {
+    "id": "AIC5",
+    "domain": "architecture",
+    "question": "Which compute model runs application functions in the cloud without maintaining dedicated servers?",
+    "examples": ["Cloud functions", "Event-driven computing"],
+    "choices": ["Serverless", "Virtualized", "Containerized", "Hybrid"],
+    "correct": 0,
+    "explanation": "Serverless architecture allows developers to deploy code that executes on demand, without managing underlying servers."
+  },
+  {
+    "id": "AIC6",
+    "domain": "architecture",
+    "question": "Which architectural design divides applications into independent, lightweight components that communicate via APIs?",
+    "examples": ["API-driven modular services"],
+    "choices": ["Microservices", "Serverless", "Monolithic", "Virtual machines"],
+    "correct": 0,
+    "explanation": "Microservices architecture breaks applications into independent services for better scalability and isolation."
+  },
+  {
+    "id": "AIC7",
+    "domain": "architecture",
+    "question": "What type of network isolation relies on physically separate hardware to prevent external connectivity?",
+    "examples": ["No shared cabling or hardware"],
+    "choices": ["Air-gapped network", "Logical segmentation", "VLAN", "Software-defined network"],
+    "correct": 0,
+    "explanation": "Air-gapped systems are physically isolated with no external network connections, commonly used in high-security environments."
+  },
+  {
+    "id": "AIC8",
+    "domain": "architecture",
+    "question": "Separating departments into different VLANs within the same switch is an example of which type of network segmentation?",
+    "examples": ["Virtual segmentation within hardware"],
+    "choices": ["Logical segmentation", "Physical isolation", "Air-gapped", "Centralized network"],
+    "correct": 0,
+    "explanation": "Logical segmentation isolates traffic using virtual networks (VLANs) within the same physical infrastructure."
+  },
+  {
+    "id": "AIC9",
+    "domain": "architecture",
+    "question": "Which networking model uses programmable controllers to centrally manage and automate network behavior?",
+    "examples": ["Centralized network control", "Programmable routing"],
+    "choices": ["Software-defined networking (SDN)", "Logical segmentation", "Mesh networking", "Virtual LAN"],
+    "correct": 0,
+    "explanation": "Software-defined networking (SDN) separates control and data planes, allowing centralized management of network behavior through software."
+  },
+  {
+    "id": "AIC10",
+    "domain": "architecture",
+    "question": "What term describes hosting and managing IT infrastructure completely within the organization’s physical facility?",
+    "examples": ["Company-owned data center"],
+    "choices": ["On-premises", "Hybrid", "Cloud-hosted", "Co-located"],
+    "correct": 0,
+    "explanation": "On-premises environments are hosted and maintained within the organization’s own facilities, offering full control."
+  },
+  {
+    "id": "AIC11",
+    "domain": "architecture",
+    "question": "In which network design are resources and data managed from one central location rather than distributed across multiple sites?",
+    "examples": ["Single control point for data"],
+    "choices": ["Centralized architecture", "Decentralized architecture", "Hybrid topology", "Peer-to-peer network"],
+    "correct": 0,
+    "explanation": "Centralized architectures consolidate data and management to a single location for easier control and security enforcement."
+  },
+  {
+    "id": "AIC12",
+    "domain": "architecture",
+    "question": "Which technology allows applications to run in isolated user-space environments sharing the same OS kernel?",
+    "examples": ["Docker", "Kubernetes"],
+    "choices": ["Containerization", "Virtualization", "Microservices", "Serverless"],
+    "correct": 0,
+    "explanation": "Containerization isolates applications using OS-level virtualization, allowing lightweight and portable deployments."
+  },
+  {
+    "id": "AIC13",
+    "domain": "architecture",
+    "question": "Which technology allows multiple operating systems to run simultaneously on the same physical hardware using a hypervisor?",
+    "examples": ["VMware", "Hyper-V"],
+    "choices": ["Virtualization", "Containerization", "Microservices", "Serverless"],
+    "correct": 0,
+    "explanation": "Virtualization uses a hypervisor to create and manage multiple virtual machines on one physical host."
+  },
+  {
+    "id": "AIC14",
+    "domain": "architecture",
+    "question": "Which type of device connects to a network and operates with minimal human interaction, often part of smart or connected environments?",
+    "examples": ["Smart thermostat", "Industrial sensor"],
+    "choices": ["IoT device", "Server", "Container", "Hypervisor"],
+    "correct": 0,
+    "explanation": "Internet of Things (IoT) devices are network-connected sensors or appliances that collect and exchange data automatically."
+  },
+  {
+    "id": "AIC15",
+    "domain": "architecture",
+    "question": "Which system manages and monitors industrial equipment such as power grids, pipelines, or manufacturing machinery?",
+    "examples": ["Industrial automation", "Critical infrastructure control"],
+    "choices": ["ICS/SCADA", "IoT", "RTOS", "Embedded system"],
+    "correct": 0,
+    "explanation": "Industrial Control Systems (ICS) and SCADA monitor and control critical infrastructure processes in real time."
+  },
+  {
+    "id": "AIC16",
+    "domain": "architecture",
+    "question": "Which operating system is designed to process data immediately without buffering delays, often used in embedded or industrial systems?",
+    "examples": ["Automotive ECU", "Factory robotics"],
+    "choices": ["Real-time operating system (RTOS)", "Linux", "Windows IoT", "Embedded firmware"],
+    "correct": 0,
+    "explanation": "RTOS ensures time-sensitive operations are executed with minimal delay, crucial in industrial or embedded systems."
+  },
+  {
+    "id": "AIC17",
+    "domain": "architecture",
+    "question": "Which type of system is built into hardware devices and performs dedicated functions such as managing sensors or controlling equipment?",
+    "examples": ["Smart appliances", "Network routers"],
+    "choices": ["Embedded system", "IoT device", "Virtualized system", "Microservice"],
+    "correct": 0,
+    "explanation": "Embedded systems are specialized computing components integrated into hardware to perform specific functions."
+  },
+  {
+    "id": "AIC18",
+    "domain": "architecture",
+    "question": "Which design goal ensures continuous operation and minimal downtime through redundancy and failover?",
+    "examples": ["Load balancing", "Failover clustering"],
+    "choices": ["High availability", "Fault tolerance", "Elasticity", "Virtualization"],
+    "correct": 0,
+    "explanation": "High availability ensures systems remain accessible during failures through redundancy and failover mechanisms."
+  }
+]

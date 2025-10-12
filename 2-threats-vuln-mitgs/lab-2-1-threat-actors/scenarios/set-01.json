@@ -106,5 +106,23 @@
     "choices": ["External / Well-funded / Moderate sophistication", "Internal / Limited resources", "External / Minimal capability", "Internal / Highly funded"],
     "correct": 0,
     "explanation": "The group operates **externally**, has **moderate funding**, and demonstrates **organized, scalable capability** typical of cybercrime operations."
+  },
+  {
+    "id": "ATTR7",
+    "domain": "threat-actors",
+    "question": "A cyber threat group develops and deploys its own zero-day exploits and custom malware across multiple platforms. Which attribute does this demonstrate?",
+    "examples": ["Custom exploit development", "Zero-day creation", "Advanced offensive toolsets"],
+    "choices": ["Capability", "Sophistication", "Motivation", "Resources"],
+    "correct": 0,
+    "explanation": "Capability refers to a threat actor's technical proficiency and ability to create or adapt new exploit techniques, tools, or malware — such as developing zero-day vulnerabilities."
+  },
+  {
+    "id": "ATTR8",
+    "domain": "threat-actors",
+    "question": "An organized crime group executes attacks using stealthy command-and-control networks, multi-stage payloads, and polymorphic code to evade detection. Which threat actor attribute is illustrated?",
+    "examples": ["Layered evasion", "Polymorphic malware", "Multi-stage delivery"],
+    "choices": ["Sophistication", "Capability", "Motivation", "Insider access"],
+    "correct": 0,
+    "explanation": "Sophistication describes the complexity, stealth, and advancement of a threat actor's tools and methods, such as using multi-stage attacks or polymorphic code to avoid detection."
   }
 ]

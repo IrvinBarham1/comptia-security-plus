@@ -61,5 +61,77 @@
     "choices": ["Removal of unnecessary software", "Disabling ports/protocols", "Encryption", "HIPS"],
     "correct": 0,
     "explanation": "Removing unnecessary software reduces vulnerabilities and minimizes attack surface exposure."
+  },
+  {
+    "id": "HT8",
+    "domain": "hardening",
+    "question": "Which of the following ports should be disabled or monitored to prevent unauthorized Voice over IP (VoIP) signaling, which can be an avenue for toll fraud or unauthorized call control?",
+    "examples": ["Image baselining", "System cleanup"],
+    "choices": ["Port 161", "Port 5060", "Port 139", "Port 110"],
+    "correct": 1,
+    "explanation": "Session Initiation Protocol (SIP), port 5060 is used for signaling in Voice over IP (VoIP) services."
+  },
+  {
+    "id": "HT9",
+    "domain": "hardening",
+    "question": "A security administrator disables UDP port 161 on all endpoints to prevent unauthorized system queries that could reveal configuration details. Which protocol does this mitigate?",
+    "examples": ["Network discovery prevention", "SNMP service restriction"],
+    "choices": ["Simple Network Management Protocol (SNMP)", "Server Message Block (SMB)", "Post Office Protocol version 3 (POP3)", "Telnet"],
+    "correct": 0,
+    "explanation": "Port 161 is used by SNMP for network management. Disabling it prevents attackers from gathering device or configuration information."
+  },
+  {
+    "id": "HT10",
+    "domain": "hardening",
+    "question": "An administrator blocks TCP port 139 to prevent network file sharing exploits and lateral movement within the LAN. Which service is being restricted?",
+    "examples": ["Windows network shares", "SMB enumeration"],
+    "choices": ["NetBIOS Session Service", "POP3", "Telnet", "SNMP"],
+    "correct": 0,
+    "explanation": "Port 139 is used for NetBIOS Session Service, a legacy Windows protocol for file and printer sharing that can expose systems to SMB-based attacks."
+  },
+  {
+    "id": "HT11",
+    "domain": "hardening",
+    "question": "An organization monitors TCP port 110 for suspicious activity because it’s used for retrieving unencrypted email messages. Which protocol operates on this port?",
+    "examples": ["Mail server communication", "Unencrypted POP connections"],
+    "choices": ["Post Office Protocol version 3 (POP3)", "IMAP", "SMTP", "HTTPS"],
+    "correct": 0,
+    "explanation": "POP3 operates on port 110 and retrieves emails from a server without encryption, making it a common target for credential interception."
+  },
+  {
+    "id": "HT12",
+    "domain": "hardening",
+    "question": "Which open service port is the default for Simple Mail Transfer Protocol (SMTP) and is used for sending email messages between mail servers?",
+    "examples": ["Mail transfer between servers"],
+    "choices": ["25", "110", "443", "143"],
+    "correct": 0,
+    "explanation": "Port 25 is the default for SMTP, which handles the transmission of email messages between mail servers."
+  },
+  {
+    "id": "HT13",
+    "domain": "hardening",
+    "question": "Which open service port is the default for Hypertext Transfer Protocol (HTTP) and is used for unencrypted web traffic?",
+    "examples": ["Standard web browsing", "HTTP communication"],
+    "choices": ["80", "443", "8080", "21"],
+    "correct": 0,
+    "explanation": "Port 80 is the default for HTTP, which supports unencrypted web traffic over the Internet."
+  },
+  {
+    "id": "HT14",
+    "domain": "hardening",
+    "question": "Which open service port is the default for Remote Desktop Protocol (RDP) and allows remote desktop access to Windows systems?",
+    "examples": ["Windows Remote Desktop access"],
+    "choices": ["3389", "5900", "22", "23"],
+    "correct": 0,
+    "explanation": "Port 3389 is the default for RDP, the protocol used for remote desktop access to Windows-based systems."
+  },
+  {
+    "id": "HT15",
+    "domain": "hardening",
+    "question": "Which open service port is the default for Secure Shell (SSH) and provides encrypted command-line access to remote systems?",
+    "examples": ["Secure terminal connection", "Encrypted remote management"],
+    "choices": ["22", "23", "25", "80"],
+    "correct": 0,
+    "explanation": "Port 22 is the default for SSH, which provides secure, encrypted command-line access across platforms."
   }
 ]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "PATCH2",
+    "domain": "vulnerability-remediation",
+    "question": "A security analyst applies vendor updates to address known vulnerabilities identified in recent scans. Which vulnerability management activity does this describe?",
+    "examples": ["Windows Update deployment", "Linux package patching"],
+    "choices": ["Patching", "Compensating control", "Segmentation", "Exception management"],
+    "correct": 0,
+    "explanation": "Patching mitigates vulnerabilities by applying vendor-issued updates that close known security gaps."
+  },
+  {
+    "id": "PATCH3",
+    "domain": "vulnerability-remediation",
+    "question": "A new patch introduces instability in a production application, so the organization delays its deployment. What is the best compensating strategy?",
+    "examples": ["Firewall rule modification", "Temporary patch deferral"],
+    "choices": ["Apply network segmentation and monitoring", "Disable all internet access", "Ignore the patch until next release", "Remove the application completely"],
+    "correct": 0,
+    "explanation": "When patches can’t be immediately applied, segmentation and increased monitoring can limit potential exploitation."
+  },
+  {
+    "id": "INS2",
+    "domain": "vulnerability-remediation",
+    "question": "A company decides to transfer the financial risk associated with potential data breaches to an external provider. What approach does this represent?",
+    "examples": ["Cybersecurity policy", "Risk transfer agreement"],
+    "choices": ["Cyber insurance", "Segmentation", "Patch management", "Audit control"],
+    "correct": 0,
+    "explanation": "Cyber insurance transfers financial liability for incidents to a third-party insurer, reducing organizational impact."
+  },
+  {
+    "id": "SEG2",
+    "domain": "vulnerability-remediation",
+    "question": "To minimize exposure, a company isolates legacy applications on a dedicated VLAN with no internet connectivity. Which control is being implemented?",
+    "examples": ["VLAN creation", "Access control policy"],
+    "choices": ["Segmentation", "Patching", "Compensating control", "Exception handling"],
+    "correct": 0,
+    "explanation": "Segmentation limits communication between systems, reducing attack surfaces for vulnerable or legacy assets."
+  },
+  {
+    "id": "COMP2",
+    "domain": "vulnerability-remediation",
+    "question": "Because a medical device vendor does not allow OS updates, the IT team adds strict ACLs and intrusion detection rules. What best describes this measure?",
+    "examples": ["Vendor restriction workaround"],
+    "choices": ["Compensating control", "Segmentation", "Patching", "Rescanning"],
+    "correct": 0,
+    "explanation": "Compensating controls offer alternate protections when standard mitigations like patching are not possible."
+  },
+  {
+    "id": "EXC2",
+    "domain": "vulnerability-remediation",
+    "question": "A system owner submits a formal request to delay applying a critical update because it may disrupt manufacturing systems. What does this process represent?",
+    "examples": ["Change control exemption", "Operational dependency exception"],
+    "choices": ["Exception management", "Risk tolerance setting", "Compensating control", "Vulnerability scanning"],
+    "correct": 0,
+    "explanation": "Exceptions document approved deviations from standard security controls, often due to operational constraints."
+  },
+  {
+    "id": "VAL4",
+    "domain": "validation",
+    "question": "After patches are deployed, an analyst performs a new vulnerability scan to ensure the issues have been resolved. Which step of the process is this?",
+    "examples": ["Post-remediation scan", "Follow-up validation"],
+    "choices": ["Rescanning", "Verification", "Audit", "Prioritization"],
+    "correct": 0,
+    "explanation": "Rescanning confirms that previously detected vulnerabilities no longer exist following remediation."
+  },
+  {
+    "id": "VAL5",
+    "domain": "validation",
+    "question": "A compliance officer reviews documented evidence that patching activities were completed in accordance with policy. Which validation activity is this?",
+    "examples": ["Compliance evidence collection", "Remediation review"],
+    "choices": ["Audit", "Verification", "Rescanning", "Reporting"],
+    "correct": 0,
+    "explanation": "Audits independently verify that remediation actions were performed according to governance and policy standards."
+  },
+  {
+    "id": "VAL6",
+    "domain": "validation",
+    "question": "A penetration tester confirms that a previously exploited vulnerability can no longer be used after patching. What validation phase is this?",
+    "examples": ["Exploit retesting", "Post-fix validation"],
+    "choices": ["Verification", "Audit", "Rescanning", "Prioritization"],
+    "correct": 0,
+    "explanation": "Verification ensures that remediation was successful and that the vulnerability cannot be exploited again."
+  },
+  {
+    "id": "REP3",
+    "domain": "reporting",
+    "question": "A vulnerability management team delivers a summary that includes severity levels, remediation timelines, and residual risk. What document is this?",
+    "examples": ["Remediation report", "Executive summary"],
+    "choices": ["Vulnerability management report", "Change request log", "System audit trail", "Penetration test result"],
+    "correct": 0,
+    "explanation": "A vulnerability management report communicates findings, remediation progress, and outstanding risks to stakeholders."
+  },
+  {
+    "id": "REP4",
+    "domain": "reporting",
+    "question": "After a major remediation effort, management receives a high-level summary showing trends in vulnerabilities resolved over time. What type of reporting is this?",
+    "examples": ["Trend chart", "Quarterly dashboard"],
+    "choices": ["Executive reporting", "Technical audit", "Compliance verification", "Exception analysis"],
+    "correct": 0,
+    "explanation": "Executive reporting summarizes progress and metrics at a management level, emphasizing risk reduction and trends."
+  },
+  {
+    "id": "REP5",
+    "domain": "reporting",
+    "question": "A SOC analyst compiles detailed logs, scan data, and timestamps of fixed vulnerabilities for compliance documentation. What is this process called?",
+    "examples": ["Detailed remediation records", "Evidence of compliance"],
+    "choices": ["Technical reporting", "Audit preparation", "Risk assessment", "Rescanning"],
+    "correct": 0,
+    "explanation": "Technical reporting provides in-depth data for auditors and security teams to verify specific remediation actions."
+  }
+]

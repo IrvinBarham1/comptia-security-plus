@@ -1,0 +1,191 @@
+[
+  {
+    "id": "SCAN1",
+    "domain": "identification",
+    "question": "A security analyst uses an automated tool to detect missing patches and misconfigurations across the enterprise network. What type of activity is being performed?",
+    "examples": ["Network scan", "Patch validation"],
+    "choices": ["Vulnerability scanning", "Penetration testing", "System audit", "Code review"],
+    "correct": 0,
+    "explanation": "Vulnerability scanning uses automated tools to identify weaknesses such as outdated software or missing patches."
+  },
+  {
+    "id": "APP1",
+    "domain": "application-security",
+    "question": "A development team reviews application source code for input validation flaws before compiling. What type of testing does this represent?",
+    "examples": ["Static Application Security Testing (SAST)"],
+    "choices": ["Static analysis", "Dynamic analysis", "Fuzz testing", "Penetration testing"],
+    "correct": 0,
+    "explanation": "Static analysis examines source code without execution to detect security flaws early in development."
+  },
+  {
+    "id": "APP2",
+    "domain": "application-security",
+    "question": "A tester runs an application in a sandbox to observe runtime behavior and identify vulnerabilities. Which testing approach is this?",
+    "examples": ["Behavior monitoring", "Sandbox testing"],
+    "choices": ["Dynamic analysis", "Static analysis", "Fuzzing", "Code review"],
+    "correct": 0,
+    "explanation": "Dynamic analysis observes application behavior during execution to detect vulnerabilities that appear at runtime."
+  },
+  {
+    "id": "PKG1",
+    "domain": "application-security",
+    "question": "A DevSecOps engineer monitors third-party libraries for new vulnerability disclosures. Which practice does this demonstrate?",
+    "examples": ["Dependency scanning", "SBOM validation"],
+    "choices": ["Package monitoring", "Dynamic analysis", "Vulnerability scanning", "Static analysis"],
+    "correct": 0,
+    "explanation": "Package monitoring tracks third-party dependencies to identify vulnerabilities introduced by external components."
+  },
+  {
+    "id": "FEED1",
+    "domain": "threat-feeds",
+    "question": "An analyst subscribes to CISA and NIST databases to receive notifications about new software vulnerabilities. What type of intelligence source is this?",
+    "examples": ["Public feeds", "Vulnerability advisories"],
+    "choices": ["Open-source intelligence (OSINT)", "Proprietary threat feed", "Information-sharing organization", "Dark web source"],
+    "correct": 0,
+    "explanation": "Open-source intelligence (OSINT) uses publicly available data sources for threat and vulnerability information."
+  },
+  {
+    "id": "FEED2",
+    "domain": "threat-feeds",
+    "question": "A financial institution purchases access to a commercial threat intelligence platform that aggregates exploit data. What type of feed is this?",
+    "examples": ["Paid vendor subscription"],
+    "choices": ["Proprietary or third-party feed", "OSINT feed", "Information-sharing community", "Internal SOC feed"],
+    "correct": 0,
+    "explanation": "Proprietary or third-party feeds provide curated, paid vulnerability and threat intelligence from specialized vendors."
+  },
+  {
+    "id": "FEED3",
+    "domain": "threat-feeds",
+    "question": "An organization participates in an industry-specific community that exchanges indicators of compromise and threat data. What is this an example of?",
+    "examples": ["ISAC membership", "Industry collaboration"],
+    "choices": ["Information-sharing organization", "OSINT feed", "Third-party intelligence", "Bug bounty program"],
+    "correct": 0,
+    "explanation": "Information-sharing organizations like ISACs promote collaboration to share threat and vulnerability information securely."
+  },
+  {
+    "id": "FEED4",
+    "domain": "threat-feeds",
+    "question": "A threat researcher analyzes underground forums to identify stolen credentials and exploit kits. What type of intelligence source does this represent?",
+    "examples": ["Dark web scanning", "Credential dumps"],
+    "choices": ["Dark web intelligence", "Proprietary feed", "OSINT feed", "Penetration testing output"],
+    "correct": 0,
+    "explanation": "Dark web intelligence monitors underground sources for emerging exploits and compromised data."
+  },
+  {
+    "id": "PENT1",
+    "domain": "identification",
+    "question": "A security team simulates real-world attacks to actively exploit vulnerabilities and assess system defenses. What process are they performing?",
+    "examples": ["Ethical hacking", "Exploit testing"],
+    "choices": ["Penetration testing", "Vulnerability scanning", "System audit", "Dynamic analysis"],
+    "correct": 0,
+    "explanation": "Penetration testing goes beyond scanning to exploit vulnerabilities and assess the effectiveness of existing controls."
+  },
+  {
+    "id": "DISC1",
+    "domain": "responsible-disclosure",
+    "question": "A company rewards external researchers who report security flaws responsibly through a managed submission process. What is this called?",
+    "examples": ["Vulnerability reward system"],
+    "choices": ["Bug bounty program", "Vulnerability scan", "Code review", "Information-sharing agreement"],
+    "correct": 0,
+    "explanation": "Bug bounty programs incentivize ethical researchers to responsibly disclose vulnerabilities before attackers exploit them."
+  },
+  {
+    "id": "AUD1",
+    "domain": "audit",
+    "question": "An independent assessor reviews access logs and configuration settings to confirm compliance with internal security policies. What is this process called?",
+    "examples": ["Security assessment", "Governance audit"],
+    "choices": ["System or process audit", "Vulnerability scan", "Penetration test", "Dynamic analysis"],
+    "correct": 0,
+    "explanation": "System or process audits verify that policies and procedures align with compliance and security standards."
+  },
+  {
+    "id": "ANAL1",
+    "domain": "analysis",
+    "question": "A vulnerability scanner reports a missing patch, but the patch has already been applied. What is this situation known as?",
+    "examples": ["Incorrect scan result"],
+    "choices": ["False positive", "False negative", "Classification error", "Exposure factor"],
+    "correct": 0,
+    "explanation": "A false positive occurs when a scanner incorrectly flags an issue that does not exist."
+  },
+  {
+    "id": "ANAL2",
+    "domain": "analysis",
+    "question": "A vulnerability goes undetected during a scan because it was misclassified by the tool. What is this scenario called?",
+    "examples": ["Missed vulnerability"],
+    "choices": ["False negative", "False positive", "Environmental variable", "Exposure factor"],
+    "correct": 0,
+    "explanation": "A false negative occurs when a scanner fails to identify an existing vulnerability, creating hidden risk."
+  },
+  {
+    "id": "PRIOR1",
+    "domain": "analysis",
+    "question": "After identifying multiple vulnerabilities, an analyst determines which issues to address first based on severity and exploitability. Which activity is this?",
+    "examples": ["Risk ranking", "Remediation prioritization"],
+    "choices": ["Prioritization", "Classification", "Enumeration", "Confirmation"],
+    "correct": 0,
+    "explanation": "Prioritization ranks vulnerabilities by criticality and potential business impact to guide remediation efforts."
+  },
+  {
+    "id": "CVSS1",
+    "domain": "analysis",
+    "question": "Which framework provides a standardized numerical rating for the severity of a vulnerability based on exploitability and impact?",
+    "examples": ["Severity scoring system"],
+    "choices": ["CVSS", "CVE", "ISO 27001", "NIST 800-53"],
+    "correct": 0,
+    "explanation": "The Common Vulnerability Scoring System (CVSS) quantifies vulnerability severity using consistent metrics."
+  },
+  {
+    "id": "CVE1",
+    "domain": "analysis",
+    "question": "A vulnerability is assigned a unique identifier like CVE-2025-1234 for public reference. What standard enables this classification?",
+    "examples": ["Public vulnerability cataloging"],
+    "choices": ["CVE", "CVSS", "ISO 27005", "MITRE ATT&CK"],
+    "correct": 0,
+    "explanation": "Common Vulnerabilities and Exposures (CVE) assigns unique identifiers for publicly known vulnerabilities."
+  },
+  {
+    "id": "CLASS1",
+    "domain": "analysis",
+    "question": "An analyst categorizes a newly discovered flaw as an 'input validation weakness.' What activity is this part of?",
+    "examples": ["Vulnerability taxonomy"],
+    "choices": ["Vulnerability classification", "Prioritization", "Confirmation", "Enumeration"],
+    "correct": 0,
+    "explanation": "Vulnerability classification organizes findings into categories (e.g., injection, misconfiguration) for analysis and reporting."
+  },
+  {
+    "id": "EXPO1",
+    "domain": "analysis",
+    "question": "Which metric estimates the potential percentage of an asset’s value that would be lost if a specific threat were realized?",
+    "examples": ["Risk calculation metric"],
+    "choices": ["Exposure factor", "Environmental variable", "Risk tolerance", "Impact ratio"],
+    "correct": 0,
+    "explanation": "Exposure factor quantifies the proportion of an asset’s value at risk during a successful attack."
+  },
+  {
+    "id": "ENV1",
+    "domain": "analysis",
+    "question": "A critical vulnerability is rated higher on a system exposed to the internet than on an isolated internal network. Which concept explains this difference?",
+    "examples": ["External vs. internal environment"],
+    "choices": ["Environmental variables", "Exposure factor", "False positive", "Risk tolerance"],
+    "correct": 0,
+    "explanation": "Environmental variables adjust vulnerability severity based on the system’s context, exposure, and compensating controls."
+  },
+  {
+    "id": "IMPACT1",
+    "domain": "analysis",
+    "question": "A financial organization prioritizes patching vulnerabilities affecting its transaction systems first. Which consideration influences this decision?",
+    "examples": ["Business impact analysis"],
+    "choices": ["Industry or organizational impact", "Exposure factor", "Risk tolerance", "Environmental variable"],
+    "correct": 0,
+    "explanation": "Industry or organizational impact measures how vulnerabilities affect business-critical operations or compliance obligations."
+  },
+  {
+    "id": "RISK1",
+    "domain": "analysis",
+    "question": "An organization accepts certain low-severity vulnerabilities due to limited operational impact. What concept does this illustrate?",
+    "examples": ["Risk acceptance", "Business risk assessment"],
+    "choices": ["Risk tolerance", "Exposure factor", "Prioritization", "CVSS scoring"],
+    "correct": 0,
+    "explanation": "Risk tolerance defines the level of acceptable risk an organization is willing to assume before implementing mitigation."
+  }
+]

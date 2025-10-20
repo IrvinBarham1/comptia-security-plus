@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BASE1",
+    "domain": "secure-baseline",
+    "question": "A security team documents standard operating system configurations before deploying new laptops. What process are they performing?",
+    "examples": ["Golden image creation", "OS hardening templates"],
+    "choices": ["Establishing a secure baseline", "Maintaining patch compliance", "Performing vulnerability scanning", "Applying configuration drift analysis"],
+    "correct": 0,
+    "explanation": "Establishing a secure baseline defines the standard configuration used as a benchmark for future deployments."
+  },
+  {
+    "id": "BASE2",
+    "domain": "secure-baseline",
+    "question": "During quarterly reviews, an organization scans systems to ensure they still match the original secure configuration standards. Which step of the baseline process does this represent?",
+    "examples": ["Automated compliance checks", "Drift detection"],
+    "choices": ["Maintaining the baseline", "Deploying the baseline", "Establishing the baseline", "Decommissioning systems"],
+    "correct": 0,
+    "explanation": "Maintaining a baseline involves continuous validation that configurations remain aligned with security standards."
+  },
+  {
+    "id": "MOB1",
+    "domain": "hardening",
+    "question": "An enterprise enables full-disk encryption, mobile device management (MDM), and remote wipe on employee smartphones. What is the primary goal of these actions?",
+    "examples": ["BYOD policy enforcement", "Corporate MDM settings"],
+    "choices": ["Hardening mobile devices", "Improving wireless coverage", "Maintaining patch schedules", "Monitoring endpoint traffic"],
+    "correct": 0,
+    "explanation": "Mobile device hardening enforces encryption and centralized control to prevent data loss and unauthorized access."
+  },
+  {
+    "id": "WORK1",
+    "domain": "hardening",
+    "question": "A company removes unnecessary services, disables guest accounts, and applies security patches to employee computers. Which security process is being demonstrated?",
+    "examples": ["System cleanup", "Patch management"],
+    "choices": ["Workstation hardening", "Baseline configuration", "Network segmentation", "Application whitelisting"],
+    "correct": 0,
+    "explanation": "Workstation hardening minimizes attack surfaces by disabling unused functions and enforcing secure settings."
+  },
+  {
+    "id": "NET1",
+    "domain": "hardening",
+    "question": "A network engineer disables unused switch ports, applies VLAN segmentation, and enables MAC filtering. What type of system is being hardened?",
+    "examples": ["Network switch configuration", "Access control list (ACL) setup"],
+    "choices": ["Switch", "Router", "Server", "Firewall"],
+    "correct": 0,
+    "explanation": "Switch hardening prevents unauthorized access and limits traffic within defined VLAN boundaries."
+  },
+  {
+    "id": "ROUT1",
+    "domain": "hardening",
+    "question": "A network administrator implements routing protocol authentication and disables unused management interfaces. Which device type is being secured?",
+    "examples": ["OSPF authentication", "SNMP lockdown"],
+    "choices": ["Router", "Switch", "Server", "Access point"],
+    "correct": 0,
+    "explanation": "Router hardening reduces exposure to network-based attacks by controlling management and routing functions."
+  },
+  {
+    "id": "CLOUD1",
+    "domain": "hardening",
+    "question": "An administrator defines IAM roles, restricts public storage buckets, and enforces MFA for administrative accounts in AWS. What environment is being hardened?",
+    "examples": ["Cloud IAM", "S3 access restrictions"],
+    "choices": ["Cloud infrastructure", "IoT network", "Server cluster", "ICS/SCADA system"],
+    "correct": 0,
+    "explanation": "Cloud hardening enforces least privilege, identity control, and secure storage configurations to reduce exposure."
+  },
+  {
+    "id": "SERV1",
+    "domain": "hardening",
+    "question": "A data center operator installs a host-based firewall, removes legacy services, and applies kernel patches on critical machines. What is being secured?",
+    "examples": ["Linux server hardening checklist"],
+    "choices": ["Server", "Router", "IoT gateway", "Workstation"],
+    "correct": 0,
+    "explanation": "Server hardening reduces vulnerabilities by eliminating unnecessary services and keeping systems patched."
+  },
+  {
+    "id": "ICS1",
+    "domain": "hardening",
+    "question": "A manufacturing company segments its control network, limits external access, and applies strict change management to PLCs. Which type of system is being protected?",
+    "examples": ["Industrial PLCs", "Manufacturing controllers"],
+    "choices": ["ICS/SCADA", "Embedded device", "IoT sensor", "Server"],
+    "correct": 0,
+    "explanation": "ICS/SCADA hardening focuses on isolating control systems and minimizing configuration changes to prevent disruption."
+  },
+  {
+    "id": "EMB1",
+    "domain": "hardening",
+    "question": "A developer disables unused debug interfaces and applies firmware signing on a smart appliance. What kind of device is being hardened?",
+    "examples": ["Smart home controller", "Industrial sensor"],
+    "choices": ["Embedded system", "Server", "Router", "Virtual machine"],
+    "correct": 0,
+    "explanation": "Embedded system hardening protects devices with limited resources by disabling unnecessary services and validating firmware."
+  },
+  {
+    "id": "RTOS1",
+    "domain": "hardening",
+    "question": "An engineer implements strict timing controls and disables non-essential tasks in a flight control computer. What environment is being secured?",
+    "examples": ["Avionics system", "Automotive ECU"],
+    "choices": ["RTOS", "ICS", "IoT", "Server"],
+    "correct": 0,
+    "explanation": "Real-Time Operating Systems (RTOS) require deterministic execution, so hardening minimizes latency and attack vectors."
+  },
+  {
+    "id": "IOT1",
+    "domain": "hardening",
+    "question": "A company updates firmware and changes default credentials on network-connected sensors. Which category of device is this?",
+    "examples": ["Smart thermostat", "Industrial IoT sensor"],
+    "choices": ["IoT device", "ICS/SCADA", "Embedded system", "Workstation"],
+    "correct": 0,
+    "explanation": "IoT hardening includes changing defaults and applying firmware updates to prevent unauthorized access."
+  },
+  {
+    "id": "WIRE1",
+    "domain": "wireless",
+    "question": "Before deploying a new wireless network, engineers measure signal strength and identify interference zones across the facility. What process are they performing?",
+    "examples": ["RF coverage testing", "AP placement review"],
+    "choices": ["Site survey", "Heat mapping", "Spectrum analysis", "Signal triangulation"],
+    "correct": 0,
+    "explanation": "Site surveys measure signal coverage and interference to plan optimal placement of wireless access points."
+  },
+  {
+    "id": "WIRE2",
+    "domain": "wireless",
+    "question": "After a wireless network is deployed, the security team visualizes coverage and signal overlap to detect potential leakage areas. Which tool supports this task?",
+    "examples": ["RF mapping tools", "Wireless coverage audit"],
+    "choices": ["Heat map", "Site survey", "Network diagram", "Spectrum analyzer"],
+    "correct": 0,
+    "explanation": "Heat maps provide a visual representation of signal strength across physical areas, revealing gaps or overexposure."
+  }
+]

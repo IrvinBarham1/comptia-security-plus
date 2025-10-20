@@ -1,0 +1,146 @@
+[
+  {
+    "id": "MDM1",
+    "domain": "mobile-solutions",
+    "question": "An organization enforces policies that require encryption, PINs, and remote wipe on all smartphones used for work. Which solution enables this level of centralized control?",
+    "examples": ["Enterprise mobile security", "Corporate phone management"],
+    "choices": ["Mobile Device Management (MDM)", "Application sandboxing", "Endpoint detection and response", "VPN tunneling"],
+    "correct": 0,
+    "explanation": "MDM allows administrators to enforce security configurations, manage apps, and remotely wipe lost or stolen mobile devices."
+  },
+  {
+    "id": "DEP1",
+    "domain": "mobile-deployment",
+    "question": "A company allows employees to use personal smartphones for work email, provided the IT team installs a secure workspace app. Which deployment model does this describe?",
+    "examples": ["Personal phone with limited corporate control"],
+    "choices": ["BYOD", "COPE", "CYOD", "Corporate-only"],
+    "correct": 0,
+    "explanation": "Bring Your Own Device (BYOD) allows employees to use their personal devices while the company manages work-related data through MDM tools."
+  },
+  {
+    "id": "DEP2",
+    "domain": "mobile-deployment",
+    "question": "A company issues work phones to employees but permits limited personal use while maintaining full management control. Which deployment model is this?",
+    "examples": ["Corporate smartphone program"],
+    "choices": ["COPE", "BYOD", "CYOD", "Corporate-only"],
+    "correct": 0,
+    "explanation": "Corporate-Owned, Personally Enabled (COPE) devices belong to the organization but allow controlled personal use under company management."
+  },
+  {
+    "id": "DEP3",
+    "domain": "mobile-deployment",
+    "question": "An organization lets employees select from an approved list of company-vetted smartphones that IT manages and secures. Which model applies here?",
+    "examples": ["Employee-selected devices from approved vendors"],
+    "choices": ["CYOD", "COPE", "BYOD", "COBO"],
+    "correct": 0,
+    "explanation": "Choose Your Own Device (CYOD) gives employees a selection of approved devices that remain under corporate management and policy control."
+  },
+  {
+    "id": "CONN1",
+    "domain": "connection-methods",
+    "question": "A remote employee connects to a corporate VPN over a 5G data network. Which connection method is being used?",
+    "examples": ["Smartphone hotspot", "Mobile carrier network"],
+    "choices": ["Cellular", "Wi-Fi", "Bluetooth", "Infrared"],
+    "correct": 0,
+    "explanation": "Cellular networks provide connectivity through mobile carriers like LTE or 5G, often used for secure remote access."
+  },
+  {
+    "id": "CONN2",
+    "domain": "connection-methods",
+    "question": "A user connects to a corporate access point using WPA3-Personal encryption. What connection type is this?",
+    "examples": ["Wireless LAN connection"],
+    "choices": ["Wi-Fi", "Bluetooth", "Cellular", "Infrared"],
+    "correct": 0,
+    "explanation": "Wi-Fi is a short-range wireless technology that can be secured with encryption standards such as WPA3."
+  },
+  {
+    "id": "CONN3",
+    "domain": "connection-methods",
+    "question": "A technician pairs a wireless headset to a laptop for video calls. What connection method does this scenario represent?",
+    "examples": ["Short-range data transfer", "Peripheral connectivity"],
+    "choices": ["Bluetooth", "Wi-Fi", "Cellular", "NFC"],
+    "correct": 0,
+    "explanation": "Bluetooth is used for short-range communication between devices such as headsets, keyboards, and phones."
+  },
+  {
+    "id": "WIFI1",
+    "domain": "wireless-security",
+    "question": "Which wireless security standard provides forward secrecy and stronger encryption using SAE instead of pre-shared keys?",
+    "examples": ["802.11i standard update"],
+    "choices": ["WPA3", "WEP", "WPA2", "EAP-TLS"],
+    "correct": 0,
+    "explanation": "WPA3 replaces PSK with Simultaneous Authentication of Equals (SAE), improving protection against offline dictionary attacks."
+  },
+  {
+    "id": "AAA1",
+    "domain": "wireless-security",
+    "question": "Which authentication service combines Authentication, Authorization, and Accounting to centrally control access to network resources?",
+    "examples": ["Enterprise authentication servers"],
+    "choices": ["RADIUS", "LDAP", "Kerberos", "TACACS+"],
+    "correct": 0,
+    "explanation": "RADIUS provides centralized network authentication and accounting, commonly used in Wi-Fi and VPN access."
+  },
+  {
+    "id": "AUTH1",
+    "domain": "wireless-security",
+    "question": "Which protocol provides mutual authentication using digital certificates between clients and servers over a secure TLS tunnel?",
+    "examples": ["Certificate-based authentication", "Enterprise Wi-Fi logins"],
+    "choices": ["EAP-TLS", "WPA3", "RADIUS", "PEAP"],
+    "correct": 0,
+    "explanation": "EAP-TLS uses certificates for both client and server authentication, ensuring mutual trust and strong encryption."
+  },
+  {
+    "id": "APP1",
+    "domain": "application-security",
+    "question": "A developer ensures that user input is checked against expected formats to prevent injection attacks. What secure coding practice is being applied?",
+    "examples": ["SQL injection prevention", "Data sanitization"],
+    "choices": ["Input validation", "Code signing", "Secure cookies", "Static code analysis"],
+    "correct": 0,
+    "explanation": "Input validation checks and sanitizes user input to prevent injection and other data manipulation attacks."
+  },
+  {
+    "id": "APP2",
+    "domain": "application-security",
+    "question": "Which development process scans source code to detect vulnerabilities before deployment?",
+    "examples": ["Automated SAST tool", "Build pipeline scan"],
+    "choices": ["Static code analysis", "Dynamic testing", "Fuzzing", "Code obfuscation"],
+    "correct": 0,
+    "explanation": "Static code analysis examines code structure without executing it to find security flaws early in development."
+  },
+  {
+    "id": "APP3",
+    "domain": "application-security",
+    "question": "A developer digitally signs an application before release to verify its authenticity and integrity. What process is this?",
+    "examples": ["Authenticity assurance", "Publisher verification"],
+    "choices": ["Code signing", "Hashing", "Input validation", "Sandboxing"],
+    "correct": 0,
+    "explanation": "Code signing uses cryptographic signatures to verify the source and ensure the software hasn’t been tampered with."
+  },
+  {
+    "id": "APP4",
+    "domain": "application-security",
+    "question": "A web developer ensures that session identifiers are stored in cookies flagged as 'HttpOnly' and 'Secure'. What technique is being applied?",
+    "examples": ["Session management hardening", "Web security"],
+    "choices": ["Secure cookies", "Static code analysis", "Code signing", "Input validation"],
+    "correct": 0,
+    "explanation": "Secure cookies protect session tokens by preventing client-side access and requiring encrypted HTTPS transport."
+  },
+  {
+    "id": "SAND1",
+    "domain": "sandboxing",
+    "question": "An organization runs unverified executables in isolated virtual environments to observe behavior before production deployment. What is this process called?",
+    "examples": ["Malware analysis", "App isolation"],
+    "choices": ["Sandboxing", "Virtualization", "Code signing", "Whitelisting"],
+    "correct": 0,
+    "explanation": "Sandboxing isolates code execution from critical systems to safely analyze potentially malicious behavior."
+  },
+  {
+    "id": "MON1",
+    "domain": "monitoring",
+    "question": "A SOC analyst configures alerts that trigger when a mobile device connects from an unusual location or time. What security technique is this?",
+    "examples": ["Anomaly detection", "Behavior-based alerts"],
+    "choices": ["Monitoring", "Hardening", "Input validation", "Encryption"],
+    "correct": 0,
+    "explanation": "Monitoring involves continuously observing system behavior and generating alerts for anomalies or policy violations."
+  }
+]

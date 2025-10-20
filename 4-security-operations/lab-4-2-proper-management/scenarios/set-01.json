@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ACQ1",
+    "domain": "acquisition",
+    "question": "During the purchasing stage, a security team verifies that vendors comply with corporate data-handling policies before approving new devices. Which security phase is being demonstrated?",
+    "examples": ["Vendor risk assessment", "Procurement checklist"],
+    "choices": ["Acquisition and procurement", "Asset decommissioning", "Inventory enumeration", "Ownership assignment"],
+    "correct": 0,
+    "explanation": "The acquisition and procurement phase ensures hardware and software meet security, compliance, and vendor trust requirements before purchase."
+  },
+  {
+    "id": "OWN1",
+    "domain": "assignment",
+    "question": "A company designates specific employees as responsible for laptops assigned to their departments. What type of security control does this demonstrate?",
+    "examples": ["Device accountability", "Departmental ownership"],
+    "choices": ["Ownership assignment", "Data classification", "Inventory management", "Procurement policy"],
+    "correct": 0,
+    "explanation": "Ownership assignment establishes accountability for assets, ensuring each device or resource has a responsible party."
+  },
+  {
+    "id": "CLASS1",
+    "domain": "assignment",
+    "question": "Data files are labeled as Public, Internal, or Confidential based on sensitivity. Which asset management activity does this describe?",
+    "examples": ["Information categorization", "Risk-based data handling"],
+    "choices": ["Classification", "Ownership", "Acquisition", "Monitoring"],
+    "correct": 0,
+    "explanation": "Classification organizes assets by sensitivity level, guiding how data is stored, accessed, and protected."
+  },
+  {
+    "id": "INV1",
+    "domain": "monitoring",
+    "question": "A security analyst reviews an automated dashboard listing all active workstations, servers, and network devices. What process does this support?",
+    "examples": ["CMDB update", "Device status review"],
+    "choices": ["Inventory management", "Asset classification", "Disposal certification", "Procurement tracking"],
+    "correct": 0,
+    "explanation": "Inventory management maintains visibility over all assets to prevent unauthorized or untracked devices from being connected."
+  },
+  {
+    "id": "ENUM1",
+    "domain": "monitoring",
+    "question": "An IT team regularly scans its network to identify connected devices and verify authorized configurations. What practice does this represent?",
+    "examples": ["Network scans", "Automated discovery tools"],
+    "choices": ["Asset enumeration", "Inventory documentation", "Procurement validation", "Change control"],
+    "correct": 0,
+    "explanation": "Enumeration identifies all assets on the network and compares them against approved inventory to detect rogue or unmanaged systems."
+  },
+  {
+    "id": "SAN1",
+    "domain": "disposal",
+    "question": "Before repurposing a laptop, a technician overwrites its hard drive several times to remove all recoverable data. What secure disposal method is this?",
+    "examples": ["Disk wiping", "Data overwrite utility"],
+    "choices": ["Sanitization", "Destruction", "Decommissioning", "Classification"],
+    "correct": 0,
+    "explanation": "Sanitization securely erases data to prevent recovery, often through multi-pass overwriting or cryptographic wiping."
+  },
+  {
+    "id": "DEST1",
+    "domain": "disposal",
+    "question": "A data center recycles old drives by physically shredding the platters to prevent future data recovery. Which process is being performed?",
+    "examples": ["Hardware disposal", "Physical media handling"],
+    "choices": ["Destruction", "Sanitization", "Certification", "Enumeration"],
+    "correct": 0,
+    "explanation": "Destruction permanently renders storage media unusable, ensuring data cannot be reconstructed or recovered."
+  },
+  {
+    "id": "CERT1",
+    "domain": "disposal",
+    "question": "After destroying sensitive drives, a company documents serial numbers and disposal dates for audit purposes. Which step of the decommissioning process does this represent?",
+    "examples": ["Regulatory record keeping", "Disposal log creation"],
+    "choices": ["Certification of destruction", "Sanitization", "Data retention", "Procurement validation"],
+    "correct": 0,
+    "explanation": "Certification of destruction provides official proof that sensitive media was securely disposed of in compliance with policy."
+  },
+  {
+    "id": "RET1",
+    "domain": "disposal",
+    "question": "A healthcare organization keeps patient records for seven years to comply with legal retention requirements before deletion. Which policy governs this practice?",
+    "examples": ["Retention schedule", "Legal hold policy"],
+    "choices": ["Data retention", "Certification", "Ownership assignment", "Procurement control"],
+    "correct": 0,
+    "explanation": "Data retention policies define how long records must be stored before secure deletion to meet compliance and audit needs."
+  }
+]

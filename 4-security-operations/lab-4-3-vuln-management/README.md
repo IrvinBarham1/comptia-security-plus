@@ -40,14 +40,15 @@ Each question includes multiple-choice options, examples, and concise explanatio
 ## 🧑‍💻 Lab Tasks
 
 1. **Review the MCQ files** in `scenarios/` to study realistic vulnerability management workflows.  
+
 2. **Run the quiz engine** (`lab.py`) to:  
    - Randomize questions and answers  
    - Accept user input and display feedback  
    - Track and score results in real time  
-3. **Optional Hands-On Exercises**   
+
+3. **Hands-On Exercise**   
    - Perform a local vulnerability scan using a tool like OpenVAS or Nmap  
-   - Simulate a patch cycle and validate remediation through rescanning  
-   - Draft a simple vulnerability report summarizing findings and actions  
+
 
 ---
 

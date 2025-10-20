@@ -55,5 +55,5 @@ Each question includes multiple-choice options, examples, and concise explanatio
 
 **Python:**
 ```bash
-cd lab-4-3-vulnerability-management/python
+cd lab-4-3-vuln-management/python
 py lab.py

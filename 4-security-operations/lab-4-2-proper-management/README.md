@@ -54,5 +54,5 @@ Each question includes:
 
 **Python:**
 ```bash
-cd lab-4-2-asset-management/python
+cd lab-4-2-proper-management/python
 py lab.py

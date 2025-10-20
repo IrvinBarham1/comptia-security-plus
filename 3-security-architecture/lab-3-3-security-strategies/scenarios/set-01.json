@@ -1,0 +1,110 @@
+[
+  {
+    "id": "DT1",
+    "domain": "data-types",
+    "question": "Which data type is governed by external laws and regulations that dictate how it must be stored, processed, and protected?",
+    "examples": ["HIPAA", "GDPR", "PCI DSS"],
+    "choices": ["Regulated", "Trade secret", "Intellectual property", "Confidential"],
+    "correct": 0,
+    "explanation": "Regulated data is subject to compliance frameworks like HIPAA or GDPR that require strict privacy and security controls."
+  },
+  {
+    "id": "DT2",
+    "domain": "data-types",
+    "question": "Which data type consists of proprietary business information such as formulas or processes that give a competitive advantage?",
+    "examples": ["Coca-Cola recipe", "Manufacturing process"],
+    "choices": ["Trade secret", "Intellectual property", "Confidential", "Sensitive"],
+    "correct": 0,
+    "explanation": "Trade secrets are proprietary and confidential business details that maintain competitive advantage when kept secret."
+  },
+  {
+    "id": "DT3",
+    "domain": "data-types",
+    "question": "Which category includes creative works or inventions that are protected by copyright, trademark, or patent laws?",
+    "examples": ["Software source code", "Logos", "Patented designs"],
+    "choices": ["Intellectual property", "Trade secret", "Regulated data", "Financial data"],
+    "correct": 0,
+    "explanation": "Intellectual property (IP) includes creations of the mind, legally protected to prevent unauthorized use."
+  },
+  {
+    "id": "DT4",
+    "domain": "data-types",
+    "question": "Which data type involves information tied to legal actions, contracts, or regulatory filings?",
+    "examples": ["Court documents", "Contracts", "Compliance records"],
+    "choices": ["Legal information", "Confidential data", "Critical data", "Regulated information"],
+    "correct": 0,
+    "explanation": "Legal information relates to the organization’s obligations, disputes, or agreements that require proper handling and retention."
+  },
+  {
+    "id": "DT5",
+    "domain": "data-types",
+    "question": "Which type of data includes banking details, transaction logs, and payment records requiring strong access control?",
+    "examples": ["Credit card numbers", "Payroll data", "Tax filings"],
+    "choices": ["Financial information", "Regulated data", "Confidential", "Critical data"],
+    "correct": 0,
+    "explanation": "Financial information includes sensitive monetary data that must be protected from theft or fraud."
+  },
+  {
+    "id": "DT6",
+    "domain": "data-types",
+    "question": "Which category distinguishes between formats that can be easily understood by humans and those meant for machine processing?",
+    "examples": ["PDF vs. JSON", "Text vs. binary files"],
+    "choices": ["Human- and non-human-readable", "Structured vs. unstructured data", "Confidential vs. public", "Sensitive vs. restricted"],
+    "correct": 0,
+    "explanation": "Human-readable data can be interpreted by people, while non-human-readable data (like binary or machine code) requires systems to process it."
+  },
+  {
+    "id": "DC1",
+    "domain": "data-classifications",
+    "question": "Which data classification label applies to information that could cause harm if disclosed and therefore requires strong protection?",
+    "examples": ["Customer PII", "Health records"],
+    "choices": ["Sensitive", "Public", "Restricted", "Private"],
+    "correct": 0,
+    "explanation": "Sensitive data includes personal or organizational information that must be secured to prevent misuse or harm."
+  },
+  {
+    "id": "DC2",
+    "domain": "data-classifications",
+    "question": "Which classification applies to information intended only for internal use and should not be shared publicly?",
+    "examples": ["Internal emails", "Staff procedures"],
+    "choices": ["Confidential", "Public", "Restricted", "Critical"],
+    "correct": 0,
+    "explanation": "Confidential data is accessible only to authorized users within the organization and must be restricted from public disclosure."
+  },
+  {
+    "id": "DC3",
+    "domain": "data-classifications",
+    "question": "Which classification applies to information that can be freely distributed without risk to the organization?",
+    "examples": ["Press releases", "Marketing materials"],
+    "choices": ["Public", "Confidential", "Private", "Sensitive"],
+    "correct": 0,
+    "explanation": "Public data can be shared openly since it poses no confidentiality or integrity risk to the organization."
+  },
+  {
+    "id": "DC4",
+    "domain": "data-classifications",
+    "question": "Which classification limits access to a narrow group due to its importance or sensitivity, often requiring special authorization?",
+    "examples": ["Encryption keys", "Root credentials"],
+    "choices": ["Restricted", "Sensitive", "Private", "Confidential"],
+    "correct": 0,
+    "explanation": "Restricted data has access tightly limited to a small number of authorized personnel to reduce risk of misuse or exposure."
+  },
+  {
+    "id": "DC5",
+    "domain": "data-classifications",
+    "question": "Which classification applies to data associated with individuals that must be protected from unauthorized disclosure?",
+    "examples": ["PII", "PHI"],
+    "choices": ["Private", "Public", "Confidential", "Critical"],
+    "correct": 0,
+    "explanation": "Private data includes personally identifiable information (PII) or personal health information (PHI) requiring confidentiality controls."
+  },
+  {
+    "id": "DC6",
+    "domain": "data-classifications",
+    "question": "Which classification identifies information essential to operations, where loss or unavailability would cause severe impact?",
+    "examples": ["Financial databases", "Emergency systems"],
+    "choices": ["Critical", "Confidential", "Restricted", "Sensitive"],
+    "correct": 0,
+    "explanation": "Critical data supports mission-essential operations; its loss or corruption can lead to significant business disruption."
+  }
+]

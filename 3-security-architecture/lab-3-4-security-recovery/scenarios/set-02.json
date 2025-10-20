@@ -1,0 +1,119 @@
+[
+  {
+    "id": "TEST1",
+    "domain": "testing",
+    "question": "Which type of exercise uses a discussion-based scenario walkthrough to evaluate response plans without disrupting live systems?",
+    "examples": ["Incident response drills", "Disaster recovery meetings"],
+    "choices": ["Tabletop exercise", "Simulation", "Failover test", "Parallel processing"],
+    "correct": 0,
+    "explanation": "Tabletop exercises allow teams to review and discuss response procedures in a low-risk, discussion-based setting."
+  },
+  {
+    "id": "TEST2",
+    "domain": "testing",
+    "question": "Which testing method intentionally switches to a redundant system to validate failover capabilities?",
+    "examples": ["Cluster failover", "Active-passive switch"],
+    "choices": ["Failover test", "Parallel processing", "Simulation", "Penetration test"],
+    "correct": 0,
+    "explanation": "Failover testing confirms that systems can automatically transition to backup infrastructure during outages."
+  },
+  {
+    "id": "TEST3",
+    "domain": "testing",
+    "question": "Which testing method mimics real-world conditions by emulating disaster or outage events in a controlled environment?",
+    "examples": ["Network outage simulation", "Cyber incident testing"],
+    "choices": ["Simulation", "Failover test", "Tabletop exercise", "Load testing"],
+    "correct": 0,
+    "explanation": "Simulation testing models realistic scenarios to assess how systems and staff respond to disruptions."
+  },
+  {
+    "id": "TEST4",
+    "domain": "testing",
+    "question": "Which testing method runs backup systems simultaneously with production to verify accuracy without interrupting service?",
+    "examples": ["Backup data validation", "Business continuity test"],
+    "choices": ["Parallel processing", "Failover test", "Simulation", "Tabletop exercise"],
+    "correct": 0,
+    "explanation": "Parallel processing operates production and backup systems together to confirm that data and operations align correctly."
+  },
+  {
+    "id": "BACK1",
+    "domain": "backups",
+    "question": "Which backup strategy involves storing copies of data both locally and at a remote location for redundancy?",
+    "examples": ["Local NAS plus cloud backup"],
+    "choices": ["Onsite/offsite", "Replication", "Snapshot", "Journaling"],
+    "correct": 0,
+    "explanation": "Onsite/offsite backups combine local storage for quick recovery and remote storage for disaster resilience."
+  },
+  {
+    "id": "BACK2",
+    "domain": "backups",
+    "question": "Which backup attribute defines how often data is saved and directly affects recovery point objectives (RPO)?",
+    "examples": ["Daily incremental backups", "Hourly snapshots"],
+    "choices": ["Frequency", "Replication", "Retention policy", "Snapshot schedule"],
+    "correct": 0,
+    "explanation": "Backup frequency determines how much data could be lost between the last backup and an outage."
+  },
+  {
+    "id": "BACK3",
+    "domain": "backups",
+    "question": "Which technique ensures the confidentiality of backup data both during storage and transmission?",
+    "examples": ["AES-encrypted backups", "TLS transfer"],
+    "choices": ["Encryption", "Journaling", "Replication", "Snapshotting"],
+    "correct": 0,
+    "explanation": "Encryption protects backup data from unauthorized access by rendering it unreadable without proper keys."
+  },
+  {
+    "id": "BACK4",
+    "domain": "backups",
+    "question": "Which method captures the state of a system at a specific point in time for fast restoration?",
+    "examples": ["VM snapshots", "Database snapshots"],
+    "choices": ["Snapshot", "Replication", "Incremental backup", "Journaling"],
+    "correct": 0,
+    "explanation": "Snapshots record the exact system or data state, enabling rapid recovery to that point in time."
+  },
+  {
+    "id": "BACK5",
+    "domain": "backups",
+    "question": "Which process validates that backup data can be restored correctly to ensure continuity?",
+    "examples": ["Test restore", "Data integrity check"],
+    "choices": ["Recovery", "Replication", "Snapshot validation", "Tabletop testing"],
+    "correct": 0,
+    "explanation": "Recovery involves restoring data from backups to verify completeness and usability after an incident."
+  },
+  {
+    "id": "BACK6",
+    "domain": "backups",
+    "question": "Which backup method continuously copies data changes from a primary system to a secondary one for real-time availability?",
+    "examples": ["Database mirroring", "RAID 1"],
+    "choices": ["Replication", "Snapshot", "Incremental backup", "Archiving"],
+    "correct": 0,
+    "explanation": "Replication duplicates data in near real-time to another location or system to minimize downtime and data loss."
+  },
+  {
+    "id": "BACK7",
+    "domain": "backups",
+    "question": "Which process keeps a sequential record of changes made to data, supporting point-in-time recovery?",
+    "examples": ["Transaction logs", "File journaling systems"],
+    "choices": ["Journaling", "Snapshot", "Replication", "Frequency control"],
+    "correct": 0,
+    "explanation": "Journaling logs changes to files or databases, allowing restoration to specific moments before an incident."
+  },
+  {
+    "id": "PWR1",
+    "domain": "power",
+    "question": "Which power source provides long-term electricity during extended outages for business continuity?",
+    "examples": ["Diesel generators", "Backup power plants"],
+    "choices": ["Generators", "UPS", "Voltage regulator", "Battery backup"],
+    "correct": 0,
+    "explanation": "Generators supply sustained electrical power during prolonged outages when primary utilities fail."
+  },
+  {
+    "id": "PWR2",
+    "domain": "power",
+    "question": "Which power protection device provides temporary electricity and prevents abrupt shutdowns during short outages or voltage fluctuations?",
+    "examples": ["Battery-backed servers", "Graceful shutdown support"],
+    "choices": ["Uninterruptible Power Supply (UPS)", "Generator", "Power inverter", "Voltage stabilizer"],
+    "correct": 0,
+    "explanation": "A UPS supplies battery power during short-term outages and protects systems from sudden power loss or surges."
+  }
+]

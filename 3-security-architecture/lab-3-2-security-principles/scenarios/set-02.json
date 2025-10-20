@@ -1,0 +1,74 @@
+[
+  {
+    "id": "NET20",
+    "domain": "secure-communication",
+    "question": "Which technology establishes an encrypted connection over an untrusted network, allowing remote users to securely access internal resources?",
+    "examples": ["Remote employee connections", "Site-to-site tunnels"],
+    "choices": ["Virtual Private Network (VPN)", "Remote Desktop Protocol (RDP)", "Proxy server", "Network Access Control (NAC)"],
+    "correct": 0,
+    "explanation": "A VPN creates a secure, encrypted tunnel across untrusted networks such as the internet to protect confidentiality and integrity."
+  },
+  {
+    "id": "NET21",
+    "domain": "secure-communication",
+    "question": "Which method allows users to connect to a private network from an external location while enforcing authentication and encryption?",
+    "examples": ["Teleworkers accessing company systems"],
+    "choices": ["Remote access", "Site-to-site VPN", "802.1X", "RADIUS federation"],
+    "correct": 0,
+    "explanation": "Remote access enables users outside the organization’s perimeter to securely access internal systems with proper credentials and encryption."
+  },
+  {
+    "id": "NET22",
+    "domain": "secure-communication",
+    "question": "What process encapsulates network traffic within another protocol to create a private communication channel across shared networks?",
+    "examples": ["VPN encapsulation", "GRE tunneling"],
+    "choices": ["Tunneling", "Port forwarding", "Proxying", "Network segmentation"],
+    "correct": 0,
+    "explanation": "Tunneling wraps one protocol within another, enabling private communication over public or shared infrastructure."
+  },
+  {
+    "id": "NET23",
+    "domain": "secure-communication",
+    "question": "Which protocol provides encryption for web traffic and can also secure tunneled connections such as VPNs?",
+    "examples": ["HTTPS", "TLS-based VPNs"],
+    "choices": ["Transport Layer Security (TLS)", "Secure Shell (SSH)", "IPSec", "Kerberos"],
+    "correct": 0,
+    "explanation": "TLS encrypts application-layer traffic and can be used to secure tunnels like SSL VPNs."
+  },
+  {
+    "id": "NET24",
+    "domain": "secure-communication",
+    "question": "Which protocol suite secures IP communications by authenticating and encrypting each packet in a data stream?",
+    "examples": ["VPNs", "Site-to-site tunnels"],
+    "choices": ["Internet Protocol Security (IPSec)", "TLS", "SSH", "EAP-TLS"],
+    "correct": 0,
+    "explanation": "IPSec secures IP packets through encryption and authentication using protocols such as AH and ESP."
+  },
+  {
+    "id": "NET25",
+    "domain": "secure-communication",
+    "question": "Which WAN technology uses centralized controllers to dynamically route traffic across multiple links, improving security and performance?",
+    "examples": ["Policy-based WAN routing"],
+    "choices": ["Software-Defined Wide Area Network (SD-WAN)", "VPN concentrator", "SASE", "Proxy server"],
+    "correct": 0,
+    "explanation": "SD-WAN uses software-defined controllers to optimize and secure traffic across wide-area networks."
+  },
+  {
+    "id": "NET26",
+    "domain": "secure-communication",
+    "question": "Which cloud-delivered framework combines networking and security functions such as SD-WAN, CASB, and Zero Trust into a unified service?",
+    "examples": ["Cloud-native security edge", "Zero Trust integration"],
+    "choices": ["Secure Access Service Edge (SASE)", "UTM", "NGFW", "IDS/IPS"],
+    "correct": 0,
+    "explanation": "SASE integrates network security and access control functions into a single, cloud-based architecture."
+  },
+  {
+    "id": "NET27",
+    "domain": "secure-communication",
+    "question": "Which principle involves selecting technical and administrative safeguards based on the organization’s risk tolerance and mission needs?",
+    "examples": ["Defense in depth", "Risk prioritization"],
+    "choices": ["Selection of effective controls", "Change management", "Least privilege", "Patch management"],
+    "correct": 0,
+    "explanation": "Selecting effective controls requires balancing risk, cost, and operational impact to implement the most appropriate safeguards."
+  }
+]

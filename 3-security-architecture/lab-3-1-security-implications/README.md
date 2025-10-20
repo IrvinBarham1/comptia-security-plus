@@ -1,4 +1,4 @@
-# Lab 3.1 — Architecture & Infrastructure Concepts
+# Lab 3.1 — Security Architecture
 
 ## 🎯 Objective
 **“Compare and contrast security implications of different architecture models.”**

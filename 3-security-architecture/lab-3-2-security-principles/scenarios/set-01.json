@@ -1,0 +1,218 @@
+[
+  {
+    "id": "INF1",
+    "domain": "infrastructure",
+    "question": "Which design principle involves placing security devices strategically within the network to optimize protection and visibility?",
+    "examples": ["Perimeter firewalls", "DMZ sensors"],
+    "choices": ["Device placement", "Port security", "Connectivity", "Attack surface reduction"],
+    "correct": 0,
+    "explanation": "Device placement ensures that security tools are located where they can effectively monitor, filter, or protect network traffic."
+  },
+  {
+    "id": "INF2",
+    "domain": "infrastructure",
+    "question": "What are logical or physical divisions within a network that separate systems by trust level or function?",
+    "examples": ["DMZ", "Internal LAN", "Guest Wi-Fi"],
+    "choices": ["Security zones", "VLAN tagging", "Subnets", "Port security"],
+    "correct": 0,
+    "explanation": "Security zones create network boundaries that limit access between areas of differing trust levels."
+  },
+  {
+    "id": "INF3",
+    "domain": "infrastructure",
+    "question": "Which concept represents the total number of points where an attacker can try to enter or extract data from a system?",
+    "examples": ["Open ports", "APIs", "User accounts"],
+    "choices": ["Attack surface", "Vulnerability window", "Threat vector", "Exploit path"],
+    "correct": 0,
+    "explanation": "Attack surface refers to all possible points of interaction that could be exploited by an attacker."
+  },
+  {
+    "id": "INF4",
+    "domain": "infrastructure",
+    "question": "Which factor describes how networked systems communicate and share resources, including protocols and routing methods?",
+    "examples": ["LAN, WAN, VPN links"],
+    "choices": ["Connectivity", "Device placement", "Segmentation", "Availability"],
+    "correct": 0,
+    "explanation": "Connectivity refers to the communication paths and interfaces between devices, which must be secured to prevent unauthorized access."
+  },
+  {
+    "id": "INF5",
+    "domain": "infrastructure",
+    "question": "In which failure mode does a security device allow all traffic to pass during a malfunction to preserve availability?",
+    "examples": ["Firewall crash", "Load balancer outage"],
+    "choices": ["Fail-open", "Fail-closed", "Fail-safe", "Fail-over"],
+    "correct": 0,
+    "explanation": "Fail-open devices default to allowing traffic when they fail, prioritizing availability over security."
+  },
+  {
+    "id": "INF6",
+    "domain": "infrastructure",
+    "question": "In which failure mode does a security device block all traffic during a malfunction to prevent compromise?",
+    "examples": ["IDS sensor lockup", "Malfunctioning proxy"],
+    "choices": ["Fail-closed", "Fail-open", "Fail-over", "High availability"],
+    "correct": 0,
+    "explanation": "Fail-closed systems default to denying traffic when they fail, prioritizing security over availability."
+  },
+  {
+    "id": "INF7",
+    "domain": "infrastructure",
+    "question": "Which type of network sensor actively interacts with traffic, blocking or modifying packets in real time?",
+    "examples": ["Intrusion Prevention System (IPS)"],
+    "choices": ["Active device", "Passive device", "Inline monitor", "Tap sensor"],
+    "correct": 0,
+    "explanation": "Active devices can take automated action such as blocking malicious traffic, unlike passive sensors which only observe."
+  },
+  {
+    "id": "INF8",
+    "domain": "infrastructure",
+    "question": "Which deployment method places a monitoring device directly in the traffic path, allowing it to block or modify packets?",
+    "examples": ["Next-gen firewall", "IPS inline mode"],
+    "choices": ["Inline", "Tap/Monitor", "Passive", "Off-path"],
+    "correct": 0,
+    "explanation": "Inline devices sit directly in the data path, enabling real-time inspection and blocking."
+  },
+  {
+    "id": "INF9",
+    "domain": "infrastructure",
+    "question": "Which specialized system provides administrators with a controlled, isolated environment for managing critical systems securely?",
+    "examples": ["Administrative bastion host"],
+    "choices": ["Jump server", "Proxy server", "Load balancer", "Sensor node"],
+    "correct": 0,
+    "explanation": "Jump servers serve as hardened gateways for administrators to access sensitive systems securely."
+  },
+  {
+    "id": "INF10",
+    "domain": "infrastructure",
+    "question": "Which device acts as an intermediary to filter and forward client requests, providing anonymity and content control?",
+    "examples": ["Forward or reverse proxy"],
+    "choices": ["Proxy server", "Jump server", "IDS sensor", "VPN concentrator"],
+    "correct": 0,
+    "explanation": "Proxy servers mediate traffic between clients and external resources, enforcing policy and privacy."
+  },
+  {
+    "id": "INF11",
+    "domain": "infrastructure",
+    "question": "Which security appliance inspects network traffic and can take immediate action to block detected threats?",
+    "examples": ["Inline inspection", "Signature-based blocking"],
+    "choices": ["Intrusion Prevention System (IPS)", "Intrusion Detection System (IDS)", "Load balancer", "Firewall"],
+    "correct": 0,
+    "explanation": "An IPS actively blocks malicious traffic, while an IDS only detects and alerts."
+  },
+  {
+    "id": "INF12",
+    "domain": "infrastructure",
+    "question": "Which appliance distributes network traffic across multiple servers to ensure performance and high availability?",
+    "examples": ["Traffic distribution", "Failover support"],
+    "choices": ["Load balancer", "Proxy server", "IPS", "WAF"],
+    "correct": 0,
+    "explanation": "A load balancer improves performance and uptime by distributing requests among multiple backend servers."
+  },
+  {
+    "id": "INF13",
+    "domain": "infrastructure",
+    "question": "Which network appliance collects data from traffic or devices for visibility, telemetry, and alerting?",
+    "examples": ["Network probes", "Security sensors"],
+    "choices": ["Sensors", "IPS", "Load balancer", "Proxy server"],
+    "correct": 0,
+    "explanation": "Sensors passively monitor network traffic for security analysis and visibility."
+  },
+  {
+    "id": "INF14",
+    "domain": "infrastructure",
+    "question": "Which port security protocol uses credentials to authenticate devices attempting to connect to a switch port?",
+    "examples": ["Network Access Control (NAC)"],
+    "choices": ["802.1X", "EAP", "RADIUS", "WPA2-Enterprise"],
+    "correct": 0,
+    "explanation": "802.1X provides port-based authentication to ensure only authorized devices gain network access."
+  },
+  {
+    "id": "INF15",
+    "domain": "infrastructure",
+    "question": "Which authentication framework supports multiple methods, including certificates, smart cards, and one-time passwords?",
+    "examples": ["Wireless and VPN authentication"],
+    "choices": ["Extensible Authentication Protocol (EAP)", "802.1X", "RADIUS", "Kerberos"],
+    "correct": 0,
+    "explanation": "EAP is a flexible authentication framework used in 802.1X and wireless network access."
+  },
+  {
+    "id": "INF16",
+    "domain": "infrastructure",
+    "question": "Which specialized firewall filters, monitors, and blocks HTTP/S traffic at the application layer to protect against web-based attacks?",
+    "examples": ["XSS filtering", "SQLi blocking"],
+    "choices": ["Web Application Firewall (WAF)", "NGFW", "UTM", "Layer 4 firewall"],
+    "correct": 0,
+    "explanation": "A WAF operates at Layer 7 to protect web applications against attacks like XSS and SQL injection."
+  },
+  {
+    "id": "INF17",
+    "domain": "infrastructure",
+    "question": "Which appliance consolidates multiple network security functions, such as firewall, antivirus, and intrusion prevention, into a single platform?",
+    "examples": ["All-in-one security appliance"],
+    "choices": ["Unified Threat Management (UTM)", "Next-Generation Firewall (NGFW)", "Proxy server", "Load balancer"],
+    "correct": 0,
+    "explanation": "UTM devices integrate multiple security capabilities into a single solution for easier management."
+  },
+  {
+    "id": "INF18",
+    "domain": "infrastructure",
+    "question": "Which firewall type adds application-level inspection and advanced threat detection to traditional Layer 3/4 filtering?",
+    "examples": ["Context-aware inspection", "Deep packet inspection"],
+    "choices": ["Next-Generation Firewall (NGFW)", "UTM", "Layer 7 WAF", "Packet filter"],
+    "correct": 0,
+    "explanation": "NGFWs extend beyond port and protocol filtering to include content inspection and threat intelligence integration."
+  },
+  {
+    "id": "INF19",
+    "domain": "infrastructure",
+    "question": "At which layers of the OSI model do traditional firewalls and application firewalls primarily operate, respectively?",
+    "examples": ["Packet vs. application inspection"],
+    "choices": ["Layer 4 and Layer 7", "Layer 2 and Layer 3", "Layer 3 and Layer 5", "Layer 1 and Layer 6"],
+    "correct": 0,
+    "explanation": "Traditional firewalls operate at Layer 4 (transport), while application firewalls like WAFs function at Layer 7."
+  },
+  {
+    "id": "INF20",
+    "domain": "infrastructure",
+    "question": "At which OSI layer do switches, MAC address filtering, and VLAN segmentation operate?",
+    "examples": ["Ethernet frames", "Switch ports", "MAC filtering"],
+    "choices": ["Layer 2 – Data Link", "Layer 3 – Network", "Layer 4 – Transport", "Layer 7 – Application"],
+    "correct": 0,
+    "explanation": "Layer 2, the Data Link layer, manages physical addressing and local delivery using MAC addresses. Switches and VLANs function here."
+  },
+  {
+    "id": "INF21",
+    "domain": "infrastructure",
+    "question": "Routers and firewalls that make routing and IP filtering decisions operate primarily at which OSI layer?",
+    "examples": ["IP addressing", "Routing tables", "ICMP traffic"],
+    "choices": ["Layer 3 – Network", "Layer 2 – Data Link", "Layer 4 – Transport", "Layer 7 – Application"],
+    "correct": 0,
+    "explanation": "Layer 3, the Network layer, handles logical addressing and routing using IP packets. Routers and basic packet-filtering firewalls work here."
+  },
+  {
+    "id": "INF22",
+    "domain": "infrastructure",
+    "question": "Which OSI layer is responsible for managing end-to-end communication sessions through TCP and UDP port numbers?",
+    "examples": ["TCP 80", "UDP 53", "Port filtering"],
+    "choices": ["Layer 4 – Transport", "Layer 3 – Network", "Layer 2 – Data Link", "Layer 7 – Application"],
+    "correct": 0,
+    "explanation": "Layer 4, the Transport layer, ensures reliable or best-effort communication using protocols like TCP and UDP, identified by port numbers."
+  },
+  {
+    "id": "INF23",
+    "domain": "infrastructure",
+    "question": "Which OSI layer establishes, maintains, and terminates communication sessions between devices or applications?",
+    "examples": ["Session persistence", "API connections", "Remote desktop sessions"],
+    "choices": ["Layer 5 – Session", "Layer 4 – Transport", "Layer 6 – Presentation", "Layer 7 – Application"],
+    "correct": 0,
+    "explanation": "Layer 5, the Session layer, manages the setup, coordination, and teardown of communication sessions between endpoints."
+  },
+  {
+    "id": "INF24",
+    "domain": "infrastructure",
+    "question": "At which OSI layer do Web Application Firewalls (WAFs), proxies, and intrusion detection systems inspect data for malicious content?",
+    "examples": ["HTTP filtering", "Deep packet inspection", "DNS monitoring"],
+    "choices": ["Layer 7 – Application", "Layer 4 – Transport", "Layer 3 – Network", "Layer 2 – Data Link"],
+    "correct": 0,
+    "explanation": "Layer 7, the Application layer, interacts with end-user protocols like HTTP, DNS, and SMTP. Security tools here inspect full content for threats."
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "GD1",
+    "domain": "data-considerations",
+    "question": "Which data state refers to information stored on a device or media and not actively moving through a network?",
+    "examples": ["Database files", "Hard drive data", "Backups"],
+    "choices": ["Data at rest", "Data in transit", "Data in use", "Data archived"],
+    "correct": 0,
+    "explanation": "Data at rest is stored data that requires encryption and access control to protect against unauthorized retrieval."
+  },
+  {
+    "id": "GD2",
+    "domain": "data-considerations",
+    "question": "Which data state describes information actively moving across a network or communication channel?",
+    "examples": ["Email transfer", "VPN traffic"],
+    "choices": ["Data in transit", "Data at rest", "Data in use", "Data retained"],
+    "correct": 0,
+    "explanation": "Data in transit is data being transmitted across networks and is protected with encryption protocols like TLS or IPSec."
+  },
+  {
+    "id": "GD3",
+    "domain": "data-considerations",
+    "question": "Which data state refers to information being processed or actively accessed by an application or system?",
+    "examples": ["Data in RAM", "Active document editing"],
+    "choices": ["Data in use", "Data in transit", "Data at rest", "Data archived"],
+    "correct": 0,
+    "explanation": "Data in use is being processed in memory, requiring protection against unauthorized access or memory scraping."
+  },
+  {
+    "id": "GD4",
+    "domain": "data-considerations",
+    "question": "Which concept ensures data is subject to the laws and governance of the country or region in which it is stored?",
+    "examples": ["GDPR in the EU", "Data residency laws"],
+    "choices": ["Data sovereignty", "Geolocation", "Regulatory compliance", "Data jurisdiction"],
+    "correct": 0,
+    "explanation": "Data sovereignty requires that information is managed in accordance with the legal and privacy requirements of its physical location."
+  },
+  {
+    "id": "GD5",
+    "domain": "data-considerations",
+    "question": "Which term refers to the physical location of systems or storage that can affect latency, access control, and compliance?",
+    "examples": ["Regional cloud data center", "Edge computing nodes"],
+    "choices": ["Geolocation", "Data sovereignty", "Topology", "Segmentation"],
+    "correct": 0,
+    "explanation": "Geolocation refers to where data physically resides, which impacts regulatory compliance and performance."
+  },
+  {
+    "id": "SD1",
+    "domain": "data-protection-methods",
+    "question": "Which security method restricts access to resources based on physical or regional boundaries?",
+    "examples": ["Geo-IP blocking", "Region-based content filters"],
+    "choices": ["Geographic restrictions", "Segmentation", "Data sovereignty", "Obfuscation"],
+    "correct": 0,
+    "explanation": "Geographic restrictions enforce security boundaries based on location to comply with laws or mitigate regional threats."
+  },
+  {
+    "id": "SD2",
+    "domain": "data-protection-methods",
+    "question": "Which method converts readable data into ciphertext to ensure confidentiality during storage or transmission?",
+    "examples": ["AES", "RSA", "TLS"],
+    "choices": ["Encryption", "Hashing", "Masking", "Tokenization"],
+    "correct": 0,
+    "explanation": "Encryption uses cryptographic keys to secure data, making it unreadable to unauthorized users."
+  },
+  {
+    "id": "SD3",
+    "domain": "data-protection-methods",
+    "question": "Which method produces a fixed-length output from variable-length input and is primarily used for data integrity verification?",
+    "examples": ["SHA-256", "MD5", "Checksums"],
+    "choices": ["Hashing", "Encryption", "Masking", "Tokenization"],
+    "correct": 0,
+    "explanation": "Hashing creates a one-way mathematical representation of data, ensuring it hasn’t been altered."
+  },
+  {
+    "id": "SD4",
+    "domain": "data-protection-methods",
+    "question": "Which technique hides parts of data to protect sensitive information while keeping a portion visible?",
+    "examples": ["Displaying only last four digits of SSN"],
+    "choices": ["Masking", "Encryption", "Hashing", "Tokenization"],
+    "correct": 0,
+    "explanation": "Masking conceals parts of sensitive information to prevent exposure while allowing limited visibility."
+  },
+  {
+    "id": "SD5",
+    "domain": "data-protection-methods",
+    "question": "Which method replaces sensitive data elements with non-sensitive substitutes that retain usability but hide the original values?",
+    "examples": ["Payment tokens in PCI DSS systems"],
+    "choices": ["Tokenization", "Masking", "Encryption", "Obfuscation"],
+    "correct": 0,
+    "explanation": "Tokenization replaces sensitive data with unique identifiers or tokens, keeping real data protected in secure storage."
+  },
+  {
+    "id": "SD6",
+    "domain": "data-protection-methods",
+    "question": "Which data protection technique makes code or data harder to interpret by humans, typically for software protection?",
+    "examples": ["Variable renaming", "Code scrambling"],
+    "choices": ["Obfuscation", "Hashing", "Masking", "Segmentation"],
+    "correct": 0,
+    "explanation": "Obfuscation alters the presentation of data or code to conceal its logic or content from unauthorized analysis."
+  },
+  {
+    "id": "SD7",
+    "domain": "data-protection-methods",
+    "question": "Which method separates data or systems into isolated environments to limit exposure and contain breaches?",
+    "examples": ["Network VLANs", "Database partitions"],
+    "choices": ["Segmentation", "Encryption", "Hashing", "Tokenization"],
+    "correct": 0,
+    "explanation": "Segmentation divides systems or datasets into smaller zones, reducing the potential impact of a compromise."
+  },
+  {
+    "id": "SD8",
+    "domain": "data-protection-methods",
+    "question": "Which access control mechanism limits operations to only authorized individuals or processes based on assigned privileges?",
+    "examples": ["File permission policies", "Role-based access control"],
+    "choices": ["Permission restrictions", "Data sovereignty", "Encryption", "Geolocation"],
+    "correct": 0,
+    "explanation": "Permission restrictions enforce access control rules ensuring only approved users or systems can interact with specific data."
+  }
+]

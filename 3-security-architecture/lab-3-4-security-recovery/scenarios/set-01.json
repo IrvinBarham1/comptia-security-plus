@@ -1,0 +1,110 @@
+[
+  {
+    "id": "HA1",
+    "domain": "high-availability",
+    "question": "Which method distributes network traffic across multiple systems to improve availability and performance?",
+    "examples": ["Web servers", "DNS balancing"],
+    "choices": ["Load balancing", "Clustering", "Failover", "Redundancy"],
+    "correct": 0,
+    "explanation": "Load balancing distributes requests among multiple servers to maintain availability and optimize performance."
+  },
+  {
+    "id": "HA2",
+    "domain": "high-availability",
+    "question": "Which configuration links multiple servers to work as a single logical unit for redundancy and fault tolerance?",
+    "examples": ["Database cluster", "Application cluster"],
+    "choices": ["Clustering", "Load balancing", "Virtualization", "Replication"],
+    "correct": 0,
+    "explanation": "Clustering groups servers together so if one fails, another continues operation without user interruption."
+  },
+  {
+    "id": "SITE1",
+    "domain": "site-considerations",
+    "question": "Which recovery site is fully equipped and can take over operations immediately after a failure?",
+    "examples": ["Mirrored data center", "Hot standby"],
+    "choices": ["Hot site", "Warm site", "Cold site", "Geographic dispersion"],
+    "correct": 0,
+    "explanation": "A hot site contains duplicate systems, data, and connectivity to allow near-instant failover during an outage."
+  },
+  {
+    "id": "SITE2",
+    "domain": "site-considerations",
+    "question": "Which recovery site provides space and power but requires system and data setup before becoming operational?",
+    "examples": ["Basic facility with power and HVAC"],
+    "choices": ["Cold site", "Warm site", "Hot site", "Backup office"],
+    "correct": 0,
+    "explanation": "A cold site provides only the physical environment; equipment and data restoration must occur before use."
+  },
+  {
+    "id": "SITE3",
+    "domain": "site-considerations",
+    "question": "Which recovery site type includes pre-installed hardware but requires data restoration before it is fully functional?",
+    "examples": ["Pre-staged hardware", "Partial replication"],
+    "choices": ["Warm site", "Cold site", "Hot site", "Redundant zone"],
+    "correct": 0,
+    "explanation": "A warm site has hardware ready but lacks up-to-date data; it offers faster recovery than a cold site but slower than a hot site."
+  },
+  {
+    "id": "SITE4",
+    "domain": "site-considerations",
+    "question": "Which strategy involves distributing resources across multiple geographic regions to enhance redundancy and disaster recovery?",
+    "examples": ["Global cloud failover", "Multiple data center locations"],
+    "choices": ["Geographic dispersion", "Load balancing", "Clustering", "Cold site"],
+    "correct": 0,
+    "explanation": "Geographic dispersion places systems in separate locations to reduce the impact of localized disasters or outages."
+  },
+  {
+    "id": "PD1",
+    "domain": "platform-diversity",
+    "question": "Which design approach reduces risk by using a mix of different vendors, operating systems, or hardware architectures?",
+    "examples": ["Windows and Linux mix", "Multi-vendor routers"],
+    "choices": ["Platform diversity", "Redundancy", "Virtualization", "Clustering"],
+    "correct": 0,
+    "explanation": "Platform diversity prevents single-vendor or single-system dependency, improving resilience and reducing common vulnerabilities."
+  },
+  {
+    "id": "MC1",
+    "domain": "multi-cloud",
+    "question": "Which strategy uses multiple cloud providers to increase fault tolerance and reduce vendor lock-in?",
+    "examples": ["AWS and Azure", "Hybrid cloud"],
+    "choices": ["Multi-cloud systems", "Hybrid cloud", "Community cloud", "Distributed network"],
+    "correct": 0,
+    "explanation": "Multi-cloud deployments distribute workloads across providers, improving resilience and reducing dependency on one vendor."
+  },
+  {
+    "id": "COOP1",
+    "domain": "continuity",
+    "question": "Which concept ensures that essential business functions continue during and after a disruption?",
+    "examples": ["Disaster recovery plans", "Alternate processing sites"],
+    "choices": ["Continuity of operations", "High availability", "Incident response", "Resilience"],
+    "correct": 0,
+    "explanation": "Continuity of operations (COOP) focuses on maintaining critical services during emergencies or disasters."
+  },
+  {
+    "id": "CAP1",
+    "domain": "capacity-planning",
+    "question": "Which planning process determines the human resources required to sustain critical operations during increased workload or disaster recovery?",
+    "examples": ["Staffing levels", "On-call rotation"],
+    "choices": ["People capacity planning", "Technology planning", "Business impact analysis", "Continuity planning"],
+    "correct": 0,
+    "explanation": "People capacity planning ensures adequate staffing and expertise are available to maintain essential functions during disruption."
+  },
+  {
+    "id": "CAP2",
+    "domain": "capacity-planning",
+    "question": "Which form of capacity planning focuses on ensuring computing systems and software can handle future growth and peak demands?",
+    "examples": ["CPU utilization", "Storage expansion"],
+    "choices": ["Technology capacity planning", "Infrastructure planning", "System scaling", "Workload balancing"],
+    "correct": 0,
+    "explanation": "Technology capacity planning forecasts hardware and software performance needs to meet future demand securely."
+  },
+  {
+    "id": "CAP3",
+    "domain": "capacity-planning",
+    "question": "Which process ensures sufficient network, power, and environmental resources exist to support system growth and redundancy?",
+    "examples": ["UPS power sizing", "Cooling and rack space allocation"],
+    "choices": ["Infrastructure capacity planning", "Technology planning", "Facility management", "Continuity of operations"],
+    "correct": 0,
+    "explanation": "Infrastructure capacity planning addresses physical and environmental resources to maintain uptime and scalability."
+  }
+]

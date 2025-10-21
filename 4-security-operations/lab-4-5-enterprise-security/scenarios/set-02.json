@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PROTO1",
+    "domain": "enterprise-enhancement",
+    "question": "A network engineer replaces Telnet with SSH for device management. Which secure protocol selection principle is being applied?",
+    "examples": ["Encrypted remote administration"],
+    "choices": ["Protocol selection", "Transport method", "Port filtering", "Port selection"],
+    "correct": 0,
+    "explanation": "Protocol selection involves choosing secure alternatives—SSH instead of Telnet—to protect authentication and session data."
+  },
+  {
+    "id": "PROTO2",
+    "domain": "enterprise-enhancement",
+    "question": "An administrator ensures HTTPS traffic is allowed only on TCP port 443. What concept does this configuration illustrate?",
+    "examples": ["Enforcing proper secure port mapping"],
+    "choices": ["Port selection", "Protocol negotiation", "Transport tunneling", "Application proxy"],
+    "correct": 0,
+    "explanation": "Port selection ensures services use the correct secure transport ports, such as HTTPS on TCP 443 or SFTP on TCP 22."
+  },
+  {
+    "id": "PROTO3",
+    "domain": "enterprise-enhancement",
+    "question": "A company configures an IPsec VPN using Encapsulating Security Payload (ESP) in tunnel mode. Which secure transport method is being used?",
+    "examples": ["Site-to-site VPN encryption"],
+    "choices": ["Transport method", "Protocol selection", "Port assignment", "DNS filtering"],
+    "correct": 0,
+    "explanation": "Transport methods like IPsec ESP provide encryption and integrity at the network layer, protecting data in transit between endpoints."
+  },
+  {
+    "id": "DNS1",
+    "domain": "enterprise-enhancement",
+    "question": "A security analyst configures a gateway service to block access to domains associated with phishing and malware. What type of control is this?",
+    "examples": ["Preventing malicious domain resolution"],
+    "choices": ["DNS filtering", "Web proxy", "Port filtering", "Firewall NAT"],
+    "correct": 0,
+    "explanation": "DNS filtering blocks domain lookups for known malicious or undesired sites, preventing users from connecting to harmful destinations."
+  },
+  {
+    "id": "EMAIL1",
+    "domain": "enterprise-enhancement",
+    "question": "An organization implements a mechanism to ensure that emails claiming to be from its domain are verified by recipient servers using DNS-published policies. Which control provides this verification?",
+    "examples": ["Email domain authenticity verification"],
+    "choices": ["DMARC", "DKIM", "SPF", "Gateway filtering"],
+    "correct": 0,
+    "explanation": "DMARC (Domain-based Message Authentication Reporting and Conformance) builds on SPF and DKIM to enforce domain-based authentication, reporting, and policy for validated email delivery."
+  },
+  {
+    "id": "EMAIL2",
+    "domain": "enterprise-enhancement",
+    "question": "A mail server signs outbound messages with a digital signature that allows recipients to verify they were not modified. Which technology provides this integrity check?",
+    "examples": ["Cryptographically signed outgoing email"],
+    "choices": ["DomainKeys Identified Mail (DKIM)", "SPF", "DMARC", "Gateway filtering"],
+    "correct": 0,
+    "explanation": "DKIM uses cryptographic signatures to verify that a message's content has not been altered and that it originates from an authorized sender."
+  },
+  {
+    "id": "EMAIL3",
+    "domain": "enterprise-enhancement",
+    "question": "A company publishes authorized outbound mail servers in DNS records so recipients can confirm legitimate sources. Which protocol accomplishes this?",
+    "examples": ["DNS-based sender authorization"],
+    "choices": ["Sender Policy Framework (SPF)", "DMARC", "DKIM", "S/MIME"],
+    "correct": 0,
+    "explanation": "SPF defines which mail servers are allowed to send email on behalf of a domain, helping prevent spoofing."
+  },
+  {
+    "id": "EMAIL4",
+    "domain": "enterprise-enhancement",
+    "question": "Inbound mail is routed through a device that scans attachments and URLs before delivering to users. What email security feature is this?",
+    "examples": ["Inbound filtering appliance"],
+    "choices": ["Email gateway", "SPF validation", "DNS sinkhole", "Antivirus only"],
+    "correct": 0,
+    "explanation": "An email gateway provides centralized scanning and filtering for spam, phishing, and malware before messages reach users’ inboxes."
+  },
+  {
+    "id": "FIM1",
+    "domain": "enterprise-enhancement",
+    "question": "A host-based agent generates alerts when critical system files or registry keys are modified outside of approved updates. Which control provides this protection?",
+    "examples": ["Monitoring file integrity changes"],
+    "choices": ["File integrity monitoring (FIM)", "DLP", "EDR", "Antivirus"],
+    "correct": 0,
+    "explanation": "File Integrity Monitoring (FIM) compares current file states to known baselines and reports unauthorized modifications."
+  },
+  {
+    "id": "DLP1",
+    "domain": "enterprise-enhancement",
+    "question": "A company prevents employees from emailing unencrypted customer records or uploading confidential data to personal cloud storage. Which technology provides this capability?",
+    "examples": ["Sensitive data transfer control"],
+    "choices": ["Data Loss Prevention (DLP)", "File integrity monitoring", "Email gateway", "EDR"],
+    "correct": 0,
+    "explanation": "DLP tools detect and block the unauthorized movement of sensitive data through email, web, or removable media channels."
+  },
+  {
+    "id": "NAC1",
+    "domain": "enterprise-enhancement",
+    "question": "Before granting access to the corporate network, an authentication system checks whether connecting devices have current antivirus signatures and patches. What control is applied?",
+    "examples": ["Pre-admission endpoint posture check"],
+    "choices": ["Network Access Control (NAC)", "EDR", "Firewall ACL", "SIEM"],
+    "correct": 0,
+    "explanation": "Network Access Control validates device health and compliance before allowing network connectivity, reducing exposure from unmanaged endpoints."
+  },
+  {
+    "id": "EDR1",
+    "domain": "enterprise-enhancement",
+    "question": "A security platform detects unusual process behavior on an endpoint, isolates the host, and forwards telemetry to a cloud service for correlation. What solution provides this response?",
+    "examples": ["Automated host isolation"],
+    "choices": ["Endpoint Detection and Response (EDR)", "NAC", "FIM", "DLP"],
+    "correct": 0,
+    "explanation": "EDR provides continuous endpoint monitoring, threat detection, and automated response such as isolation or remediation."
+  },
+  {
+    "id": "EDR2",
+    "domain": "enterprise-enhancement",
+    "question": "A managed security provider integrates endpoint, network, and cloud telemetry into one unified console to improve visibility across attack surfaces. What technology enables this?",
+    "examples": ["Unified multi-domain threat correlation"],
+    "choices": ["Extended Detection and Response (XDR)", "EDR", "SIEM", "NAC"],
+    "correct": 0,
+    "explanation": "XDR extends detection and response capabilities beyond endpoints to include network, email, and cloud data for holistic analysis."
+  },
+  {
+    "id": "UBA1",
+    "domain": "enterprise-enhancement",
+    "question": "A SIEM system flags a user who suddenly downloads ten times their normal data volume and accesses servers never used before. What analytic capability detected this behavior?",
+    "examples": ["Anomaly-based user monitoring"],
+    "choices": ["User Behavior Analytics (UBA)", "EDR", "DLP", "Trend analysis"],
+    "correct": 0,
+    "explanation": "User Behavior Analytics establishes normal activity baselines and identifies deviations that may indicate compromised accounts or insider threats."
+  }
+]

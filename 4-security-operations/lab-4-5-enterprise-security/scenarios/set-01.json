@@ -1,0 +1,110 @@
+[
+  {
+    "id": "FW1",
+    "domain": "enterprise-enhancement",
+    "question": "A security administrator modifies a network perimeter device to allow inbound HTTPS traffic while blocking all other inbound requests. Which capability is being used?",
+    "examples": ["Web server access configuration"],
+    "choices": ["Firewall rules", "Access control list", "Proxy server", "Intrusion prevention system"],
+    "correct": 0,
+    "explanation": "Firewall rules define which traffic is permitted or denied based on IP, port, and protocol, allowing precise control of inbound and outbound communication."
+  },
+  {
+    "id": "FW2",
+    "domain": "enterprise-enhancement",
+    "question": "A network engineer updates a configuration to block TCP port 23 to prevent Telnet connections. What aspect of firewall management does this change represent?",
+    "examples": ["Port-based restriction"],
+    "choices": ["Ports and protocols", "Access lists", "Screened subnets", "Rules order"],
+    "correct": 0,
+    "explanation": "Ports and protocols are defined in firewall configurations to restrict specific network services and prevent insecure communications."
+  },
+  {
+    "id": "FW3",
+    "domain": "enterprise-enhancement",
+    "question": "To protect an internal web server, a company places it in a DMZ separated from the internal LAN by two firewalls. Which concept does this represent?",
+    "examples": ["Public-facing server isolation"],
+    "choices": ["Screened subnet", "Access control list", "Packet filtering", "Proxy deployment"],
+    "correct": 0,
+    "explanation": "A screened subnet (DMZ) isolates publicly accessible systems from the internal network, reducing exposure if perimeter defenses are breached."
+  },
+  {
+    "id": "FW4",
+    "domain": "enterprise-enhancement",
+    "question": "A security team maintains a list of approved internal IP ranges that may access a specific application server. What firewall configuration element enforces this restriction?",
+    "examples": ["Internal IP filtering"],
+    "choices": ["Access control list (ACL)", "Screened subnet", "Rule base", "Port filtering"],
+    "correct": 0,
+    "explanation": "Access control lists (ACLs) specify which source or destination IPs and protocols are permitted or denied, providing granular access enforcement."
+  },
+  {
+    "id": "IDS1",
+    "domain": "enterprise-enhancement",
+    "question": "A security analyst notices repeated alerts triggered by known malware hash values detected in network traffic. What detection method is being used?",
+    "examples": ["Pattern-based identification"],
+    "choices": ["Signature-based detection", "Heuristic analysis", "Behavioral detection", "Trend monitoring"],
+    "correct": 0,
+    "explanation": "Signature-based detection identifies threats by matching data patterns to known attack signatures or malware hashes."
+  },
+  {
+    "id": "IDS2",
+    "domain": "enterprise-enhancement",
+    "question": "An intrusion detection dashboard shows a gradual increase in credential brute-force attempts over several weeks. What analysis capability enables this observation?",
+    "examples": ["Historical IDS data correlation"],
+    "choices": ["Trend analysis", "Signature detection", "False positive filtering", "Whitelisting"],
+    "correct": 0,
+    "explanation": "Trend analysis examines patterns over time to identify escalating threats or behavioral shifts that may require additional security controls."
+  },
+  {
+    "id": "WEB1",
+    "domain": "enterprise-enhancement",
+    "question": "A company deploys endpoint agents that enforce acceptable web use policies even when laptops operate off-network. Which web filtering approach is being used?",
+    "examples": ["Remote policy enforcement"],
+    "choices": ["Agent-based filtering", "Centralized proxy", "Reputation filtering", "Content categorization"],
+    "correct": 0,
+    "explanation": "Agent-based web filters install locally on endpoints to enforce browsing policies regardless of the network connection."
+  },
+  {
+    "id": "WEB2",
+    "domain": "enterprise-enhancement",
+    "question": "A security engineer implements a gateway that inspects all outbound web traffic for malicious URLs and blocks access to low-reputation domains. What filtering mechanism is applied?",
+    "examples": ["Reputation-based protection"],
+    "choices": ["Centralized proxy with URL reputation", "Agent-based filtering", "Content categorization only", "Access control list"],
+    "correct": 0,
+    "explanation": "A centralized proxy with URL reputation scanning blocks outbound connections to malicious or low-trust domains based on reputation databases."
+  },
+  {
+    "id": "WEB3",
+    "domain": "enterprise-enhancement",
+    "question": "A content filter blocks websites containing adult material or social media content categories during business hours. Which web filtering capability is this?",
+    "examples": ["Policy-based category blocking"],
+    "choices": ["Content categorization", "Reputation filtering", "Agentless scanning", "Port blocking"],
+    "correct": 0,
+    "explanation": "Content categorization groups web resources by subject or risk type, enabling policy enforcement to block inappropriate or non-business content."
+  },
+  {
+    "id": "WEB4",
+    "domain": "enterprise-enhancement",
+    "question": "An administrator configures a web gateway to block outbound HTTP requests to known malicious URLs while allowing HTTPS for business applications. Which capability is used?",
+    "examples": ["Selective URL filtering"],
+    "choices": ["URL scanning and block rules", "Agent-based enforcement", "Trend monitoring", "Reputation analysis only"],
+    "correct": 0,
+    "explanation": "URL scanning and block rules inspect outbound requests and prevent access to specific URLs that violate policy or are known threats."
+  },
+  {
+    "id": "OS1",
+    "domain": "enterprise-enhancement",
+    "question": "An administrator enforces password complexity and lockout policies across all Windows systems through centralized management. Which feature provides this capability?",
+    "examples": ["Centralized Windows policy enforcement"],
+    "choices": ["Group Policy", "SELinux", "ACL", "Firewall rule base"],
+    "correct": 0,
+    "explanation": "Group Policy enables centralized configuration and enforcement of user and system security settings across Windows domain environments."
+  },
+  {
+    "id": "OS2",
+    "domain": "enterprise-enhancement",
+    "question": "A Linux administrator configures a mandatory access control system to confine processes and restrict resource access based on policy. What mechanism provides this control?",
+    "examples": ["Linux kernel-level access control"],
+    "choices": ["Security-Enhanced Linux (SELinux)", "Group Policy", "ACLs", "Firewall zone"],
+    "correct": 0,
+    "explanation": "SELinux enforces mandatory access control (MAC) policies, limiting process capabilities and confining them to predefined security contexts."
+  }
+]

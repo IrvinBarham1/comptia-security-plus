@@ -1,0 +1,182 @@
+[
+  {
+    "id": "MON1",
+    "domain": "alerting-monitoring",
+    "question": "A SOC analyst notices that CPU utilization on multiple servers spikes during off-hours, triggering automated alerts. Which monitoring target is being observed?",
+    "examples": ["Performance monitoring", "Resource utilization tracking"],
+    "choices": ["Systems", "Applications", "Infrastructure", "Network perimeter"],
+    "correct": 0,
+    "explanation": "System monitoring tracks performance metrics such as CPU, memory, and disk usage to identify abnormal behavior or potential compromise."
+  },
+  {
+    "id": "MON2",
+    "domain": "alerting-monitoring",
+    "question": "A cloud operations team monitors virtual routers, switches, and load balancers for packet loss and latency issues. What component of computing resources is being monitored?",
+    "examples": ["Cloud infrastructure monitoring"],
+    "choices": ["Applications", "Systems", "Infrastructure", "Endpoints"],
+    "correct": 2,
+    "explanation": "Infrastructure monitoring ensures the health and performance of network, virtualization, and hardware resources supporting system operations."
+  },
+  {
+    "id": "MON3",
+    "domain": "alerting-monitoring",
+    "question": "A web team configures alerts to trigger when HTTP 500 errors exceed a threshold, indicating possible code or service issues. What resource type is being monitored?",
+    "examples": ["Web server error tracking"],
+    "choices": ["Applications", "Infrastructure", "Systems", "Endpoints"],
+    "correct": 0,
+    "explanation": "Application monitoring focuses on runtime performance, error rates, and service availability of software components."
+  },
+  {
+    "id": "ACT1",
+    "domain": "alerting-monitoring",
+    "question": "A security engineer deploys a SIEM to consolidate firewall, endpoint, and authentication logs into a single searchable interface. Which monitoring activity does this describe?",
+    "examples": ["Centralized log collection"],
+    "choices": ["Log aggregation", "Scanning", "Alerting", "Reporting"],
+    "correct": 0,
+    "explanation": "Log aggregation collects and normalizes data from multiple sources to provide a unified view of security events."
+  },
+  {
+    "id": "ACT2",
+    "domain": "alerting-monitoring",
+    "question": "An automated system sends an email to administrators when multiple failed login attempts are detected within a short timeframe. Which activity is being performed?",
+    "examples": ["Threshold-based alert"],
+    "choices": ["Alerting", "Scanning", "Reporting", "Archiving"],
+    "correct": 0,
+    "explanation": "Alerting notifies security personnel when events meet predefined conditions, allowing rapid detection and response."
+  },
+  {
+    "id": "ACT3",
+    "domain": "alerting-monitoring",
+    "question": "A vulnerability scanner is configured to run every weekend and automatically flag unpatched systems. What monitoring activity does this represent?",
+    "examples": ["Scheduled Nessus scan"],
+    "choices": ["Scanning", "Archiving", "Alerting", "Reporting"],
+    "correct": 0,
+    "explanation": "Scanning identifies weaknesses or misconfigurations across systems and networks to maintain continuous security awareness."
+  },
+  {
+    "id": "ACT4",
+    "domain": "alerting-monitoring",
+    "question": "An analyst compiles weekly summaries showing the number of incidents detected, resolved, and outstanding. Which activity is this?",
+    "examples": ["Weekly SOC performance summary"],
+    "choices": ["Reporting", "Archiving", "Scanning", "Alerting"],
+    "correct": 0,
+    "explanation": "Reporting communicates trends, outcomes, and key performance metrics to management and compliance teams."
+  },
+  {
+    "id": "ACT5",
+    "domain": "alerting-monitoring",
+    "question": "An organization stores raw log files in secure cold storage for one year to meet compliance requirements. What monitoring activity is being conducted?",
+    "examples": ["Long-term log retention"],
+    "choices": ["Archiving", "Reporting", "Scanning", "Alerting"],
+    "correct": 0,
+    "explanation": "Archiving preserves log data for historical analysis, forensics, and compliance verification."
+  },
+  {
+    "id": "ACT6",
+    "domain": "alerting-monitoring",
+    "question": "After detecting a malware infection, an endpoint detection system automatically isolates the affected host from the network. What response action is this?",
+    "examples": ["EDR automated isolation"],
+    "choices": ["Quarantine", "Alert tuning", "Reporting", "Archiving"],
+    "correct": 0,
+    "explanation": "Quarantine isolates compromised assets to prevent further spread and limit damage during incident response."
+  },
+  {
+    "id": "ACT7",
+    "domain": "alerting-monitoring",
+    "question": "A SOC engineer adjusts the SIEM rule set to reduce the number of duplicate and irrelevant notifications. Which process is being performed?",
+    "examples": ["Reducing false positives"],
+    "choices": ["Alert tuning", "Quarantine", "Reporting", "Log aggregation"],
+    "correct": 0,
+    "explanation": "Alert tuning refines thresholds and correlation rules to minimize noise and ensure that alerts are meaningful and actionable."
+  },
+  {
+    "id": "TOOL1",
+    "domain": "alerting-monitoring",
+    "question": "A security engineer uses a standardized framework to measure system configurations against NIST and DISA baselines. Which technology supports this automation?",
+    "examples": ["Compliance automation using standardized format"],
+    "choices": ["Security Content Automation Protocol (SCAP)", "Data Loss Prevention (DLP)", "Antivirus", "NetFlow"],
+    "correct": 0,
+    "explanation": "SCAP provides standardized formats for automating configuration assessments and verifying compliance with security benchmarks."
+  },
+  {
+    "id": "TOOL2",
+    "domain": "alerting-monitoring",
+    "question": "A system administrator uses the CIS Controls to evaluate whether Windows servers meet secure configuration standards. What is this assessment referencing?",
+    "examples": ["System hardening checklist"],
+    "choices": ["Benchmarks", "NetFlow", "SNMP traps", "Antivirus definitions"],
+    "correct": 0,
+    "explanation": "Benchmarks define secure configuration standards used to measure compliance and identify deviations."
+  },
+  {
+    "id": "TOOL3",
+    "domain": "alerting-monitoring",
+    "question": "A cloud provider uses lightweight scripts on endpoints to collect telemetry data, while another environment gathers logs remotely without installing software. What deployment models does this describe?",
+    "examples": ["Different monitoring agent types"],
+    "choices": ["Agents and agentless", "Benchmarks and baselines", "SCAP and DLP", "SNMP and NetFlow"],
+    "correct": 0,
+    "explanation": "Agents collect data locally on the host; agentless monitoring gathers it remotely through network or API access."
+  },
+  {
+    "id": "TOOL4",
+    "domain": "alerting-monitoring",
+    "question": "An analyst correlates firewall, endpoint, and authentication logs into a centralized dashboard to detect patterns of malicious activity. Which tool performs this function?",
+    "examples": ["Centralized log correlation and alerting"],
+    "choices": ["SIEM", "SNMP trap", "DLP", "Benchmark scanner"],
+    "correct": 0,
+    "explanation": "Security Information and Event Management (SIEM) systems aggregate, normalize, and correlate logs to detect and alert on suspicious behavior."
+  },
+  {
+    "id": "TOOL5",
+    "domain": "alerting-monitoring",
+    "question": "A workstation isolates a suspicious executable and prevents it from modifying files or registry keys. Which monitoring tool achieved this response?",
+    "examples": ["Endpoint real-time protection"],
+    "choices": ["Antivirus", "DLP", "SIEM", "SCAP"],
+    "correct": 0,
+    "explanation": "Antivirus software detects, quarantines, and removes malicious code on endpoints to prevent compromise."
+  },
+  {
+    "id": "TOOL6",
+    "domain": "alerting-monitoring",
+    "question": "A security administrator deploys a solution that prevents users from copying sensitive design files to USB drives or uploading them to cloud storage. Which tool type provides this control?",
+    "examples": ["Data exfiltration prevention"],
+    "choices": ["Data Loss Prevention (DLP)", "Antivirus", "SIEM", "Benchmarking tool"],
+    "correct": 0,
+    "explanation": "DLP solutions monitor and control data movement to prevent unauthorized disclosure or exfiltration of sensitive information."
+  },
+  {
+    "id": "TOOL7",
+    "domain": "alerting-monitoring",
+    "question": "A network engineer configures switches to send device status updates and interface failure alerts to a central monitoring console. Which protocol enables this?",
+    "examples": ["Device health notifications"],
+    "choices": ["Simple Network Management Protocol (SNMP) traps", "NetFlow", "DLP", "SIEM"],
+    "correct": 0,
+    "explanation": "SNMP traps notify a management system of specific device events such as link status changes or performance issues."
+  },
+  {
+    "id": "TOOL8",
+    "domain": "alerting-monitoring",
+    "question": "A SOC team reviews flow records showing source, destination, port, and bandwidth usage to detect unusual communication patterns. Which tool generates this data?",
+    "examples": ["Network flow analysis"],
+    "choices": ["NetFlow", "SCAP", "Antivirus", "Benchmark"],
+    "correct": 0,
+    "explanation": "NetFlow provides metadata about network traffic flows, enabling analysis of communication trends and anomaly detection."
+  },
+  {
+    "id": "TOOL9",
+    "domain": "alerting-monitoring",
+    "question": "During a weekly assessment, a security analyst uses an automated system to identify outdated software and missing patches across servers. Which tool type is being used?",
+    "examples": ["Routine vulnerability discovery"],
+    "choices": ["Vulnerability scanner", "DLP", "SIEM", "Benchmarking tool"],
+    "correct": 0,
+    "explanation": "Vulnerability scanners detect missing patches, insecure configurations, and known software flaws that require remediation."
+  },
+  {
+    "id": "TOOL10",
+    "domain": "alerting-monitoring",
+    "question": "A government agency uses SCAP-enabled scanners to verify compliance with DISA STIGs on all managed hosts. Which combination of technologies supports this validation?",
+    "examples": ["Automated compliance verification"],
+    "choices": ["SCAP with benchmarks", "DLP with antivirus", "SIEM with NetFlow", "SNMP with agents"],
+    "correct": 0,
+    "explanation": "SCAP uses standardized benchmark content (like DISA STIGs or CIS baselines) to automatically check and report compliance status."
+  }
+]

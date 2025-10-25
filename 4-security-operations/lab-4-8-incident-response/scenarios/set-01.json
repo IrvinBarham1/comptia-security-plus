@@ -1,0 +1,164 @@
+[
+  {
+    "id": "IR1",
+    "domain": "incident-response",
+    "question": "A security team establishes communication plans, contact lists, and response playbooks before any incidents occur. Which phase of incident response does this represent?",
+    "examples": ["Defining policies and playbooks"],
+    "choices": ["Preparation", "Detection", "Containment", "Recovery"],
+    "correct": 0,
+    "explanation": "Preparation involves creating policies, communication plans, and procedures before incidents to ensure an effective and organized response."
+  },
+  {
+    "id": "IR2",
+    "domain": "incident-response",
+    "question": "A monitoring system alerts the SOC of multiple failed logins from a single external IP. Which incident response phase begins next?",
+    "examples": ["Initial alert from security tools"],
+    "choices": ["Detection", "Analysis", "Containment", "Eradication"],
+    "correct": 0,
+    "explanation": "Detection identifies potential indicators of compromise, triggering the incident response process."
+  },
+  {
+    "id": "IR3",
+    "domain": "incident-response",
+    "question": "Analysts investigate logs and network traffic to confirm whether a suspicious alert represents a real compromise. What step is this?",
+    "examples": ["Validating suspicious activity"],
+    "choices": ["Analysis", "Detection", "Eradication", "Preparation"],
+    "correct": 0,
+    "explanation": "Analysis determines the nature, scope, and impact of a detected incident, distinguishing false positives from true threats."
+  },
+  {
+    "id": "IR4",
+    "domain": "incident-response",
+    "question": "After identifying a ransomware outbreak, the security team isolates infected machines from the corporate network. Which phase of incident response is being executed?",
+    "examples": ["Limiting malware spread"],
+    "choices": ["Containment", "Eradication", "Recovery", "Detection"],
+    "correct": 0,
+    "explanation": "Containment prevents an incident from spreading or causing additional damage by isolating affected systems."
+  },
+  {
+    "id": "IR5",
+    "domain": "incident-response",
+    "question": "Following containment, the team removes all malicious files, patches vulnerabilities, and restores system integrity. Which step is this?",
+    "examples": ["Removing malicious artifacts"],
+    "choices": ["Eradication", "Containment", "Recovery", "Lessons learned"],
+    "correct": 0,
+    "explanation": "Eradication eliminates malicious code, closes vulnerabilities, and restores system integrity."
+  },
+  {
+    "id": "IR6",
+    "domain": "incident-response",
+    "question": "After an incident is resolved, systems are safely reconnected and normal business operations resume. Which phase does this describe?",
+    "examples": ["Return to normal operations"],
+    "choices": ["Recovery", "Eradication", "Containment", "Detection"],
+    "correct": 0,
+    "explanation": "Recovery restores affected systems to production use after verifying that threats are removed and stability is confirmed."
+  },
+  {
+    "id": "IR7",
+    "domain": "incident-response",
+    "question": "The incident response team holds a meeting to review what went well and what can be improved after resolving a cyberattack. Which process phase is this?",
+    "examples": ["Post-incident review"],
+    "choices": ["Lessons learned", "Preparation", "Containment", "Analysis"],
+    "correct": 0,
+    "explanation": "Lessons learned reviews the incident handling process, identifying improvements and updates to response procedures."
+  },
+  {
+    "id": "IR8",
+    "domain": "incident-response",
+    "question": "An organization conducts annual workshops where team members practice their roles in responding to simulated cyber incidents. What activity is this?",
+    "examples": ["Incident readiness exercise"],
+    "choices": ["Training", "Testing", "Detection", "Recovery"],
+    "correct": 0,
+    "explanation": "Training ensures all personnel understand their responsibilities and can effectively execute incident response procedures."
+  },
+  {
+    "id": "IR9",
+    "domain": "incident-response",
+    "question": "A security team meets to verbally discuss their response plan for a hypothetical breach scenario without performing actual system changes. What testing type is this?",
+    "examples": ["Discussion-based evaluation"],
+    "choices": ["Tabletop exercise", "Simulation", "Training", "Lessons learned"],
+    "correct": 0,
+    "explanation": "A tabletop exercise involves discussion-based walkthroughs of incident scenarios to evaluate processes and decision-making."
+  },
+  {
+    "id": "IR10",
+    "domain": "incident-response",
+    "question": "During an annual security drill, the team uses a sandbox environment to test full incident containment and recovery procedures. Which testing method is this?",
+    "examples": ["Hands-on technical test"],
+    "choices": ["Simulation", "Tabletop exercise", "Training", "Preparation"],
+    "correct": 0,
+    "explanation": "Simulations replicate real-world incidents in a controlled environment to test technical and operational response readiness."
+  },
+  {
+    "id": "IR11",
+    "domain": "incident-response",
+    "question": "After a system compromise, investigators determine that a misconfigured firewall rule allowed unauthorized access. What analytical method identifies this root issue?",
+    "examples": ["Determining original fault cause"],
+    "choices": ["Root cause analysis", "Threat hunting", "Forensic acquisition", "Lessons learned"],
+    "correct": 0,
+    "explanation": "Root cause analysis identifies the fundamental reason behind an incident to prevent recurrence."
+  },
+  {
+    "id": "IR12",
+    "domain": "incident-response",
+    "question": "An analyst proactively searches network traffic and endpoint logs for stealthy attacker behaviors not detected by alerts. Which proactive activity is being performed?",
+    "examples": ["Proactive threat identification"],
+    "choices": ["Threat hunting", "Detection", "Root cause analysis", "Eradication"],
+    "correct": 0,
+    "explanation": "Threat hunting actively looks for undetected malicious activity using intelligence and behavioral analysis."
+  },
+  {
+    "id": "IR13",
+    "domain": "incident-response",
+    "question": "A company receives a court order to preserve all digital evidence related to a potential data breach. What forensic activity does this represent?",
+    "examples": ["Legal preservation directive"],
+    "choices": ["Legal hold", "Chain of custody", "Preservation", "Reporting"],
+    "correct": 0,
+    "explanation": "A legal hold requires the organization to preserve relevant evidence for ongoing or anticipated litigation."
+  },
+  {
+    "id": "IR14",
+    "domain": "incident-response",
+    "question": "An investigator logs every transfer of evidence and documents who handled it and when. Which forensic principle ensures admissibility in court?",
+    "examples": ["Evidence tracking record"],
+    "choices": ["Chain of custody", "Legal hold", "Acquisition", "Reporting"],
+    "correct": 0,
+    "explanation": "Chain of custody tracks evidence handling to maintain integrity and ensure it remains admissible in legal proceedings."
+  },
+  {
+    "id": "IR15",
+    "domain": "incident-response",
+    "question": "Forensic analysts create a bit-by-bit image of a suspect drive while preserving the original data. What process step is this?",
+    "examples": ["Evidence imaging procedure"],
+    "choices": ["Acquisition", "Preservation", "E-discovery", "Reporting"],
+    "correct": 0,
+    "explanation": "Acquisition involves creating a forensically sound copy of digital evidence without altering the original data."
+  },
+  {
+    "id": "IR16",
+    "domain": "incident-response",
+    "question": "During an investigation, evidence files are stored in a secure, write-protected repository. What forensic action is this?",
+    "examples": ["Protecting evidence integrity"],
+    "choices": ["Preservation", "Reporting", "E-discovery", "Chain of custody"],
+    "correct": 0,
+    "explanation": "Preservation ensures evidence remains intact and unaltered throughout the investigation process."
+  },
+  {
+    "id": "IR17",
+    "domain": "incident-response",
+    "question": "A forensic examiner documents all findings and provides them to legal counsel and management for review. What step is this?",
+    "examples": ["Formal case documentation"],
+    "choices": ["Reporting", "E-discovery", "Preservation", "Acquisition"],
+    "correct": 0,
+    "explanation": "Reporting summarizes findings, methods, and evidence handling for legal and organizational review."
+  },
+  {
+    "id": "IR18",
+    "domain": "incident-response",
+    "question": "During a lawsuit, a company is required to produce archived emails relevant to an internal investigation. Which digital forensics process addresses this requirement?",
+    "examples": ["Legal evidence retrieval"],
+    "choices": ["E-discovery", "Preservation", "Reporting", "Acquisition"],
+    "correct": 0,
+    "explanation": "E-discovery involves identifying, collecting, and producing electronically stored information (ESI) for legal proceedings."
+  }
+]

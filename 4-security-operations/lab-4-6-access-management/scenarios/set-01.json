@@ -1,0 +1,164 @@
+[
+  {
+    "id": "IAM1",
+    "domain": "identity-access-management",
+    "question": "A new employee joins the finance department, and the IT administrator automatically assigns access to financial systems and removes access when they leave. What process is being applied?",
+    "examples": ["Lifecycle-based access management"],
+    "choices": ["Provisioning and de-provisioning", "Access control", "Federation", "Identity proofing"],
+    "correct": 0,
+    "explanation": "Provisioning and de-provisioning ensure that user accounts are created, modified, and removed according to employment status and role changes."
+  },
+  {
+    "id": "IAM2",
+    "domain": "identity-access-management",
+    "question": "A contractor’s account is disabled immediately upon project completion to prevent future logins. Which identity management principle is this?",
+    "examples": ["Termination procedure enforcement"],
+    "choices": ["De-provisioning", "Attestation", "Role-based access", "Interoperability"],
+    "correct": 0,
+    "explanation": "De-provisioning disables or removes accounts when users no longer require access, reducing the risk of orphaned accounts and unauthorized use."
+  },
+  {
+    "id": "IAM3",
+    "domain": "identity-access-management",
+    "question": "A database administrator assigns read-only access to analysts and full modification rights to data engineers. What security concept does this illustrate?",
+    "examples": ["Role segregation by job duties"],
+    "choices": ["Permission assignments and implications", "Federation", "Attribute-based access", "Rule-based access"],
+    "correct": 0,
+    "explanation": "Permission assignment determines what level of access each user has, influencing confidentiality, integrity, and accountability."
+  },
+  {
+    "id": "IAM4",
+    "domain": "identity-access-management",
+    "question": "Before granting access to a cloud portal, a system verifies the user's government-issued ID and cross-checks it against HR records. Which process does this describe?",
+    "examples": ["User identity verification"],
+    "choices": ["Identity proofing", "Federation", "Authentication", "Attestation"],
+    "correct": 0,
+    "explanation": "Identity proofing verifies that a person’s claimed identity is genuine before granting credentials or access."
+  },
+  {
+    "id": "IAM5",
+    "domain": "identity-access-management",
+    "question": "A multinational company enables employees to use their corporate credentials to log into a partner’s platform without creating a new account. Which concept is being applied?",
+    "examples": ["Cross-domain access integration"],
+    "choices": ["Federation", "Single sign-on (SSO)", "Attestation", "Least privilege"],
+    "correct": 0,
+    "explanation": "Federation establishes trust between organizations, allowing identity credentials to be accepted across multiple systems or domains."
+  },
+  {
+    "id": "IAM6",
+    "domain": "identity-access-management",
+    "question": "A user logs into one internal system and gains access to email, HR, and file servers without re-entering credentials. Which feature enables this behavior?",
+    "examples": ["Unified login mechanism"],
+    "choices": ["Single sign-on (SSO)", "Federation", "OAuth", "LDAP"],
+    "correct": 0,
+    "explanation": "Single sign-on (SSO) allows users to authenticate once and access multiple services without repeated logins, improving usability and security."
+  },
+  {
+    "id": "IAM7",
+    "domain": "identity-access-management",
+    "question": "An enterprise uses a directory service to authenticate users over TCP port 389 using a centralized identity database. What protocol supports this?",
+    "examples": ["Directory-based authentication"],
+    "choices": ["Lightweight Directory Access Protocol (LDAP)", "OAuth", "SAML", "RADIUS"],
+    "correct": 0,
+    "explanation": "LDAP provides a standardized method for accessing and managing directory information used for authentication and authorization."
+  },
+  {
+    "id": "IAM8",
+    "domain": "identity-access-management",
+    "question": "A web application allows users to log in using their Google or Microsoft accounts without sharing passwords. Which standard is used for this authorization?",
+    "examples": ["Third-party sign-in integration"],
+    "choices": ["Open Authorization (OAuth)", "SAML", "Federation", "LDAP"],
+    "correct": 0,
+    "explanation": "OAuth enables token-based authorization between applications, allowing third-party logins without exposing user credentials."
+  },
+  {
+    "id": "IAM9",
+    "domain": "identity-access-management",
+    "question": "A cloud provider uses XML-based tokens to exchange authentication information between an identity provider and a service provider. Which protocol is being used?",
+    "examples": ["Cross-domain authentication exchange"],
+    "choices": ["Security Assertion Markup Language (SAML)", "OAuth", "LDAP", "Kerberos"],
+    "correct": 0,
+    "explanation": "SAML provides federated authentication by exchanging digitally signed XML assertions between an identity provider and a service provider."
+  },
+  {
+    "id": "IAM10",
+    "domain": "identity-access-management",
+    "question": "An organization integrates its on-premises Active Directory with multiple SaaS applications using a hybrid identity bridge. What IAM principle ensures compatibility across different systems?",
+    "examples": ["Cross-platform identity sharing"],
+    "choices": ["Interoperability", "Federation", "Attestation", "SSO"],
+    "correct": 0,
+    "explanation": "Interoperability ensures that identity solutions work seamlessly across diverse platforms and vendors, enabling unified authentication and access control."
+  },
+  {
+    "id": "IAM11",
+    "domain": "identity-access-management",
+    "question": "A compliance team performs a periodic review requiring department heads to confirm that users under their supervision still need their assigned privileges. Which IAM function is this?",
+    "examples": ["Access review and validation"],
+    "choices": ["Attestation", "Provisioning", "Identity proofing", "Least privilege"],
+    "correct": 0,
+    "explanation": "Attestation is the process of reviewing and verifying user permissions to ensure access rights remain appropriate over time."
+  },
+  {
+    "id": "IAM12",
+    "domain": "identity-access-management",
+    "question": "In a secure facility, system access is determined by pre-defined clearance levels that users cannot change. Which access control model is this?",
+    "examples": ["Mandatory classification enforcement"],
+    "choices": ["Mandatory Access Control (MAC)", "Discretionary Access Control (DAC)", "Role-based Access Control (RBAC)", "Attribute-based Access Control (ABAC)"],
+    "correct": 0,
+    "explanation": "Mandatory Access Control enforces access based on fixed classification labels; users cannot alter permissions assigned by the system."
+  },
+  {
+    "id": "IAM13",
+    "domain": "identity-access-management",
+    "question": "A project owner grants and revokes file permissions for their team members as needed. Which access control model applies?",
+    "examples": ["Owner-controlled permissions"],
+    "choices": ["Discretionary Access Control (DAC)", "Mandatory Access Control (MAC)", "Attribute-based Access Control (ABAC)", "Rule-based Access Control (RBAC)"],
+    "correct": 0,
+    "explanation": "Discretionary Access Control allows resource owners to determine who can access their objects and what permissions they receive."
+  },
+  {
+    "id": "IAM14",
+    "domain": "identity-access-management",
+    "question": "A hospital assigns access to systems based on job functions such as nurse, doctor, or billing staff. What access control model is this?",
+    "examples": ["Role-specific permissions assignment"],
+    "choices": ["Role-based Access Control (RBAC)", "Rule-based Access Control", "Attribute-based Access Control", "Discretionary Access Control"],
+    "correct": 0,
+    "explanation": "Role-based Access Control assigns permissions according to predefined roles, ensuring consistent privileges across job functions."
+  },
+  {
+    "id": "IAM15",
+    "domain": "identity-access-management",
+    "question": "A network administrator implements firewall policies that automatically deny access when a connection originates outside of business hours. Which access control type is demonstrated?",
+    "examples": ["Time-restricted policy enforcement"],
+    "choices": ["Rule-based Access Control", "Attribute-based Access Control", "Role-based Access Control", "Discretionary Access Control"],
+    "correct": 0,
+    "explanation": "Rule-based Access Control enforces decisions based on predefined conditions such as time, location, or system state."
+  },
+  {
+    "id": "IAM16",
+    "domain": "identity-access-management",
+    "question": "A financial system grants access to users who meet specific conditions such as job title, department, and clearance level. What model best represents this approach?",
+    "examples": ["Context-aware authorization"],
+    "choices": ["Attribute-based Access Control (ABAC)", "Role-based Access Control (RBAC)", "Discretionary Access Control (DAC)", "Mandatory Access Control (MAC)"],
+    "correct": 0,
+    "explanation": "Attribute-based Access Control evaluates user, resource, and environmental attributes to dynamically determine authorization decisions."
+  },
+  {
+    "id": "IAM17",
+    "domain": "identity-access-management",
+    "question": "An organization limits administrator privileges to only the tasks required for their job functions. Which principle is being implemented?",
+    "examples": ["Minimizing unnecessary permissions"],
+    "choices": ["Least privilege", "Role-based access", "Discretionary control", "Attestation"],
+    "correct": 0,
+    "explanation": "The principle of least privilege restricts user permissions to only those necessary to perform assigned duties, minimizing potential damage from misuse or compromise."
+  },
+  {
+    "id": "IAM18",
+    "domain": "identity-access-management",
+    "question": "A security policy prevents system administrators from modifying audit logs even though they have elevated permissions elsewhere. What concept does this represent?",
+    "examples": ["Privilege restriction in critical areas"],
+    "choices": ["Least privilege", "Rule-based access", "MAC", "DAC"],
+    "correct": 0,
+    "explanation": "Least privilege ensures even privileged users cannot exceed their specific operational requirements or compromise system integrity."
+  }
+]

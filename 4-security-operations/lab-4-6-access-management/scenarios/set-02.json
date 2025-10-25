@@ -1,0 +1,119 @@
+[
+  {
+    "id": "MFA1",
+    "domain": "identity-access-management",
+    "question": "A company implements fingerprint scanners at employee workstations to verify user identity before login. Which authentication method is being used?",
+    "examples": ["Biometric identity verification"],
+    "choices": ["Something you are", "Something you have", "Something you know", "Somewhere you are"],
+    "correct": 0,
+    "explanation": "Biometric authentication (something you are) verifies identity based on physical characteristics like fingerprints or facial recognition."
+  },
+  {
+    "id": "MFA2",
+    "domain": "identity-access-management",
+    "question": "An employee enters a password and then confirms a login using a one-time code generated on a smartphone app. Which two authentication factors are demonstrated?",
+    "examples": ["Password plus mobile code"],
+    "choices": ["Something you know and something you have", "Something you know and something you are", "Something you have and somewhere you are", "Something you are and somewhere you are"],
+    "correct": 0,
+    "explanation": "A password represents something you know, and a mobile one-time code represents something you have, satisfying multifactor authentication."
+  },
+  {
+    "id": "MFA3",
+    "domain": "identity-access-management",
+    "question": "A hardware token displays a changing six-digit number that syncs with an authentication server. What type of factor does this represent?",
+    "examples": ["Physical device used for login"],
+    "choices": ["Something you have", "Something you know", "Something you are", "Somewhere you are"],
+    "correct": 0,
+    "explanation": "Hardware tokens are 'something you have' factors that generate or store authentication data used to verify identity."
+  },
+  {
+    "id": "MFA4",
+    "domain": "identity-access-management",
+    "question": "A security administrator restricts logins so that only users physically located within the corporate office subnet can authenticate. Which factor is this?",
+    "examples": ["Location-based access control"],
+    "choices": ["Somewhere you are", "Something you are", "Something you know", "Something you have"],
+    "correct": 0,
+    "explanation": "Location (somewhere you are) is a contextual factor based on the user's physical or network location during authentication."
+  },
+  {
+    "id": "MFA5",
+    "domain": "identity-access-management",
+    "question": "A company issues USB-based FIDO2 security keys that must be tapped during login to complete multifactor authentication. Which implementation type is this?",
+    "examples": ["Physical key authentication"],
+    "choices": ["Security key", "Biometric", "Hard token", "Passwordless"],
+    "correct": 0,
+    "explanation": "Security keys (e.g., FIDO2, YubiKey) serve as physical authentication devices for MFA and passwordless access."
+  },
+  {
+    "id": "PASS1",
+    "domain": "identity-access-management",
+    "question": "An administrator enforces a policy requiring passwords to be at least 14 characters, contain symbols, and differ from previous ones. Which best practice is being implemented?",
+    "examples": ["Password policy enforcement"],
+    "choices": ["Length and complexity requirements", "Reuse limitation only", "Expiration policy", "Password vaulting"],
+    "correct": 0,
+    "explanation": "Strong password policies enforce minimum length, complexity, and non-reuse to prevent brute-force or dictionary attacks."
+  },
+  {
+    "id": "PASS2",
+    "domain": "identity-access-management",
+    "question": "A company configures accounts so that users must change their passwords every 90 days and cannot reuse their last five passwords. What settings are these examples of?",
+    "examples": ["Password rotation and reuse prevention"],
+    "choices": ["Password age and reuse controls", "Complexity requirement", "Length enforcement", "Passwordless authentication"],
+    "correct": 0,
+    "explanation": "Password age and reuse policies define how long a password remains valid and prevent recycling of recent credentials."
+  },
+  {
+    "id": "PASS3",
+    "domain": "identity-access-management",
+    "question": "Users are required to use a password manager that generates random complex passwords and securely stores them in encrypted form. Which security principle does this support?",
+    "examples": ["Secure password storage and management"],
+    "choices": ["Password best practices", "Authentication factor", "Federation", "SSO"],
+    "correct": 0,
+    "explanation": "Password managers support password best practices by securely generating and storing unique, strong credentials for each site or system."
+  },
+  {
+    "id": "PASS4",
+    "domain": "identity-access-management",
+    "question": "A company adopts a system where users log in using facial recognition or a hardware token instead of entering passwords. What approach is this?",
+    "examples": ["Modern authentication model"],
+    "choices": ["Passwordless authentication", "Federation", "Single sign-on", "Attribute-based access control"],
+    "correct": 0,
+    "explanation": "Passwordless authentication uses biometrics or cryptographic devices in place of traditional passwords to enhance security and usability."
+  },
+  {
+    "id": "PAM1",
+    "domain": "identity-access-management",
+    "question": "An administrator temporarily grants elevated access to a system administrator only during maintenance windows. What PAM feature is being applied?",
+    "examples": ["Temporary privilege escalation"],
+    "choices": ["Just-in-time permissions", "Password vaulting", "Ephemeral credentials", "Role-based access"],
+    "correct": 0,
+    "explanation": "Just-in-time permissions grant privileged rights only when needed and automatically revoke them after use, reducing standing privilege risk."
+  },
+  {
+    "id": "PAM2",
+    "domain": "identity-access-management",
+    "question": "A security solution stores administrator passwords in an encrypted repository that requires MFA for access. Which PAM function is being used?",
+    "examples": ["Secured credential storage"],
+    "choices": ["Password vaulting", "Ephemeral credentials", "SSO", "Attestation"],
+    "correct": 0,
+    "explanation": "Password vaulting securely stores privileged credentials in an encrypted vault, restricting access through strong authentication controls."
+  },
+  {
+    "id": "PAM3",
+    "domain": "identity-access-management",
+    "question": "A cloud service issues short-lived API tokens that expire within minutes after a user session begins. What type of PAM control is this?",
+    "examples": ["Temporary credential issuance"],
+    "choices": ["Ephemeral credentials", "Password vaulting", "Least privilege", "Just-in-time access"],
+    "correct": 0,
+    "explanation": "Ephemeral credentials are temporary authentication tokens or keys that automatically expire after a brief period, limiting attack exposure."
+  },
+  {
+    "id": "PAM4",
+    "domain": "identity-access-management",
+    "question": "A privileged access management system automatically revokes admin rights once a troubleshooting session is complete. Which best describes this capability?",
+    "examples": ["Automatic privilege expiration"],
+    "choices": ["Just-in-time access", "Password vaulting", "Least privilege", "Attribute-based control"],
+    "correct": 0,
+    "explanation": "Just-in-time access provides temporary elevated privileges that expire after the approved session, enforcing least privilege principles."
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "LOG1",
+    "domain": "investigation-data-sources",
+    "question": "During an investigation, a security analyst reviews logs showing repeated inbound connection attempts on port 22 from unfamiliar IPs. What data source is being analyzed?",
+    "examples": ["Perimeter connection records"],
+    "choices": ["Firewall logs", "Application logs", "Endpoint logs", "Network metadata"],
+    "correct": 0,
+    "explanation": "Firewall logs record network traffic allowed or denied based on security rules and are key to identifying external attack attempts."
+  },
+  {
+    "id": "LOG2",
+    "domain": "investigation-data-sources",
+    "question": "An analyst reviews entries from a web server showing HTTP 500 errors and unusual POST requests. Which log type provides this data?",
+    "examples": ["Server application failure analysis"],
+    "choices": ["Application logs", "Firewall logs", "Endpoint logs", "Network logs"],
+    "correct": 0,
+    "explanation": "Application logs capture software-level events such as errors, user activities, and configuration issues relevant to web or service applications."
+  },
+  {
+    "id": "LOG3",
+    "domain": "investigation-data-sources",
+    "question": "A SOC analyst examines antivirus detections and process activity from an infected laptop. What source provides this information?",
+    "examples": ["Host-based malware detection records"],
+    "choices": ["Endpoint logs", "Network logs", "Application logs", "Firewall logs"],
+    "correct": 0,
+    "explanation": "Endpoint logs include data from antivirus, EDR, or host agents that track activity at the individual device level."
+  },
+  {
+    "id": "LOG4",
+    "domain": "investigation-data-sources",
+    "question": "A Windows security analyst reviews Event Viewer logs showing multiple failed login attempts and account lockouts. What category of logs is this?",
+    "examples": ["Authentication event review"],
+    "choices": ["OS-specific security logs", "Endpoint logs", "Firewall logs", "Application logs"],
+    "correct": 0,
+    "explanation": "OS-specific security logs, such as Windows Event or Linux auth logs, track authentication, privilege escalation, and access control events."
+  },
+  {
+    "id": "LOG5",
+    "domain": "investigation-data-sources",
+    "question": "A network security analyst observes alerts indicating possible SQL injection attempts and buffer overflows. What data source provides these details?",
+    "examples": ["Network intrusion monitoring"],
+    "choices": ["IPS/IDS logs", "Firewall logs", "Endpoint logs", "Network logs"],
+    "correct": 0,
+    "explanation": "IPS/IDS logs record intrusion signatures and suspicious traffic patterns detected through packet inspection."
+  },
+  {
+    "id": "LOG6",
+    "domain": "investigation-data-sources",
+    "question": "While investigating data exfiltration, an analyst reviews NetFlow records showing large outbound transfers to unknown IP addresses. Which logs are being used?",
+    "examples": ["Flow-based network analysis"],
+    "choices": ["Network logs", "Firewall logs", "Application logs", "Endpoint logs"],
+    "correct": 0,
+    "explanation": "Network logs such as NetFlow or traffic captures summarize communication between devices and are vital for tracing lateral movement or data exfiltration."
+  },
+  {
+    "id": "LOG7",
+    "domain": "investigation-data-sources",
+    "question": "A forensic investigator extracts timestamps, file size, and author data from document headers. What type of information is this?",
+    "examples": ["File detail analysis"],
+    "choices": ["Metadata", "Network logs", "Application logs", "OS-specific logs"],
+    "correct": 0,
+    "explanation": "Metadata contains descriptive details about files or communications—useful for correlating evidence during forensic analysis."
+  },
+  {
+    "id": "DATA1",
+    "domain": "investigation-data-sources",
+    "question": "A vulnerability management report highlights outdated SSL libraries across several servers. What type of data source provided this information?",
+    "examples": ["Automated system assessment"],
+    "choices": ["Vulnerability scans", "Packet captures", "Dashboards", "Endpoint logs"],
+    "correct": 0,
+    "explanation": "Vulnerability scans detect missing patches, misconfigurations, and software weaknesses across assets."
+  },
+  {
+    "id": "DATA2",
+    "domain": "investigation-data-sources",
+    "question": "A SOC manager reviews a daily summary listing open incidents, patch status, and alert trends. What type of data source is being used?",
+    "examples": ["Daily SOC summary document"],
+    "choices": ["Automated reports", "Dashboards", "Vulnerability scans", "Packet captures"],
+    "correct": 0,
+    "explanation": "Automated reports compile data from multiple systems to provide routine visibility into security posture and incident metrics."
+  },
+  {
+    "id": "DATA3",
+    "domain": "investigation-data-sources",
+    "question": "An analyst monitors a live SIEM interface displaying current event counts and active alerts. Which visualization tool is being used?",
+    "examples": ["Real-time operational display"],
+    "choices": ["Dashboards", "Automated reports", "Vulnerability scans", "Packet captures"],
+    "correct": 0,
+    "explanation": "Dashboards visualize aggregated log and event data in real time for quick situational awareness and trend identification."
+  },
+  {
+    "id": "DATA4",
+    "domain": "investigation-data-sources",
+    "question": "While investigating a suspected data leak, an analyst captures and inspects raw network packets using Wireshark. What type of data source is this?",
+    "examples": ["Network traffic analysis"],
+    "choices": ["Packet captures", "Network logs", "Endpoint logs", "Automated reports"],
+    "correct": 0,
+    "explanation": "Packet captures record raw network traffic for deep inspection and forensic analysis of communications and payloads."
+  }
+]

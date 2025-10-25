@@ -1,0 +1,182 @@
+[
+  {
+    "id": "AUTO1",
+    "domain": "automation-orchestration",
+    "question": "A new employee is added to the HR system, and a script automatically creates their email account and assigns access to relevant resources. Which automation use case does this describe?",
+    "examples": ["Automatic account creation"],
+    "choices": ["User provisioning", "Resource provisioning", "Ticket creation", "Escalation"],
+    "correct": 0,
+    "explanation": "User provisioning scripts automate account creation and access assignment, reducing manual administrative effort."
+  },
+  {
+    "id": "AUTO2",
+    "domain": "automation-orchestration",
+    "question": "A DevOps engineer writes a script that deploys virtual machines, applies baseline configurations, and installs required applications. What automation function does this represent?",
+    "examples": ["Automated server setup"],
+    "choices": ["Resource provisioning", "User provisioning", "Guard rails", "Escalation"],
+    "correct": 0,
+    "explanation": "Resource provisioning automates deployment and configuration of infrastructure resources while maintaining consistency."
+  },
+  {
+    "id": "AUTO3",
+    "domain": "automation-orchestration",
+    "question": "A cloud administrator defines policies that prevent developers from creating instances outside approved network zones. What automation capability enforces this restriction?",
+    "examples": ["Automated compliance boundaries"],
+    "choices": ["Guard rails", "Security groups", "Escalation", "Continuous testing"],
+    "correct": 0,
+    "explanation": "Guard rails are automated policies that ensure developers operate within secure and compliant boundaries."
+  },
+  {
+    "id": "AUTO4",
+    "domain": "automation-orchestration",
+    "question": "A configuration management tool automatically assigns new virtual machines to specific network segments based on department tags. What automation component is used?",
+    "examples": ["Tag-based resource assignment"],
+    "choices": ["Security groups", "Guard rails", "Resource provisioning", "APIs"],
+    "correct": 0,
+    "explanation": "Security groups enforce logical segmentation and access rules, automatically grouping resources by policy or tag."
+  },
+  {
+    "id": "AUTO5",
+    "domain": "automation-orchestration",
+    "question": "When a vulnerability scanner detects a critical issue, the system automatically opens a help desk case. Which automation task is being performed?",
+    "examples": ["Incident workflow automation"],
+    "choices": ["Ticket creation", "Escalation", "Guard rails", "Continuous integration"],
+    "correct": 0,
+    "explanation": "Ticket creation automation streamlines incident response by generating tickets directly from security alerts."
+  },
+  {
+    "id": "AUTO6",
+    "domain": "automation-orchestration",
+    "question": "A monitoring platform forwards unresolved high-severity alerts to the SOC manager after two hours without response. Which automation process is this?",
+    "examples": ["Alert escalation automation"],
+    "choices": ["Escalation", "Ticket creation", "Guard rails", "User provisioning"],
+    "correct": 0,
+    "explanation": "Escalation automatically routes alerts or tickets to higher authority when time or priority thresholds are exceeded."
+  },
+  {
+    "id": "AUTO7",
+    "domain": "automation-orchestration",
+    "question": "A security script disables inactive accounts and terminates associated sessions after 30 days. Which automation task is demonstrated?",
+    "examples": ["Access lifecycle enforcement"],
+    "choices": ["Enabling/disabling services and access", "User provisioning", "Resource provisioning", "Escalation"],
+    "correct": 0,
+    "explanation": "Automated enable/disable functions maintain account hygiene by deactivating unused or expired credentials."
+  },
+  {
+    "id": "AUTO8",
+    "domain": "automation-orchestration",
+    "question": "A DevSecOps pipeline automatically runs code analysis and unit tests with each software update. What automation concept is being used?",
+    "examples": ["Automated secure development pipeline"],
+    "choices": ["Continuous integration and testing", "Guard rails", "APIs", "Escalation"],
+    "correct": 0,
+    "explanation": "Continuous integration and testing automate validation of code changes to ensure security and stability before deployment."
+  },
+  {
+    "id": "AUTO9",
+    "domain": "automation-orchestration",
+    "question": "A security operations center connects its SIEM, threat intelligence, and ticketing tools via RESTful APIs to automate data sharing. What capability enables this integration?",
+    "examples": ["Cross-platform tool interoperability"],
+    "choices": ["Integrations and APIs", "Continuous testing", "Resource provisioning", "Escalation"],
+    "correct": 0,
+    "explanation": "APIs enable integration between systems, allowing orchestration platforms to automate workflows across tools."
+  },
+  {
+    "id": "BEN1",
+    "domain": "automation-orchestration",
+    "question": "After deploying automated patch management, system updates now complete in one hour instead of one day. Which benefit of automation is demonstrated?",
+    "examples": ["Time reduction through automation"],
+    "choices": ["Efficiency and time saving", "Scalability", "Baseline enforcement", "Reaction time"],
+    "correct": 0,
+    "explanation": "Automation increases efficiency by reducing manual intervention, leading to faster task completion."
+  },
+  {
+    "id": "BEN2",
+    "domain": "automation-orchestration",
+    "question": "Each new virtual machine automatically inherits a standard hardened image and configuration baseline. What benefit of automation does this reflect?",
+    "examples": ["Consistent configuration standards"],
+    "choices": ["Enforcing baselines", "Efficiency", "Employee retention", "Workforce multiplier"],
+    "correct": 0,
+    "explanation": "Automation enforces secure and consistent baselines across systems, reducing configuration drift and vulnerabilities."
+  },
+  {
+    "id": "BEN3",
+    "domain": "automation-orchestration",
+    "question": "A company uses infrastructure-as-code templates to deploy environments quickly and securely across multiple regions. Which advantage does this provide?",
+    "examples": ["Rapid cloud environment replication"],
+    "choices": ["Standard infrastructure configurations", "Efficiency", "Reaction time", "Baseline enforcement"],
+    "correct": 0,
+    "explanation": "Infrastructure-as-code allows consistent deployment of standardized configurations across environments."
+  },
+  {
+    "id": "BEN4",
+    "domain": "automation-orchestration",
+    "question": "During an active cyber incident, automated scripts isolate compromised hosts within seconds. Which benefit of automation is highlighted here?",
+    "examples": ["Instant incident response"],
+    "choices": ["Reaction time", "Efficiency", "Scalability", "Baseline enforcement"],
+    "correct": 0,
+    "explanation": "Automation significantly reduces reaction time, allowing near-instant containment of threats."
+  },
+  {
+    "id": "BEN5",
+    "domain": "automation-orchestration",
+    "question": "A small SOC team manages enterprise-scale workloads through orchestration tools and SOAR playbooks. What benefit makes this possible?",
+    "examples": ["Expanded SOC capacity"],
+    "choices": ["Workforce multiplier", "Efficiency", "Baseline enforcement", "Employee retention"],
+    "correct": 0,
+    "explanation": "Automation acts as a workforce multiplier by allowing small teams to manage large-scale security operations efficiently."
+  },
+  {
+    "id": "BEN6",
+    "domain": "automation-orchestration",
+    "question": "Automating routine provisioning and approval tasks reduces employee frustration and repetitive work. Which organizational benefit does this improve?",
+    "examples": ["Improved job satisfaction"],
+    "choices": ["Employee retention", "Efficiency", "Scalability", "Baseline enforcement"],
+    "correct": 0,
+    "explanation": "Reducing manual and repetitive tasks increases productivity and job satisfaction, supporting long-term employee retention."
+  },
+  {
+    "id": "CONS1",
+    "domain": "automation-orchestration",
+    "question": "A script failure during patch deployment inadvertently disrupts production servers. Which automation risk does this demonstrate?",
+    "examples": ["Automation misconfiguration"],
+    "choices": ["Complexity", "Technical debt", "Cost", "Single point of failure"],
+    "correct": 0,
+    "explanation": "Complex automation introduces risk if workflows are not thoroughly tested or understood by administrators."
+  },
+  {
+    "id": "CONS2",
+    "domain": "automation-orchestration",
+    "question": "A company’s automation platform relies on a single orchestration server, which halts all deployments when it crashes. What issue does this create?",
+    "examples": ["Central dependency vulnerability"],
+    "choices": ["Single point of failure", "Complexity", "Technical debt", "Cost"],
+    "correct": 0,
+    "explanation": "Relying on one orchestration node creates a single point of failure that impacts all automated operations."
+  },
+  {
+    "id": "CONS3",
+    "domain": "automation-orchestration",
+    "question": "Automation scripts developed years ago are no longer documented or maintained, making them difficult to update or fix. What long-term issue does this represent?",
+    "examples": ["Outdated scripting practices"],
+    "choices": ["Technical debt", "Ongoing supportability", "Cost", "Complexity"],
+    "correct": 0,
+    "explanation": "Technical debt accumulates when old or poorly documented automation becomes hard to maintain or improve."
+  },
+  {
+    "id": "CONS4",
+    "domain": "automation-orchestration",
+    "question": "Before implementing a new orchestration platform, a CISO evaluates the cost of licensing, training, and infrastructure. Which factor is being assessed?",
+    "examples": ["Financial impact evaluation"],
+    "choices": ["Cost", "Complexity", "Technical debt", "Supportability"],
+    "correct": 0,
+    "explanation": "Cost considerations include software licenses, personnel training, and hardware investment before automation adoption."
+  },
+  {
+    "id": "CONS5",
+    "domain": "automation-orchestration",
+    "question": "A company struggles to maintain custom scripts due to limited staff expertise and lack of documentation. What operational concern is this?",
+    "examples": ["Maintenance and staffing limitation"],
+    "choices": ["Ongoing supportability", "Technical debt", "Complexity", "Cost"],
+    "correct": 0,
+    "explanation": "Ongoing supportability ensures automation systems remain maintainable, updated, and supported by skilled personnel."
+  }
+]

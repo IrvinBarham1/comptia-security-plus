@@ -1,0 +1,146 @@
+[
+  {
+    "id": "AUD1",
+    "domain": "audits-assessments",
+    "question": "A security consultant provides written confirmation that controls were evaluated and found to be operating effectively. What audit element does this describe?",
+    "examples": ["Formal validation of controls"],
+    "choices": ["Attestation", "Internal audit", "Independent assessment", "Self-assessment"],
+    "correct": 0,
+    "explanation": "Attestation is a formal statement or certification confirming that specific controls meet defined requirements."
+  },
+  {
+    "id": "AUD2",
+    "domain": "audits-assessments",
+    "question": "A company’s security team performs an internal review to verify compliance with internal access control policies. Which audit type is this?",
+    "examples": ["In-house compliance verification"],
+    "choices": ["Internal – Compliance", "External – Regulatory", "Independent third-party", "Self-assessment"],
+    "correct": 0,
+    "explanation": "Internal compliance audits evaluate adherence to organizational policies, standards, and procedures within the company."
+  },
+  {
+    "id": "AUD3",
+    "domain": "audits-assessments",
+    "question": "A board-level committee regularly reviews internal audit results to ensure findings are addressed and risk posture is managed. What internal structure performs this role?",
+    "examples": ["Oversight board"],
+    "choices": ["Audit committee", "Self-assessment team", "External examiner", "Compliance department"],
+    "correct": 0,
+    "explanation": "An audit committee provides executive oversight of audit results and ensures management accountability for remediation."
+  },
+  {
+    "id": "AUD4",
+    "domain": "audits-assessments",
+    "question": "Employees within the IT department use standardized checklists to evaluate whether their own systems meet corporate controls. What audit process is being used?",
+    "examples": ["Departmental self-evaluation"],
+    "choices": ["Self-assessment", "Attestation", "Internal compliance audit", "External assessment"],
+    "correct": 0,
+    "explanation": "Self-assessments are performed internally by teams evaluating their own compliance with policies and control requirements."
+  },
+  {
+    "id": "AUD5",
+    "domain": "audits-assessments",
+    "question": "A federal regulator conducts an official review of a bank’s information-security practices to ensure compliance with national laws. What audit category applies?",
+    "examples": ["Government oversight inspection"],
+    "choices": ["External – Regulatory", "Internal – Compliance", "Independent third-party", "Self-assessment"],
+    "correct": 0,
+    "explanation": "Regulatory audits are conducted by government agencies to verify compliance with laws and industry regulations."
+  },
+  {
+    "id": "AUD6",
+    "domain": "audits-assessments",
+    "question": "A certified CPA firm examines a company’s financial and IT controls to issue a SOC 2 Type II report. Which type of audit is this?",
+    "examples": ["Independent third-party attestation"],
+    "choices": ["External – Independent third-party", "Internal – Compliance", "Regulatory examination", "Self-assessment"],
+    "correct": 0,
+    "explanation": "Independent third-party audits are performed by external experts who provide objective validation of control effectiveness."
+  },
+  {
+    "id": "AUD7",
+    "domain": "audits-assessments",
+    "question": "A defense contractor undergoes a CMMC Level 2 examination required by its client agency. What kind of external process is this?",
+    "examples": ["Contractor certification assessment"],
+    "choices": ["External – Examination", "External – Regulatory", "Independent audit", "Internal – Compliance"],
+    "correct": 0,
+    "explanation": "Examinations validate compliance with specific external frameworks or contractual certification requirements."
+  },
+  {
+    "id": "AUD8",
+    "domain": "audits-assessments",
+    "question": "An organization requests an external cybersecurity firm to perform a gap analysis comparing current controls to ISO 27001 standards. What is this process?",
+    "examples": ["Baseline security evaluation"],
+    "choices": ["External – Assessment", "Internal – Self-assessment", "Independent third-party audit", "Regulatory review"],
+    "correct": 0,
+    "explanation": "External assessments evaluate control maturity or compliance readiness against established industry frameworks."
+  },
+  {
+    "id": "AUD9",
+    "domain": "audits-assessments",
+    "question": "A security team tests badge readers, door locks, and surveillance systems by attempting to access restricted areas without authorization. What type of test is this?",
+    "examples": ["Facility security evaluation"],
+    "choices": ["Physical penetration testing", "Offensive testing", "Integrated assessment", "Reconnaissance"],
+    "correct": 0,
+    "explanation": "Physical penetration testing assesses building and facility controls, such as locks, sensors, and surveillance."
+  },
+  {
+    "id": "AUD10",
+    "domain": "audits-assessments",
+    "question": "An internal red-team attempts to exploit vulnerabilities within production systems, while a blue-team works to detect and block the attacks. What type of test is this?",
+    "examples": ["Simulated cyber engagement"],
+    "choices": ["Offensive and Defensive testing", "Physical penetration test", "Integrated test", "Reconnaissance"],
+    "correct": 0,
+    "explanation": "Offensive testing simulates attackers (red-team), while defensive testing involves defenders (blue-team) responding in real time."
+  },
+  {
+    "id": "AUD11",
+    "domain": "audits-assessments",
+    "question": "A company conducts a red-team/blue-team exercise and later combines results for a joint debriefing to improve both attack and defense coordination. What approach does this represent?",
+    "examples": ["Unified test collaboration"],
+    "choices": ["Integrated testing", "Offensive testing", "Physical testing", "Unknown environment testing"],
+    "correct": 0,
+    "explanation": "Integrated testing merges offensive and defensive evaluations, improving teamwork and enhancing detection/response capabilities."
+  },
+  {
+    "id": "AUD12",
+    "domain": "audits-assessments",
+    "question": "A penetration test is performed where the tester knows the target’s architecture, credentials, and system details. What environment type is this?",
+    "examples": ["Full-knowledge penetration test"],
+    "choices": ["Known environment", "Partially known environment", "Unknown environment", "Integrated environment"],
+    "correct": 0,
+    "explanation": "Known-environment tests (white-box) provide testers full visibility into system design, enabling deeper control validation."
+  },
+  {
+    "id": "AUD13",
+    "domain": "audits-assessments",
+    "question": "A penetration test provides the tester only limited network information such as IP ranges and system types. What environment does this describe?",
+    "examples": ["Limited-knowledge testing"],
+    "choices": ["Partially known environment", "Known environment", "Unknown environment", "Integrated testing"],
+    "correct": 0,
+    "explanation": "Partially-known (gray-box) testing supplies partial system details to balance realism with scope control."
+  },
+  {
+    "id": "AUD14",
+    "domain": "audits-assessments",
+    "question": "A company commissions a penetration test where the tester has no prior knowledge of the network or systems. Which environment is being used?",
+    "examples": ["Blind external test"],
+    "choices": ["Unknown environment", "Known environment", "Partially known environment", "Integrated testing"],
+    "correct": 0,
+    "explanation": "Unknown-environment (black-box) testing simulates an external attacker with no insider knowledge."
+  },
+  {
+    "id": "AUD15",
+    "domain": "audits-assessments",
+    "question": "Before active testing begins, a penetration tester gathers publicly available information about the target organization without direct interaction. What reconnaissance type is this?",
+    "examples": ["Open-source intelligence collection"],
+    "choices": ["Passive reconnaissance", "Active reconnaissance", "Offensive testing", "Physical testing"],
+    "correct": 0,
+    "explanation": "Passive reconnaissance collects information from public sources like WHOIS, DNS, and social media without engaging target systems."
+  },
+  {
+    "id": "AUD16",
+    "domain": "audits-assessments",
+    "question": "A penetration tester scans a target’s network and sends crafted packets to discover open ports and services. What reconnaissance type is this?",
+    "examples": ["Direct information gathering"],
+    "choices": ["Active reconnaissance", "Passive reconnaissance", "Defensive testing", "Physical testing"],
+    "correct": 0,
+    "explanation": "Active reconnaissance directly interacts with target systems, such as scanning or probing, to collect system information."
+  }
+]

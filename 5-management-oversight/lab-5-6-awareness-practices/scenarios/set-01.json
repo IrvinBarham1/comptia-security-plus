@@ -1,0 +1,164 @@
+[
+  {
+    "id": "AWARE1",
+    "domain": "security-awareness",
+    "question": "A security team sends simulated malicious emails to employees to measure how many users click on phishing links. What type of activity is this?",
+    "examples": ["Employee phishing simulation"],
+    "choices": ["Phishing campaign", "Incident response drill", "Social engineering assessment", "Insider threat monitoring"],
+    "correct": 0,
+    "explanation": "Phishing campaigns test employee awareness and help measure the effectiveness of training programs."
+  },
+  {
+    "id": "AWARE2",
+    "domain": "security-awareness",
+    "question": "An employee notices an unexpected email asking for login credentials and reports it to IT. What awareness skill is being demonstrated?",
+    "examples": ["Suspicious email identification"],
+    "choices": ["Recognizing a phishing attempt", "Responding to an incident", "Social engineering prevention", "Reporting and monitoring"],
+    "correct": 0,
+    "explanation": "Recognizing phishing attempts involves spotting red flags such as suspicious links, spoofed senders, or urgent language."
+  },
+  {
+    "id": "AWARE3",
+    "domain": "security-awareness",
+    "question": "After receiving multiple reports of suspicious messages, the SOC analyzes headers and sender IPs to verify legitimacy. What is this process?",
+    "examples": ["Post-report message validation"],
+    "choices": ["Responding to reported suspicious messages", "Recognizing phishing attempts", "Incident containment", "Anomalous behavior analysis"],
+    "correct": 0,
+    "explanation": "Responding to reported messages involves investigating and confirming whether reported emails are genuine phishing attempts."
+  },
+  {
+    "id": "AWARE4",
+    "domain": "security-awareness",
+    "question": "A system administrator notices an employee downloading large volumes of sensitive data without business justification. What type of behavior is this?",
+    "examples": ["Potential insider data exfiltration"],
+    "choices": ["Risky behavior", "Unexpected behavior", "Unintentional behavior", "Normal activity"],
+    "correct": 0,
+    "explanation": "Risky behavior involves actions that could compromise data or systems, whether intentional or not."
+  },
+  {
+    "id": "AWARE5",
+    "domain": "security-awareness",
+    "question": "An employee working remotely logs into the network from a new country without prior travel notification. What anomaly does this represent?",
+    "examples": ["Abnormal geographic login pattern"],
+    "choices": ["Unexpected behavior", "Unintentional behavior", "Risky behavior", "Recognized phishing"],
+    "correct": 0,
+    "explanation": "Unexpected behavior includes deviations from a user’s normal activity pattern that may indicate compromise or misuse."
+  },
+  {
+    "id": "AWARE6",
+    "domain": "security-awareness",
+    "question": "A user accidentally attaches a confidential file to an email sent to an external contact. What type of anomalous action is this?",
+    "examples": ["Accidental data exposure"],
+    "choices": ["Unintentional behavior", "Unexpected behavior", "Risky behavior", "Negligent act"],
+    "correct": 0,
+    "explanation": "Unintentional behavior results from mistakes or oversight that can lead to accidental data exposure or compliance violations."
+  },
+  {
+    "id": "AWARE7",
+    "domain": "security-awareness",
+    "question": "A company distributes a handbook detailing acceptable use, password rules, and security escalation paths. What component of user guidance does this represent?",
+    "examples": ["Employee security documentation"],
+    "choices": ["Policy/handbooks", "Operational security", "Situational awareness", "Training execution"],
+    "correct": 0,
+    "explanation": "Policies and handbooks provide documented guidance for user conduct, data handling, and incident response procedures."
+  },
+  {
+    "id": "AWARE8",
+    "domain": "security-awareness",
+    "question": "During an annual awareness seminar, employees are reminded to stay alert to tailgating, data leaks, and social engineering attempts. What principle is being reinforced?",
+    "examples": ["Maintaining alertness to surroundings"],
+    "choices": ["Situational awareness", "Operational security", "Policy enforcement", "Phishing recognition"],
+    "correct": 0,
+    "explanation": "Situational awareness encourages employees to remain vigilant about potential threats in their work environment."
+  },
+  {
+    "id": "AWARE9",
+    "domain": "security-awareness",
+    "question": "A disgruntled employee attempts to delete files before resigning. Which security training topic helps prevent and detect this risk?",
+    "examples": ["Internal malicious activity"],
+    "choices": ["Insider threat awareness", "Operational security", "Phishing response", "Password management"],
+    "correct": 0,
+    "explanation": "Insider threat awareness helps employees recognize indicators of malicious activity by trusted personnel."
+  },
+  {
+    "id": "AWARE10",
+    "domain": "security-awareness",
+    "question": "During security training, users are reminded to create unique, complex passwords and avoid sharing them. What user guidance area does this address?",
+    "examples": ["Credential security awareness"],
+    "choices": ["Password management", "Policy compliance", "Operational security", "Phishing prevention"],
+    "correct": 0,
+    "explanation": "Password management training reinforces safe credential practices such as complexity, uniqueness, and non-reuse."
+  },
+  {
+    "id": "AWARE11",
+    "domain": "security-awareness",
+    "question": "An employee is reminded not to plug unknown USB drives into company computers. What training area does this fall under?",
+    "examples": ["Physical media control awareness"],
+    "choices": ["Removable media and cables", "Operational security", "Social engineering", "Policy compliance"],
+    "correct": 0,
+    "explanation": "Training on removable media and cables addresses the risks of connecting unknown devices that could contain malware."
+  },
+  {
+    "id": "AWARE12",
+    "domain": "security-awareness",
+    "question": "A caller impersonates IT support and asks for a user’s password. Which user awareness topic helps employees handle this situation?",
+    "examples": ["Identity deception scenario"],
+    "choices": ["Social engineering awareness", "Phishing campaign", "Operational security", "Hybrid work training"],
+    "correct": 0,
+    "explanation": "Social engineering awareness teaches users to verify identities and avoid disclosing information to unverified parties."
+  },
+  {
+    "id": "AWARE13",
+    "domain": "security-awareness",
+    "question": "Remote employees are trained to avoid discussing confidential topics in public areas and to lock their screens when stepping away. What security area is emphasized?",
+    "examples": ["Remote work operational safety"],
+    "choices": ["Operational security", "Hybrid/remote environment", "Situational awareness", "Password management"],
+    "correct": 0,
+    "explanation": "Operational security (OPSEC) involves daily actions that protect sensitive information from inadvertent exposure."
+  },
+  {
+    "id": "AWARE14",
+    "domain": "security-awareness",
+    "question": "A training module instructs hybrid workers on VPN usage and secure Wi-Fi configuration. What environment-specific topic does this support?",
+    "examples": ["Remote connectivity security awareness"],
+    "choices": ["Hybrid/remote work environments", "Operational security", "Social engineering", "Policy handbooks"],
+    "correct": 0,
+    "explanation": "Training for hybrid and remote environments ensures users understand secure access practices outside traditional offices."
+  },
+  {
+    "id": "AWARE15",
+    "domain": "security-awareness",
+    "question": "Employees must submit a ticket immediately after noticing a phishing email. What type of reporting does this represent?",
+    "examples": ["Initial incident notification"],
+    "choices": ["Initial reporting", "Recurring reporting", "Training execution", "Policy update"],
+    "correct": 0,
+    "explanation": "Initial reporting involves promptly alerting the security team after identifying suspicious or malicious activity."
+  },
+  {
+    "id": "AWARE16",
+    "domain": "security-awareness",
+    "question": "A company requires employees to complete quarterly refresher courses on email hygiene and insider threat indicators. What reporting or training cycle is this?",
+    "examples": ["Periodic awareness reinforcement"],
+    "choices": ["Recurring reporting", "Initial reporting", "Development", "Execution"],
+    "correct": 0,
+    "explanation": "Recurring reporting and training ensure continued awareness through periodic reinforcement and compliance validation."
+  },
+  {
+    "id": "AWARE17",
+    "domain": "security-awareness",
+    "question": "A CISO and HR team design a new annual security awareness program with clear objectives and assessment metrics. What stage of the process is this?",
+    "examples": ["Planning the awareness framework"],
+    "choices": ["Development", "Execution", "Initial reporting", "Recurring monitoring"],
+    "correct": 0,
+    "explanation": "Development defines the goals, content, and structure of the organization’s awareness and training initiatives."
+  },
+  {
+    "id": "AWARE18",
+    "domain": "security-awareness",
+    "question": "The HR department launches the company’s new training modules, schedules phishing simulations, and monitors participation. What phase is this?",
+    "examples": ["Awareness program rollout"],
+    "choices": ["Execution", "Development", "Recurring reporting", "Operational security"],
+    "correct": 0,
+    "explanation": "Execution involves delivering training programs, running simulations, and tracking engagement results to measure effectiveness."
+  }
+]

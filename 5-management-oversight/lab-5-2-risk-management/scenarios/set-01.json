@@ -1,0 +1,191 @@
+[
+  {
+    "id": "RISK1",
+    "domain": "risk-management",
+    "question": "A cybersecurity team performs an inventory of all assets and documents potential threats, vulnerabilities, and business impacts. What risk management activity is this?",
+    "examples": ["Initial discovery of risks"],
+    "choices": ["Risk identification", "Risk assessment", "Risk analysis", "Risk reporting"],
+    "correct": 0,
+    "explanation": "Risk identification involves recognizing assets, threats, and vulnerabilities that could negatively affect organizational operations."
+  },
+  {
+    "id": "RISK2",
+    "domain": "risk-management",
+    "question": "A small business performs a one-time security assessment before launching a new e-commerce platform. Which type of risk assessment is being performed?",
+    "examples": ["Initial pre-launch review"],
+    "choices": ["One-time", "Ad hoc", "Recurring", "Continuous"],
+    "correct": 0,
+    "explanation": "A one-time assessment evaluates risks at a single point, often before a major system change or deployment."
+  },
+  {
+    "id": "RISK3",
+    "domain": "risk-management",
+    "question": "An organization performs monthly vulnerability scans and quarterly risk reviews to maintain awareness of changing threats. Which assessment type is this?",
+    "examples": ["Ongoing risk evaluation"],
+    "choices": ["Recurring", "Continuous", "Ad hoc", "One-time"],
+    "correct": 0,
+    "explanation": "Recurring assessments are scheduled at regular intervals to ensure ongoing visibility of organizational risks."
+  },
+  {
+    "id": "RISK4",
+    "domain": "risk-management",
+    "question": "An IT manager runs automated monitoring tools that continuously measure risk exposure and alert when thresholds are exceeded. Which type of assessment model is this?",
+    "examples": ["Real-time threat evaluation"],
+    "choices": ["Continuous", "Recurring", "One-time", "Ad hoc"],
+    "correct": 0,
+    "explanation": "Continuous assessments use automation and monitoring to provide ongoing visibility into an organization’s risk posture."
+  },
+  {
+    "id": "RISK5",
+    "domain": "risk-management",
+    "question": "A security consultant calculates that a data breach would likely cost $25,000 per occurrence, and such an event is expected to happen twice per year. What quantitative measurement can be derived?",
+    "examples": ["Quantitative loss estimation"],
+    "choices": ["Annualized Loss Expectancy (ALE)", "Single Loss Expectancy (SLE)", "Exposure Factor", "ARO"],
+    "correct": 0,
+    "explanation": "ALE is calculated by multiplying the Single Loss Expectancy (SLE) by the Annualized Rate of Occurrence (ARO)."
+  },
+  {
+    "id": "RISK6",
+    "domain": "risk-management",
+    "question": "If a company expects to lose 40% of an asset’s value ($50,000) in a single incident, what is the exposure factor?",
+    "examples": ["Asset impact calculation"],
+    "choices": ["0.4", "40,000", "2", "0.25"],
+    "correct": 0,
+    "explanation": "The exposure factor (EF) is the percentage of asset value lost during an incident—in this case, 40% or 0.4."
+  },
+  {
+    "id": "RISK7",
+    "domain": "risk-management",
+    "question": "A risk manager assigns numerical values to potential losses and frequencies to calculate financial impact. What type of risk analysis is this?",
+    "examples": ["Mathematical risk modeling"],
+    "choices": ["Quantitative", "Qualitative", "Subjective", "Comparative"],
+    "correct": 0,
+    "explanation": "Quantitative analysis expresses risk using measurable values, such as cost or frequency, to prioritize decisions."
+  },
+  {
+    "id": "RISK8",
+    "domain": "risk-management",
+    "question": "A security team ranks threats as low, medium, or high impact based on expert judgment. Which risk analysis method is being used?",
+    "examples": ["Subjective impact evaluation"],
+    "choices": ["Qualitative", "Quantitative", "Comparative", "Probabilistic"],
+    "correct": 0,
+    "explanation": "Qualitative analysis evaluates risks based on descriptive ratings rather than numerical values."
+  },
+  {
+    "id": "RISK9",
+    "domain": "risk-management",
+    "question": "A company tracks its most significant risks and identifies who is responsible for monitoring each one. What document stores this information?",
+    "examples": ["Centralized risk documentation"],
+    "choices": ["Risk register", "Risk analysis report", "Risk tolerance matrix", "BIA report"],
+    "correct": 0,
+    "explanation": "A risk register lists identified risks, owners, mitigation actions, and indicators used to track changes in risk levels."
+  },
+  {
+    "id": "RISK10",
+    "domain": "risk-management",
+    "question": "A financial services firm defines the maximum acceptable loss threshold it can tolerate before triggering mitigation. What risk management term does this describe?",
+    "examples": ["Defining acceptable limits"],
+    "choices": ["Risk threshold", "Risk register", "Risk appetite", "Key risk indicator"],
+    "correct": 0,
+    "explanation": "A risk threshold represents the specific boundary of acceptable risk before corrective action is required."
+  },
+  {
+    "id": "RISK11",
+    "domain": "risk-management",
+    "question": "Executives at a startup are willing to accept higher levels of cybersecurity risk to support rapid innovation and expansion. What type of risk appetite is this?",
+    "examples": ["Growth-focused risk posture"],
+    "choices": ["Expansionary", "Conservative", "Neutral", "Defensive"],
+    "correct": 0,
+    "explanation": "An expansionary risk appetite accepts greater risk to achieve faster innovation or business growth."
+  },
+  {
+    "id": "RISK12",
+    "domain": "risk-management",
+    "question": "A government agency prefers to maintain strict controls and avoid unnecessary exposure. What type of risk appetite does this reflect?",
+    "examples": ["Cautious organizational posture"],
+    "choices": ["Conservative", "Expansionary", "Neutral", "Transfer"],
+    "correct": 0,
+    "explanation": "A conservative risk appetite seeks to minimize exposure by emphasizing compliance, control, and predictability."
+  },
+  {
+    "id": "RISK13",
+    "domain": "risk-management",
+    "question": "An enterprise outsources its cloud storage and includes breach liability coverage in the service agreement. Which risk management strategy is being used?",
+    "examples": ["Shifting risk through a third party"],
+    "choices": ["Transfer", "Avoid", "Mitigate", "Accept"],
+    "correct": 0,
+    "explanation": "Risk transfer shifts financial or operational responsibility for losses to another party, often through contracts or insurance."
+  },
+  {
+    "id": "RISK14",
+    "domain": "risk-management",
+    "question": "A project team determines that a minor data loss would not significantly impact operations and decides no additional controls are needed. What risk response is this?",
+    "examples": ["Accepting minimal operational risk"],
+    "choices": ["Accept", "Mitigate", "Transfer", "Avoid"],
+    "correct": 0,
+    "explanation": "Accepting risk acknowledges that the impact or likelihood is low enough to not warrant mitigation."
+  },
+  {
+    "id": "RISK15",
+    "domain": "risk-management",
+    "question": "An organization implements an air-gapped network to completely remove internet connectivity from critical systems. Which risk strategy is applied?",
+    "examples": ["Removing exposure entirely"],
+    "choices": ["Avoid", "Mitigate", "Transfer", "Accept"],
+    "correct": 0,
+    "explanation": "Risk avoidance eliminates exposure by removing the conditions that allow the risk to exist."
+  },
+  {
+    "id": "RISK16",
+    "domain": "risk-management",
+    "question": "A security team installs endpoint detection tools and deploys patches to reduce vulnerability exploitation. Which risk management strategy does this represent?",
+    "examples": ["Reducing probability or impact"],
+    "choices": ["Mitigate", "Transfer", "Accept", "Avoid"],
+    "correct": 0,
+    "explanation": "Mitigation reduces the likelihood or impact of risks through preventive and detective controls."
+  },
+  {
+    "id": "RISK17",
+    "domain": "risk-management",
+    "question": "After a quarterly risk review, the CISO provides an executive summary to leadership outlining top risks, mitigation progress, and remaining exposure. What process is this?",
+    "examples": ["Governance-level reporting"],
+    "choices": ["Risk reporting", "Risk assessment", "Risk register update", "Business impact analysis"],
+    "correct": 0,
+    "explanation": "Risk reporting communicates the current risk posture, control effectiveness, and management decisions to leadership and stakeholders."
+  },
+  {
+    "id": "RISK18",
+    "domain": "risk-management",
+    "question": "A disaster recovery planner determines that an e-commerce system can be offline for no more than six hours before causing unacceptable losses. What BIA metric defines this limit?",
+    "examples": ["Maximum outage tolerance"],
+    "choices": ["Recovery Time Objective (RTO)", "Recovery Point Objective (RPO)", "Mean Time to Repair (MTTR)", "Mean Time Between Failures (MTBF)"],
+    "correct": 0,
+    "explanation": "RTO defines the maximum acceptable downtime before a system’s unavailability impacts business operations."
+  },
+  {
+    "id": "RISK19",
+    "domain": "risk-management",
+    "question": "An analyst determines that the company can afford to lose up to one hour of data without major disruption. What metric defines this limit?",
+    "examples": ["Data loss tolerance window"],
+    "choices": ["Recovery Point Objective (RPO)", "Recovery Time Objective (RTO)", "Mean Time to Repair (MTTR)", "Mean Time Between Failures (MTBF)"],
+    "correct": 0,
+    "explanation": "RPO measures how much data loss (in time) is tolerable between the last backup and an outage."
+  },
+  {
+    "id": "RISK20",
+    "domain": "risk-management",
+    "question": "After a server crash, a technician replaces a failed drive and restores operations within 45 minutes. Which metric measures this restoration duration?",
+    "examples": ["System recovery duration"],
+    "choices": ["Mean Time to Repair (MTTR)", "Recovery Point Objective (RPO)", "Mean Time Between Failures (MTBF)", "Recovery Time Objective (RTO)"],
+    "correct": 0,
+    "explanation": "MTTR measures the average time needed to repair and restore a failed system to operational status."
+  },
+  {
+    "id": "RISK21",
+    "domain": "risk-management",
+    "question": "System logs show that a critical server experiences hardware failures about once every 14 months. What BIA metric is being tracked?",
+    "examples": ["Hardware reliability measurement"],
+    "choices": ["Mean Time Between Failures (MTBF)", "Mean Time to Repair (MTTR)", "Recovery Time Objective (RTO)", "Recovery Point Objective (RPO)"],
+    "correct": 0,
+    "explanation": "MTBF represents the average time between one system failure and the next, used to measure reliability."
+  }
+]

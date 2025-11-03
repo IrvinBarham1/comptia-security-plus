@@ -1,0 +1,281 @@
+[
+  {
+    "id": "GOV1",
+    "domain": "security-governance",
+    "question": "A security team documents best practices for password creation and acceptable device use but does not make them mandatory. What type of governance element is this?",
+    "examples": ["Nonmandatory best practices"],
+    "choices": ["Guidelines", "Policies", "Standards", "Procedures"],
+    "correct": 0,
+    "explanation": "Guidelines provide recommended actions or best practices that help users and administrators meet policy objectives without strict enforcement."
+  },
+  {
+    "id": "POL1",
+    "domain": "security-governance",
+    "question": "An organization publishes a document outlining appropriate employee behavior when using corporate networks and email systems. Which type of policy is this?",
+    "examples": ["Employee technology usage policy"],
+    "choices": ["Acceptable Use Policy (AUP)", "Information Security Policy", "Change Management Policy", "Business Continuity Plan"],
+    "correct": 0,
+    "explanation": "An Acceptable Use Policy (AUP) defines acceptable and prohibited behavior when accessing organizational systems or data."
+  },
+  {
+    "id": "POL2",
+    "domain": "security-governance",
+    "question": "A company establishes a high-level document that defines objectives for protecting data, managing risks, and maintaining compliance. What governance component is this?",
+    "examples": ["Overarching organizational policy"],
+    "choices": ["Information Security Policy", "Standard", "Procedure", "Guideline"],
+    "correct": 0,
+    "explanation": "Information security policies establish an organization’s overall approach to managing security risks and protecting assets."
+  },
+  {
+    "id": "POL3",
+    "domain": "security-governance",
+    "question": "A financial institution creates a documented plan that ensures essential operations can continue during a disaster. Which policy is this?",
+    "examples": ["Continuity during disruption"],
+    "choices": ["Business Continuity Policy", "Disaster Recovery Policy", "Incident Response Policy", "Change Management Policy"],
+    "correct": 0,
+    "explanation": "Business continuity policies outline how an organization maintains critical operations during or after disruptions."
+  },
+  {
+    "id": "POL4",
+    "domain": "security-governance",
+    "question": "After a hurricane damages a data center, a company follows predefined procedures to restore IT systems from backups. Which governance element guides this response?",
+    "examples": ["Post-disaster IT recovery plan"],
+    "choices": ["Disaster Recovery Policy", "Business Continuity Policy", "Incident Response Policy", "Change Management Policy"],
+    "correct": 0,
+    "explanation": "Disaster recovery policies define actions to restore IT systems and data following major disruptions or disasters."
+  },
+  {
+    "id": "POL5",
+    "domain": "security-governance",
+    "question": "A security operations team follows a structured workflow for detecting, analyzing, and responding to threats. Which policy defines this approach?",
+    "examples": ["Breach handling guidelines"],
+    "choices": ["Incident Response Policy", "Change Management Policy", "Information Security Policy", "Business Continuity Policy"],
+    "correct": 0,
+    "explanation": "Incident response policies outline the processes and responsibilities for identifying and managing security incidents."
+  },
+  {
+    "id": "POL6",
+    "domain": "security-governance",
+    "question": "A software engineering department adopts a policy requiring code reviews, version control, and security testing in every development phase. Which governance topic does this fall under?",
+    "examples": ["Secure development lifecycle enforcement"],
+    "choices": ["Software Development Lifecycle (SDLC) Policy", "Change Management Policy", "Incident Response Policy", "Information Security Policy"],
+    "correct": 0,
+    "explanation": "SDLC policies govern how software is securely designed, developed, tested, and maintained to minimize vulnerabilities."
+  },
+  {
+    "id": "POL7",
+    "domain": "security-governance",
+    "question": "A system administrator must submit a formal request before applying server updates or configuration changes. Which governance component enforces this control?",
+    "examples": ["Controlled change approval process"],
+    "choices": ["Change Management Policy", "Business Continuity Policy", "Information Security Policy", "Incident Response Policy"],
+    "correct": 0,
+    "explanation": "Change management policies ensure that configuration and system updates are reviewed, tested, and approved before implementation."
+  },
+  {
+    "id": "STD1",
+    "domain": "security-governance",
+    "question": "A company mandates that all user passwords must be at least 14 characters long and include uppercase, lowercase, numbers, and symbols. What governance element defines this?",
+    "examples": ["Credential strength requirements"],
+    "choices": ["Password Standard", "Access Control Standard", "Guideline", "Policy"],
+    "correct": 0,
+    "explanation": "Standards specify measurable technical requirements, such as password length and complexity rules, to enforce consistent security."
+  },
+  {
+    "id": "STD2",
+    "domain": "security-governance",
+    "question": "An administrator follows documented requirements that define how file permissions and group memberships are assigned. Which governance category applies?",
+    "examples": ["Access permission enforcement"],
+    "choices": ["Access Control Standard", "Password Standard", "Policy", "Guideline"],
+    "correct": 0,
+    "explanation": "Access control standards define the technical parameters for managing user privileges and enforcing authorization boundaries."
+  },
+  {
+    "id": "STD3",
+    "domain": "security-governance",
+    "question": "A facility requires all employees to wear ID badges and restricts data center access to authorized personnel only. What type of standard does this represent?",
+    "examples": ["Physical entry security enforcement"],
+    "choices": ["Physical Security Standard", "Access Control Standard", "Policy", "Procedure"],
+    "correct": 0,
+    "explanation": "Physical security standards define controls like locks, badges, and surveillance that protect facilities and sensitive areas."
+  },
+  {
+    "id": "STD4",
+    "domain": "security-governance",
+    "question": "A compliance framework requires all sensitive data transmissions to use AES-256 encryption and TLS 1.3. What governance element enforces this requirement?",
+    "examples": ["Data protection technical enforcement"],
+    "choices": ["Encryption Standard", "Access Control Policy", "Password Standard", "Guideline"],
+    "correct": 0,
+    "explanation": "Encryption standards define approved cryptographic algorithms and key management practices to protect data in transit and at rest."
+  },
+  {
+    "id": "PROC1",
+    "domain": "security-governance",
+    "question": "Before implementing a configuration change, an administrator submits a ticket, receives approval, and documents the modification. Which procedural control is followed?",
+    "examples": ["Formalized change workflow"],
+    "choices": ["Change Management Procedure", "Onboarding Procedure", "Playbook", "Guideline"],
+    "correct": 0,
+    "explanation": "Change management procedures define step-by-step workflows for requesting, reviewing, and documenting system modifications."
+  },
+  {
+    "id": "PROC2",
+    "domain": "security-governance",
+    "question": "A new employee is issued an ID badge, laptop, and system credentials during their first day. Which documented process describes this sequence?",
+    "examples": ["Employee setup process"],
+    "choices": ["Onboarding Procedure", "Offboarding Procedure", "Change Management Procedure", "Playbook"],
+    "correct": 0,
+    "explanation": "Onboarding procedures document the steps for granting new employees appropriate access and equipment."
+  },
+  {
+    "id": "PROC3",
+    "domain": "security-governance",
+    "question": "An employee leaving the company has their accounts disabled, VPN access revoked, and equipment collected. Which type of procedure governs this?",
+    "examples": ["Employee access removal workflow"],
+    "choices": ["Offboarding Procedure", "Onboarding Procedure", "Change Management Procedure", "Playbook"],
+    "correct": 0,
+    "explanation": "Offboarding procedures ensure that departing employees lose system access and return company property to maintain security."
+  },
+  {
+    "id": "PROC4",
+    "domain": "security-governance",
+    "question": "During an incident, responders follow a documented series of actions for containment, eradication, and recovery. What type of procedural reference is this?",
+    "examples": ["Response checklist guide"],
+    "choices": ["Playbook", "Change Management Procedure", "Incident Response Policy", "Guideline"],
+    "correct": 0,
+    "explanation": "Playbooks are detailed procedural guides that outline step-by-step actions for specific events such as incidents or outages."
+  },
+  {
+    "id": "EXT1",
+    "domain": "security-governance",
+    "question": "A healthcare organization must comply with HIPAA requirements for protecting patient information. What type of external consideration does this represent?",
+    "examples": ["Healthcare data compliance mandate"],
+    "choices": ["Regulatory", "Legal", "Industry", "Local/regional"],
+    "correct": 0,
+    "explanation": "Regulatory considerations stem from government-issued compliance frameworks such as HIPAA, PCI DSS, or GDPR."
+  },
+  {
+    "id": "EXT2",
+    "domain": "security-governance",
+    "question": "An organization receives a court order requiring the preservation of specific email records as evidence. What kind of external consideration is this?",
+    "examples": ["Court-ordered compliance"],
+    "choices": ["Legal", "Regulatory", "National", "Industry"],
+    "correct": 0,
+    "explanation": "Legal considerations relate to laws, contracts, and litigation requirements that govern data handling and preservation."
+  },
+  {
+    "id": "EXT3",
+    "domain": "security-governance",
+    "question": "A cloud provider aligns its security program with ISO 27001 and SOC 2 frameworks to meet customer expectations. What form of external guidance is being followed?",
+    "examples": ["Voluntary framework adoption"],
+    "choices": ["Industry", "Regulatory", "National", "Global"],
+    "correct": 0,
+    "explanation": "Industry standards are voluntary frameworks created by professional groups or consortiums to promote best practices."
+  },
+  {
+    "id": "EXT4",
+    "domain": "security-governance",
+    "question": "A company operating in multiple U.S. states must meet data privacy laws that vary by jurisdiction. What external factor does this highlight?",
+    "examples": ["Jurisdiction-specific compliance"],
+    "choices": ["Local/regional", "National", "Global", "Legal"],
+    "correct": 0,
+    "explanation": "Local and regional considerations involve state, provincial, or municipal laws that influence data privacy and security policies."
+  },
+  {
+    "id": "EXT5",
+    "domain": "security-governance",
+    "question": "An organization must comply with the U.S. Cybersecurity Framework while also meeting EU GDPR requirements. Which level of external consideration includes both domestic and international mandates?",
+    "examples": ["Cross-border regulatory compliance"],
+    "choices": ["National and Global", "Regulatory and Industry", "Legal and Regional", "Local and Industry"],
+    "correct": 0,
+    "explanation": "National and global governance requirements cover domestic laws like NIST CSF and international frameworks such as GDPR."
+  },
+  {
+    "id": "MON1",
+    "domain": "security-governance",
+    "question": "A company reviews and updates its information security policies annually to align with new threats and regulatory changes. What governance activity is this?",
+    "examples": ["Policy review and update cycle"],
+    "choices": ["Monitoring and revision", "Board governance", "Standard enforcement", "Attestation"],
+    "correct": 0,
+    "explanation": "Monitoring and revision ensure governance documents remain effective, relevant, and compliant with evolving requirements."
+  },
+  {
+    "id": "STR1",
+    "domain": "security-governance",
+    "question": "An organization’s board of directors sets the overall cybersecurity strategy and approves major policy decisions. Which governance structure performs this function?",
+    "examples": ["Executive oversight body"],
+    "choices": ["Boards", "Committees", "Government entities", "Centralized"],
+    "correct": 0,
+    "explanation": "Boards provide top-level governance by establishing strategic direction and ensuring that security aligns with business objectives."
+  },
+  {
+    "id": "STR2",
+    "domain": "security-governance",
+    "question": "A cross-departmental security committee meets monthly to review incidents and approve new control implementations. What governance element is this?",
+    "examples": ["Collaborative oversight group"],
+    "choices": ["Committees", "Boards", "Government entities", "Centralized"],
+    "correct": 0,
+    "explanation": "Committees provide specialized oversight and coordination among departments to enforce governance and risk management objectives."
+  },
+  {
+    "id": "STR3",
+    "domain": "security-governance",
+    "question": "A national cybersecurity agency mandates reporting of certain breaches under federal law. Which governance structure is acting here?",
+    "examples": ["Government compliance oversight"],
+    "choices": ["Government entities", "Boards", "Committees", "Centralized"],
+    "correct": 0,
+    "explanation": "Government entities enforce and oversee compliance through regulations, guidance, and enforcement actions."
+  },
+  {
+    "id": "STR4",
+    "domain": "security-governance",
+    "question": "An enterprise consolidates all security management decisions under a single global CISO organization. What type of governance structure is this?",
+    "examples": ["Unified security control"],
+    "choices": ["Centralized", "Decentralized", "Committee-driven", "Federated"],
+    "correct": 0,
+    "explanation": "A centralized governance structure concentrates decision-making and control within a single authority or department."
+  },
+  {
+    "id": "STR5",
+    "domain": "security-governance",
+    "question": "A multinational corporation allows each regional office to develop its own security controls under general corporate guidance. Which governance structure is this?",
+    "examples": ["Regional autonomy with corporate oversight"],
+    "choices": ["Decentralized", "Centralized", "Committee-driven", "Board-led"],
+    "correct": 0,
+    "explanation": "Decentralized governance delegates authority to regional or departmental units for flexibility while maintaining overall alignment."
+  },
+  {
+    "id": "ROLE1",
+    "domain": "security-governance",
+    "question": "In a data governance framework, who is ultimately accountable for the classification and protection of specific information assets?",
+    "examples": ["Data accountability role"],
+    "choices": ["Owners", "Controllers", "Processors", "Custodians"],
+    "correct": 0,
+    "explanation": "Data owners are responsible for defining data classification, determining access rights, and ensuring protection requirements are met."
+  },
+  {
+    "id": "ROLE2",
+    "domain": "security-governance",
+    "question": "An organization collects and determines the purposes for processing personal data under GDPR. What role does this entity perform?",
+    "examples": ["GDPR organizational role"],
+    "choices": ["Controllers", "Processors", "Owners", "Custodians"],
+    "correct": 0,
+    "explanation": "Controllers determine how and why personal data is processed, taking primary responsibility under privacy regulations."
+  },
+  {
+    "id": "ROLE3",
+    "domain": "security-governance",
+    "question": "A third-party vendor manages and processes customer data on behalf of another company. What governance role does the vendor fulfill?",
+    "examples": ["Outsourced data handling"],
+    "choices": ["Processors", "Controllers", "Owners", "Custodians"],
+    "correct": 0,
+    "explanation": "Processors handle data according to the controller’s instructions, typically as third-party service providers."
+  },
+  {
+    "id": "ROLE4",
+    "domain": "security-governance",
+    "question": "A database administrator maintains backups, applies patches, and enforces access controls but does not decide who may access the data. What role does this describe?",
+    "examples": ["Operational data management"],
+    "choices": ["Custodians/Stewards", "Owners", "Controllers", "Processors"],
+    "correct": 0,
+    "explanation": "Custodians or stewards are responsible for the day-to-day protection and technical maintenance of data resources."
+  }
+]

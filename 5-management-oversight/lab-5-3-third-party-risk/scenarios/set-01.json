@@ -1,0 +1,155 @@
+[
+  {
+    "id": "TPR1",
+    "domain": "third-party-risk",
+    "question": "A company hires an external firm to perform a controlled attack simulation on its systems to evaluate a vendor’s defenses. What assessment method is this?",
+    "examples": ["Authorized vulnerability testing"],
+    "choices": ["Penetration testing", "Supply chain analysis", "Right-to-audit", "Independent assessment"],
+    "correct": 0,
+    "explanation": "Penetration testing validates the effectiveness of a vendor’s security controls through simulated attack scenarios."
+  },
+  {
+    "id": "TPR2",
+    "domain": "third-party-risk",
+    "question": "A contract clause gives an organization the ability to perform its own inspection of a supplier’s facilities and records. What type of clause is this?",
+    "examples": ["Vendor compliance audit access"],
+    "choices": ["Right-to-audit clause", "Service-level agreement", "Independent assessment", "Business partners agreement"],
+    "correct": 0,
+    "explanation": "A right-to-audit clause allows the buyer to directly review a vendor’s operations or controls to ensure compliance with agreed terms."
+  },
+  {
+    "id": "TPR3",
+    "domain": "third-party-risk",
+    "question": "A cloud provider provides documentation showing that its internal security controls were verified by an internal compliance team. What vendor assurance method is this?",
+    "examples": ["Internal security control validation"],
+    "choices": ["Evidence of internal audits", "Right-to-audit clause", "Independent assessment", "Supply chain analysis"],
+    "correct": 0,
+    "explanation": "Evidence of internal audits demonstrates that a vendor performs regular internal reviews to assess the effectiveness of their security controls."
+  },
+  {
+    "id": "TPR4",
+    "domain": "third-party-risk",
+    "question": "Before signing a new data processing contract, a company requests a SOC 2 Type II report from the vendor. What assurance mechanism is being used?",
+    "examples": ["External audit verification"],
+    "choices": ["Independent assessment", "Internal audit evidence", "Right-to-audit", "Penetration testing"],
+    "correct": 0,
+    "explanation": "Independent assessments, such as SOC 2 audits, are performed by third parties to validate a vendor’s security posture."
+  },
+  {
+    "id": "TPR5",
+    "domain": "third-party-risk",
+    "question": "An organization maps the origin and movement of its hardware components to identify where vulnerabilities may enter the production process. What assessment method is this?",
+    "examples": ["Supplier risk evaluation"],
+    "choices": ["Supply chain analysis", "Vendor monitoring", "Independent assessment", "Due diligence"],
+    "correct": 0,
+    "explanation": "Supply chain analysis examines all third-party entities involved in product creation and delivery to identify potential security risks."
+  },
+  {
+    "id": "TPR6",
+    "domain": "third-party-risk",
+    "question": "Before contracting a new managed service provider, an organization researches the company’s reputation, security certifications, and history of data breaches. What activity is being conducted?",
+    "examples": ["Background review of potential vendors"],
+    "choices": ["Due diligence", "Vendor monitoring", "Supply chain analysis", "Conflict of interest review"],
+    "correct": 0,
+    "explanation": "Due diligence is the process of investigating a vendor’s background, compliance, and reputation before final selection."
+  },
+  {
+    "id": "TPR7",
+    "domain": "third-party-risk",
+    "question": "A procurement officer declines a bid after discovering that one of the vendor’s executives is related to a board member. What concern is this addressing?",
+    "examples": ["Vendor impartiality issue"],
+    "choices": ["Conflict of interest", "Due diligence", "Right-to-audit", "Independent assessment"],
+    "correct": 0,
+    "explanation": "Conflict of interest refers to situations where personal or financial relationships could improperly influence vendor selection or decisions."
+  },
+  {
+    "id": "TPR8",
+    "domain": "third-party-risk",
+    "question": "An agreement defines specific performance metrics, uptime guarantees, and penalties for service outages. What type of contract is this?",
+    "examples": ["Performance-based vendor agreement"],
+    "choices": ["Service-level agreement (SLA)", "Memorandum of understanding (MOU)", "Master service agreement (MSA)", "Work order (WO)"],
+    "correct": 0,
+    "explanation": "A Service-Level Agreement (SLA) defines measurable performance expectations and remedies if those metrics are not met."
+  },
+  {
+    "id": "TPR9",
+    "domain": "third-party-risk",
+    "question": "Two organizations outline their responsibilities in a cooperative cybersecurity initiative without creating a legally binding contract. What document describes this understanding?",
+    "examples": ["Informal partnership document"],
+    "choices": ["Memorandum of understanding (MOU)", "Memorandum of agreement (MOA)", "Service-level agreement", "Work order (WO)"],
+    "correct": 0,
+    "explanation": "A Memorandum of Understanding (MOU) outlines mutual goals and responsibilities without establishing legal enforceability."
+  },
+  {
+    "id": "TPR10",
+    "domain": "third-party-risk",
+    "question": "Two agencies establish a legally binding framework that defines mutual obligations and responsibilities for joint operations. What type of agreement is this?",
+    "examples": ["Formal interagency partnership"],
+    "choices": ["Memorandum of agreement (MOA)", "MOU", "MSA", "SLA"],
+    "correct": 0,
+    "explanation": "A Memorandum of Agreement (MOA) creates a legally binding commitment between parties outlining shared obligations."
+  },
+  {
+    "id": "TPR11",
+    "domain": "third-party-risk",
+    "question": "A large enterprise signs a general contract defining overall terms for future projects with a vendor. Each new project is then documented separately. What type of agreement is this?",
+    "examples": ["Umbrella vendor contract"],
+    "choices": ["Master service agreement (MSA)", "Work order (WO)", "SLA", "Non-disclosure agreement (NDA)"],
+    "correct": 0,
+    "explanation": "A Master Service Agreement (MSA) sets general legal and business terms for ongoing or future engagements between parties."
+  },
+  {
+    "id": "TPR12",
+    "domain": "third-party-risk",
+    "question": "A company and vendor create a detailed description of a specific project’s scope, deliverables, and timelines. What document defines this engagement?",
+    "examples": ["Project scope definition"],
+    "choices": ["Statement of work (SOW)", "Work order (WO)", "Master service agreement (MSA)", "Memorandum of agreement (MOA)"],
+    "correct": 0,
+    "explanation": "A Statement of Work (SOW) outlines project-specific tasks, timelines, and deliverables under an existing MSA or contract."
+  },
+  {
+    "id": "TPR13",
+    "domain": "third-party-risk",
+    "question": "Before sharing proprietary designs with an external manufacturer, a company requires the vendor to sign a contract prohibiting disclosure. Which agreement provides this protection?",
+    "examples": ["Confidential information protection"],
+    "choices": ["Non-disclosure agreement (NDA)", "Business partners agreement (BPA)", "Service-level agreement", "Work order"],
+    "correct": 0,
+    "explanation": "A Non-Disclosure Agreement (NDA) legally binds parties to protect confidential or proprietary information from unauthorized disclosure."
+  },
+  {
+    "id": "TPR14",
+    "domain": "third-party-risk",
+    "question": "Two companies enter a long-term relationship to jointly market and sell security software products. Which agreement type formalizes this partnership?",
+    "examples": ["Collaborative partnership agreement"],
+    "choices": ["Business Partners Agreement (BPA)", "Memorandum of understanding (MOU)", "Master service agreement", "Non-disclosure agreement"],
+    "correct": 0,
+    "explanation": "A Business Partners Agreement (BPA) defines terms of a long-term partnership, including shared responsibilities and revenue structures."
+  },
+  {
+    "id": "TPR15",
+    "domain": "third-party-risk",
+    "question": "A company uses automated tools to continuously evaluate supplier compliance, audit results, and security posture. What part of third-party risk management does this represent?",
+    "examples": ["Ongoing supplier oversight"],
+    "choices": ["Vendor monitoring", "Due diligence", "Independent assessment", "Supply chain analysis"],
+    "correct": 0,
+    "explanation": "Vendor monitoring ensures that third-party partners maintain security and compliance after contracts are signed."
+  },
+  {
+    "id": "TPR16",
+    "domain": "third-party-risk",
+    "question": "A procurement department distributes structured forms asking vendors to describe their security controls and compliance measures. What method of assessment is this?",
+    "examples": ["Structured vendor information request"],
+    "choices": ["Questionnaires", "Independent assessment", "Due diligence", "Right-to-audit"],
+    "correct": 0,
+    "explanation": "Questionnaires standardize vendor responses and provide insight into third-party security programs and compliance status."
+  },
+  {
+    "id": "TPR17",
+    "domain": "third-party-risk",
+    "question": "Before a penetration test, the client and vendor agree in writing on test scope, authorized systems, and timing restrictions. What document defines this agreement?",
+    "examples": ["Testing authorization document"],
+    "choices": ["Rules of engagement", "Service-level agreement", "Statement of work", "Non-disclosure agreement"],
+    "correct": 0,
+    "explanation": "Rules of engagement specify the boundaries and conditions under which penetration tests or assessments can occur safely and legally."
+  }
+]

@@ -29,19 +29,19 @@ This project is structured around the official Security+ (SY0-701) objectives:
 
 ## 📂 Repository Structure
 
-- **/general-security-concepts**  
+- **/1-general-security-concepts**  
   Coding labs for password policies, authentication, encryption, and fundamental security concepts.  
 
-- **/threats-vulns-mitigations**  
+- **/2-threats-vulns-mitigations**  
   Exercises covering phishing, malware, social engineering triggers, watering-hole attacks, and vulnerability management.  
 
-- **/security-architecture**  
+- **/3-security-architecture**  
   Labs focused on secure network design, segmentation, PKI certificate validation, and cloud security.  
 
-- **/security-operations**  
+- **/4-security-operations**  
   Hands-on projects for SIEM log parsing, patching pipelines, incident response workflows, and backup/recovery testing.  
 
-- **/security-program-mgmt**  
+- **/5-management-oversight**  
   Governance, risk, and compliance coding labs including risk registers, SLE/ALE calculations, and vendor risk review.
 
 ---
